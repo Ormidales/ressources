@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Test composants</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+		<style type="text/css">
+			#myVideo {
+				min-height: 100%;
+				width: 100%;
+			}
+		</style>
+	</head>
+	<body class="bg-black overflow-x-hidden" style="font-family: Poppins, sans-serif;">
+
+		<div class="bg-white z-[999] w-full border-b border-black px-12 py-5 flex items-center justify-between animate__animated animate__fadeInDown">
+
+			<div class="flex items-center">
+				
+				<p class="text-black text-[32px] font-bold" style="line-height: 40px;">[NOM DU SITE]</p>
+
+				<div class="ml-12 lg:flex items-center hidden ">
+					
+					<p class="text-black text-[16px] hover:text-zinc-900 hover:underline cursor-pointer" style="line-height: 25px;">A PROPOS</p>
+
+					<p class="ml-6 text-black text-[16px] hover:text-zinc-900 hover:underline cursor-pointer" style="line-height: 25px;">ELEVES</p>
+
+					<p class="ml-6 text-black text-[16px] hover:text-zinc-900 hover:underline cursor-pointer" style="line-height: 25px;">PROFESSEURS</p>
+
+					<p class="ml-6 text-black text-[16px] hover:text-zinc-900 hover:underline cursor-pointer" style="line-height: 25px;">GESTION DES COURS</p>
+
+				</div>
+
+			</div>
+			
+			<div class="lg:flex hidden items-center">
+				
+				<a href="connexion.html"><div class="w-40 h-10 flex items-center justify-center text-black text-[18px] bg-white border border-black hover:bg-black/10 transition-all cursor-pointer">CONNEXION</div></a>
+
+				<div class="ml-6 w-40 h-10 flex items-center justify-center text-white text-[18px] bg-black hover:bg-zinc-900 transition-all cursor-pointer">INSCRIPTION</div>
+
+			</div>
+
+		</div>
+
+		<div class="w-full flex flex-wrap">
+			
+			<div class="lg:w-1/2 w-full lg:pl-12 lg:pr-40 lg:py-14 px-12 py-14 lg:border-r lg:border-b-0 border-b border-black animate__animated animate__fadeInLeft" style="background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);">
+				
+				<p class="text-black md:text-[86px] sm:text-[64px] text-[36px] font-bold" style="line-height: 90px;">Proposez vos cours en ligne pour vos élèves.</p>
+
+				<p class="mt-6 text-gray-700 text-[24px]">Avec [NOM DU SITE], proposez vos cours en ligne pour vos élèves facilement et intuitivement. Donnez le lien de votre classe à vos élèves et hop ! C'est fait !</p>
+
+				<div class="mt-12 mb-6 w-56 h-14 flex items-center justify-center text-white text-[24px] bg-black hover:bg-zinc-900 transition-all cursor-pointer">INSCRIPTION</div>
+
+			</div>
+
+			<div class="lg:w-1/2 w-full bg-[url('background-3.webp')] bg-cover animate__animated animate__fadeInRight">
+				
+				<video autoplay muted loop id="myVideo">
+				  	<source src="video.mp4" type="video/mp4">
+				</video>
+
+			</div>
+
+		</div>
+
+		<div class="w-full flex flex-wrap animate__animated animate__fadeInLeft">
+			
+			<div class="lg:w-1/4 w-full p-12 bg-blue-200 border-t border-r border-black">
+				
+				<div class="w-28 h-28 bg-black rounded-full flex items-center justify-center">
+					
+					<div class="w-24 h-24 bg-white rounded-full flex items-center justify-center">
+						
+						<svg xmlns="http://www.w3.org/2000/svg" class="text-black h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+						  	<path stroke-linecap="round" stroke-linejoin="round" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
+						</svg>
+
+					</div>
+
+				</div>
+
+				<p class="mt-6 text-black text-[24px] font-bold">Faites des cours !</p>
+
+				<p class="mt-3 text-zinc-900 text-[20px]">Grâce à LOGOSITE, proposez à vos élèves des cours qui leurs seront faciles à comprendre.</p>
+
+			</div>
+
+			<div class="lg:w-1/4 w-full p-12 bg-yellow-200 border-t border-r border-black">
+				
+				<div class="w-28 h-28 bg-black rounded-full flex items-center justify-center">
+					
+					<div class="w-24 h-24 bg-white rounded-full flex items-center justify-center">
+						
+						<svg xmlns="http://www.w3.org/2000/svg" class="text-black h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+						  	<path stroke-linecap="round" stroke-linejoin="round" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
+						</svg>
+
+					</div>
+
+				</div>
+
+				<p class="mt-6 text-black text-[24px] font-bold">Faites des cours !</p>
+
+				<p class="mt-3 text-zinc-900 text-[20px]">Grâce à LOGOSITE, proposez à vos élèves des cours qui leurs seront faciles à comprendre.</p>
+
+			</div>
+
+			<div class="lg:w-1/4 w-full p-12 bg-green-200 border-t border-r border-black">
+				
+				<div class="w-28 h-28 bg-black rounded-full flex items-center justify-center">
+					
+					<div class="w-24 h-24 bg-white rounded-full flex items-center justify-center">
+						
+						<svg xmlns="http://www.w3.org/2000/svg" class="text-black h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+						  	<path stroke-linecap="round" stroke-linejoin="round" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
+						</svg>
+
+					</div>
+
+				</div>
+
+				<p class="mt-6 text-black text-[24px] font-bold">Faites des cours !</p>
+
+				<p class="mt-3 text-zinc-900 text-[20px]">Grâce à LOGOSITE, proposez à vos élèves des cours qui leurs seront faciles à comprendre.</p>
+
+			</div>
+
+			<div class="lg:w-1/4 w-full p-12 bg-white border-t border-r border-black">
+				
+				<div class="w-28 h-28 bg-black rounded-full flex items-center justify-center">
+					
+					<div class="w-24 h-24 bg-white rounded-full flex items-center justify-center">
+						
+						<svg xmlns="http://www.w3.org/2000/svg" class="text-black h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+						  	<path stroke-linecap="round" stroke-linejoin="round" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
+						</svg>
+
+					</div>
+
+				</div>
+
+				<p class="mt-6 text-black text-[24px] font-bold">Faites des cours !</p>
+
+				<p class="mt-3 text-zinc-900 text-[20px]">Grâce à LOGOSITE, proposez à vos élèves des cours qui leurs seront faciles à comprendre.</p>
+
+			</div>
+
+		</div>
+
+	</body>
+</html>
