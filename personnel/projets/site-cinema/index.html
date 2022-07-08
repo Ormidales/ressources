@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>SITE CINEMA TEST</title>
+
+		<!-- UIkit CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/css/uikit.min.css" />
+
+		<!-- UIkit JS -->
+		<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/js/uikit.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/js/uikit-icons.min.js"></script>
+
+		<style type="text/css">
+			#SLIDE:hover{
+				cursor: grab;
+			}
+			#SLIDE:active{
+				cursor: grabbing;
+			}
+			#IMG{
+				border-radius: 2vh;
+				transition: all 0.25s;
+			}
+			#IMG:hover{
+				box-shadow: 0px 0px 20px 1px black;
+				transform: scale(1.1) translateY(-2.5vh);
+			}
+		</style>
+	</head>
+	<body>
+
+		<div class="uk-padding uk-navbar">
+			<div class="uk-navbar-left">
+				<p class="uk-text-lead" style="font-weight: 500;">Dernier films rajoutés</p>
+			</div>
+		</div>
+
+		<div id="SLIDE" class="uk-position-relative uk-visible-toggle uk-light uk-padding-large" tabindex="-1" uk-slider="autoplay: true">
+
+		    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+		    	<a href="films/venom2.html">
+			        <li>
+			        	<div id="IMG" style="width: 35vh; height: 50vh; background-image: url(https://fr.web.img6.acsta.net/c_310_420/pictures/21/09/01/11/19/0900123.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+			        </li>
+		        </a>
+		        <li>
+		        	<div id="IMG" style="width: 35vh; height: 50vh; background-image: url(https://fr.web.img4.acsta.net/pictures/21/09/09/11/06/5284084.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+		        </li>
+		        <li>
+		        	<div id="IMG" style="width: 35vh; height: 50vh; background-image: url(https://fr.web.img6.acsta.net/pictures/21/07/05/15/50/1097806.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+		        </li>
+		        <li>
+		        	<div id="IMG" style="width: 35vh; height: 50vh; background-image: url(https://fr.web.img6.acsta.net/pictures/21/08/10/12/20/4633954.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+		        </li>
+
+		        <li>
+		        	<div id="IMG" style="width: 35vh; height: 50vh; background-image: url(https://fr.web.img2.acsta.net/c_310_420/pictures/15/10/13/15/12/514297.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+		        </li>
+		        <li>
+		        	<div id="IMG" style="width: 35vh; height: 50vh; background-image: url(https://fr.web.img4.acsta.net/c_310_420/pictures/19/03/14/10/37/5927961.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+		        </li>
+		        <li>
+		        	<div id="IMG" style="width: 35vh; height: 50vh; background-image: url(https://fr.web.img2.acsta.net/c_310_420/medias/nmedia/18/66/15/78/19254683.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+		        </li>
+		        <li>
+		        	<div id="IMG" style="width: 35vh; height: 50vh; background-image: url(https://fr.web.img2.acsta.net/c_310_420/medias/nmedia/18/35/57/73/18660716.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+		        </li>
+		    </ul>
+
+		    <a class="uk-position-center-left uk-position-small uk-hidden-hover" style="color: black;" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+		    <a class="uk-position-center-right uk-position-small uk-hidden-hover" style="color: black;" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+		</div>
+	</body>
+</html>
