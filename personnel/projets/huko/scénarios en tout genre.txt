@@ -1,0 +1,41 @@
+Mario le Super Plombier et sa bande d’amis (Luigi (son frère super plombier), la Princesse Peach (sa petite amie) et Yoshi (son chien)) sortent tous les weekends, cette soirée sera différente. Mario s’est acheté un nouveau kart de type FAST 3500 GTI et compte bien fêter ça, le trajet jusqu’au Royaume Champignon sera l’occasion de multiples rencontres ainsi qu’une dose massive d’alcool et drogues en tout genre. La distance jusqu’au Royaume Champignon ne fera que se rallonger au fil de la nuit.
+
+Esteban (Kad Merad) a tout pour être heureux : une femme aimante, de beaux enfants, une grande maison. La nouvelle de la mort de son frère Arthur (Jean-Paul Rouve), perdu de vue depuis 25 ans, le plonge dans un monde de souvenirs. Il se rappelle les circonstances de leur querelle quand Arthur, alors agé de 23 ans, s'était fiancé avec Sylvie (Isabelle Nanty), l'amour de jeunesse d'Esteban. Décidé à faire table rase du passé, il se rend à l'enterrement de son frère à Fournols d'Auvergne. Sur les lieux de son enfance, il retrouve son moi oublié.
+
+Un élu local (Vincent Lindon) du Pas de Calais entre en lutte pour défendre un campement sauvage de roms qui doit être évacué par des CRS. Pour être plus efficace il s'installe sur le camp avec sa famille. Sa fille (Deborah François) se lie avec un ado rom, sa femme apprend à lire au camp et les roms lui apprennent la cuisine du pays. Il bascule dans la violence quand sa fille est mutilée par une charge policière.
+
+Alice (Alice David) est une jeune et jolie parisienne patronne d'une start up d'événementiel. Féministe le jour, elle se transforme en une jeune fêtarde délurée la nuit. Son caractère bien trempé lui empêche d'avoir une relation suivie avec les hommes jusqu'au jour où, lors d'un dîner, son amie (Sabrina Ouazzani), lui présente Paul (Vincent Lacoste) un jeune homme timide et réservé. Au contact de Paul, Alice va parvenir à canaliser son tempérament ombrageux mais l'homosexualité cachée de ce dernier va la plonger dans un nouveau désarroi amoureux que seul David, son sex friend (Jonathan Cohen) pourra combler.
+
+
+<div class="barriere-box1"></div>
+			<div class="box-article-images">
+				<div class="box-article-developper">
+				<p>Images</p>
+				</div>
+				<div class="barriere-box2"></div>
+				<img src="../../images/jeux/mariokart9/1.jpg">
+				<div class="box-article-developper">
+				<p>Le camp de Roms du jeu qu'il faut défrendre dans le jeu</p>
+				</div>
+				<div class="barriere-box2"></div>
+				<img src="../../images/jeux/mariokart9/2.jpg">
+				<div class="box-article-developper">
+				<p>La Princesse Peach du Royaume Démocratique Champignon</p>
+				</div>
+				<div class="barriere-box2"></div>
+				<img src="../../images/jeux/mariokart9/3.jpg">
+				<div class="box-article-developper">
+				<p>Mario De Santae dans le jeu</p>
+				</div>
+				<div class="barriere-box2"></div>
+				<img src="../../images/jeux/mariokart9/4.jpeg">
+				<div class="box-article-developper">
+				<p>Le kart magique de Mario De Santae, qui en 2011 à tué 29 passants sur le trottoir</p>
+				</div>
+				<div class="barriere-box2"></div>
+				<img src="../../images/jeux/mariokart9/5.jpg">
+				<div class="box-article-developper">
+				<p>Les enfants de Mario De Santae (a droite, Daisy De Santae et a gauche, Eren De Santae du bataillon d'exploration)</p>
+				</div>
+				<div class="barriere-box2"></div>
+			</div>

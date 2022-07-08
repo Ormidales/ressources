@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RUMOR.SEARCH | V0.1</title>
+	<meta charset="utf-8" lang="fr">
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+		*{
+			margin: 0;
+			padding: 0;
+			scroll-behavior: smooth;
+		}
+
+		body{
+			background-color: #111111;
+		}
+
+		a{
+			text-decoration: none;
+		}
+
+		.header{
+			width: 100%;
+			height: 100vh;
+			background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask17951%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='url(%23SvgjsLinearGradient17952)'%3e%3c/rect%3e%3crect width='215.04' height='215.04' clip-path='url(%26quot%3b%23SvgjsClipPath17953%26quot%3b)' x='958.06' y='340.56' fill='url(%23SvgjsPattern17954)' transform='rotate(285.32%2c 1065.58%2c 448.08)'%3e%3c/rect%3e%3crect width='503.36' height='503.36' clip-path='url(%26quot%3b%23SvgjsClipPath17955%26quot%3b)' x='91.56' y='570.24' fill='url(%23SvgjsPattern17956)' transform='rotate(73.34%2c 343.24%2c 821.92)'%3e%3c/rect%3e%3crect width='420' height='420' clip-path='url(%26quot%3b%23SvgjsClipPath17957%26quot%3b)' x='1694.85' y='527.07' fill='url(%23SvgjsPattern17958)' transform='rotate(142.52%2c 1904.85%2c 737.07)'%3e%3c/rect%3e%3crect width='667.92' height='667.92' clip-path='url(%26quot%3b%23SvgjsClipPath17959%26quot%3b)' x='1084.69' y='29.59' fill='url(%23SvgjsPattern17960)' transform='rotate(242.83%2c 1418.65%2c 363.55)'%3e%3c/rect%3e%3crect width='213.12' height='213.12' clip-path='url(%26quot%3b%23SvgjsClipPath17961%26quot%3b)' x='1430.5' y='374.66' fill='url(%23SvgjsPattern17962)' transform='rotate(259.12%2c 1537.06%2c 481.22)'%3e%3c/rect%3e%3crect width='347.88' height='347.88' clip-path='url(%26quot%3b%23SvgjsClipPath17963%26quot%3b)' x='959.54' y='429.41' fill='url(%23SvgjsPattern17964)' transform='rotate(125.35%2c 1133.48%2c 603.35)'%3e%3c/rect%3e%3cpath d='M1017.77 799.96 L993.42 1007.28L1099.580265050886 997.605265050886z' fill='%23d3b714'%3e%3c/path%3e%3crect width='456.96' height='456.96' clip-path='url(%26quot%3b%23SvgjsClipPath17965%26quot%3b)' x='-74.27' y='-50.04' fill='url(%23SvgjsPattern17966)' transform='rotate(136.17%2c 154.21%2c 178.44)'%3e%3c/rect%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask17951'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='50%25' y1='0%25' x2='50%25' y2='100%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient17952'%3e%3cstop stop-color='rgba(14%2c 42%2c 71%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 64%2c 146%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cpattern x='0' y='0' width='13.44' height='13.44' patternUnits='userSpaceOnUse' id='SvgjsPattern17954'%3e%3cpath d='M0 13.44L6.72 0L13.44 13.44' stroke='%23e73635' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath17953'%3e%3ccircle r='53.76' cx='1065.58' cy='448.08'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='503.36' height='11.44' patternUnits='userSpaceOnUse' id='SvgjsPattern17956'%3e%3crect width='503.36' height='5.72' x='0' y='0' fill='%23d3b714'%3e%3c/rect%3e%3crect width='503.36' height='5.72' x='0' y='5.72' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath17955'%3e%3ccircle r='125.84' cx='343.24' cy='821.92'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern17958'%3e%3cpath d='M0 6L3 0L6 6' stroke='%23e73635' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath17957'%3e%3ccircle r='105' cx='1904.85' cy='737.07'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='10.12' height='10.12' patternUnits='userSpaceOnUse' id='SvgjsPattern17960'%3e%3cpath d='M5.06 1L5.06 9.12M1 5.06L9.12 5.06' stroke='%23e73635' fill='none' stroke-width='3.29'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath17959'%3e%3ccircle r='166.98' cx='1418.65' cy='363.55'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='13.32' height='13.32' patternUnits='userSpaceOnUse' id='SvgjsPattern17962'%3e%3cpath d='M0 13.32L6.66 0L13.32 13.32' stroke='%23d3b714' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath17961'%3e%3ccircle r='53.28' cx='1537.06' cy='481.22'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='13.38' height='13.38' patternUnits='userSpaceOnUse' id='SvgjsPattern17964'%3e%3cpath d='M6.69 1L6.69 12.38M1 6.69L12.38 6.69' stroke='%23e73635' fill='none' stroke-width='1'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath17963'%3e%3ccircle r='86.97' cx='1133.48' cy='603.35'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='456.96' height='9.52' patternUnits='userSpaceOnUse' id='SvgjsPattern17966'%3e%3crect width='456.96' height='4.76' x='0' y='0' fill='%23e73635'%3e%3c/rect%3e%3crect width='456.96' height='4.76' x='0' y='4.76' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath17965'%3e%3ccircle r='114.24' cx='154.21' cy='178.44'%3e%3c/circle%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+			background-repeat: no-repeat;
+			background-size: 120%;
+			opacity: 1;
+			visibility: visible;
+		    z-index: 5;
+		    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+		}
+
+		.header-div1{
+			width: 100%;
+			height: 60vh;
+			background-color: transparent;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			align-content: center;
+		}
+
+		.header-div1-h1{
+			font-family: Poppins, sans-serif;
+			font-size: 17vh;
+			color: #FFFFFF;
+			padding-top: 1vh;
+			padding-bottom: 1vh;
+			padding-left: 4vh;
+			padding-right: 4vh;
+			letter-spacing: 0.5vh;
+  			text-shadow: 1px 1px #E9E9E9, 2px 2px #D1D1D1, 3px 3px #AAAAAA, 4px 4px #999999;
+			transition: all 0.15s ease;
+		}
+
+		.header-div1-ancre:hover .header-div1-h1{
+			font-size: 17.5vh;
+			letter-spacing: 2vh;
+			text-shadow: 5px 5px #E9E9E9, 10px 10px #D1D1D1, 15px 15px #AAAAAA, 20px 20px #999999;
+			transition: all 0.15s ease;
+		}
+
+		.header-div1-ancre:active .header-div1-h1{
+			font-size: 15vh;
+			letter-spacing: 0.5vh;
+			transition: all 0.15s ease;
+		}
+
+		.header-div2{
+			width: 100%;
+			height: 40vh;
+			background-color: transparent;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			align-content: center;
+		}
+
+		.header-div2 img{
+			width: 10vh;
+			height: 10vh;
+			animation: header-chevron 3s infinite;
+		}
+
+		@keyframes header-chevron {
+			0%{
+				transform: translateY(-2vh);
+			}
+			50%{
+				transform: translateY(2vh);
+			}
+			100%{
+				transform: translateY(-2vh);
+			}
+		}
+
+		.main1{
+			width: 100%;
+			height: 100vh;
+			background-color: white;
+			z-index: 1;
+		}
+		
+		.main1-div1{
+			width: 100%;
+			height: 20vh;
+			background-color: #282828;
+			box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+			display: flex;
+			align-items: center;
+			align-content: center;
+			justify-content: space-evenly;
+		}
+
+		.main1-div1-box{
+			width: 35vh;
+			height: 12vh;
+			background-color: white;
+			border-radius: 2vh;
+			transition: all 0.2s ease;
+		}
+
+		.main1-div1-box:hover{
+			box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+			transition: all 0.2s ease;
+		}
+	</style>
+</head>
+<body>
+	<section id="all-content" class="all-content">
+		<section class="header">
+			<header>
+				<div class="header-div1">
+					<a href="#" class="header-div1-ancre">
+						<h1 class="header-div1-h1">RUMOR.SEARCH</h1>
+					</a>
+				</div>
+				<div class="header-div2">
+					<a href="index.html#main1">
+						<img src="img/chevron.png">
+					</a>
+				</div>
+			</header>
+		</section>
+		<section class="main1" id="main1">
+			<div class="main1-div1">
+				<div class="main1-div1-box">
+					<div class="main1-">
+						
+					</div>
+				</div>
+			</div>
+		</section>
+	</section>
+</body>
+</html>

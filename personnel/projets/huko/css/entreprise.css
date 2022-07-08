@@ -1,0 +1,494 @@
+			*{
+				margin: 0px;
+				padding: 0px;
+				Content-Security-Policy: frame-ancestors 'none'
+				X-Frame-Options: DENY
+			}
+			body{
+				background-color: black;
+			}
+			a{
+				text-decoration: none;
+			}
+			@keyframes gradient {
+			    0% {
+			        background-position: 0% 50%;
+			    }
+			    50% {
+			        background-position: 100% 50%;
+			    }
+			    100% {
+			        background-position: 0% 50%;
+			    }
+			}
+			.box-header{
+				position: relative;
+			}
+			.box-header img{
+				width: 100%;
+				position: relative;
+			}
+			.box-header-box{
+				width: 100%;
+				background: white;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-wrap: wrap;
+				flex-direction: row;
+			}
+			.box-header-box-title{
+				width: 700px;
+				height: 70px;
+				background-color: transparent;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.box-header-box-title h1{
+				font-size: 30px;
+				font-family: Poppins, sans-serif;
+			}
+			.box-header-box-articlerediger{
+				width: 280px;
+				height: 45px;
+				background-color: #303030;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				border-radius: 15px;
+				transition: all .2s ease;
+			}
+			.box-header-box-articlerediger-text{
+				font-size: 20px;
+				font-family: Poppins, sans-serif;
+				color: white;
+				transform: translateX(15px);
+				transition: all .2s ease;
+			}
+			.box-header-box-articlerediger-svg{
+				position: relative;
+				opacity: 0;
+				transform: translateX(-10px);
+				transition: all .2s ease;
+			}
+			.box-header-box-articlerediger:hover{
+				cursor: pointer;
+				transition: all .2s ease;
+			}
+			.box-header-box-articlerediger:hover .box-header-box-articlerediger-text{
+				transform: translateX(-6px);
+				transition: all .2s ease;
+			}
+			.box-header-box-articlerediger:hover .box-header-box-articlerediger-svg{
+				transform: translateX(8px);
+				opacity: 1;
+				transition: all .2s ease;
+			}
+			.barriere-box1{
+				width: 100%;
+				height: 15px;
+				background: black;
+			}
+			.barriere-box2{
+				width: 100%;
+				height: 5px;
+				background: black;
+			}
+			.box-img-svg{
+				transition: all 0.3s ease;
+				opacity: 0;
+				font-size: 35px;
+				font-family: Poppins, sans-serif;
+				color: white;
+			}
+			.nintendo-panel{
+				width: 100%;
+				height: 100px;
+				background: linear-gradient(-45deg, #ff3333, #de6464, #630101, #c60000);
+				background-size: 400% 400%;
+    			animation: gradient 15s ease infinite;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				opacity: 0.7;
+				transition: all 0.2s ease;
+			}
+			.nintendo-panel:hover{
+				transition: all 0.2s ease;
+				cursor: pointer;
+				opacity: 1;
+			}
+			.nintendo-panel:hover .box-img-svg{
+				transform: translateX(10px);
+				transition: all 0.3s ease;
+				opacity: 1;
+			}
+			.nintendo-panel:hover h5{
+				transform: translateX(-10px);
+				transition: all 0.3s ease;
+			}
+			.nintendo-panel h5{
+				font-family: Poppins, sans-serif;
+				font-size: 25px;
+				color: white;
+				transition: all 0.3s ease;
+				transform: translateX(15px);
+			}
+			.nintendo-panel img{
+				transition: all 0.3s ease;
+			}
+			.nintendo-panel:hover img{
+				transform: translateX(-10px);
+				transition: all 0.3s ease;
+			}
+			.playstation-panel{
+				width: 100%;
+				height: 100px;
+				background: linear-gradient(-45deg, #64debf, #b5f2e3, #1bbefa, #92c5d8);
+				background-size: 400% 400%;
+    			animation: gradient 15s ease infinite;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				opacity: 0.7;
+				transition: all 0.2s ease;
+			}
+			.playstation-panel:hover{
+				transition: all 0.2s ease;
+				cursor: pointer;
+				opacity: 1;
+			}
+			.playstation-panel:hover .box-img-svg{
+				transform: translateX(10px);
+				transition: all 0.3s ease;
+				opacity: 1;
+			}
+			.playstation-panel:hover h5{
+				transform: translateX(-10px);
+				transition: all 0.3s ease;
+			}
+			.playstation-panel h5{
+				font-family: Poppins, sans-serif;
+				font-size: 25px;
+				color: white;
+				transition: all 0.3s ease;
+				transform: translateX(15px);
+			}
+			.playstation-panel img{
+				transition: all 0.3s ease;
+			}
+			.playstation-panel:hover img{
+				transform: translateX(-10px);
+				transition: all 0.3s ease;
+			}
+			.xbox-panel{
+				width: 100%;
+				height: 100px;
+				background: linear-gradient(-45deg, #78ff46, #30b200, #26ff61, #00b331);
+				background-size: 400% 400%;
+    			animation: gradient 15s ease infinite;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				opacity: 0.7;
+				transition: all 0.2s ease;
+			}
+			.xbox-panel:hover{
+				transition: all 0.2s ease;
+				cursor: pointer;
+				opacity: 1;
+			}
+			.xbox-panel:hover .box-img-svg{
+				transform: translateX(10px);
+				transition: all 0.3s ease;
+				opacity: 1;
+			}
+			.xbox-panel:hover h5{
+				transform: translateX(-10px);
+				transition: all 0.3s ease;
+			}
+			.xbox-panel h5{
+				font-family: Poppins, sans-serif;
+				font-size: 25px;
+				color: white;
+				transition: all 0.3s ease;
+				transform: translateX(15px);
+			}
+			.xbox-panel img{
+				transition: all 0.3s ease;
+			}
+			.xbox-panel:hover img{
+				transform: translateX(-10px);
+				transition: all 0.3s ease;
+			}
+			.rockstar-panel{
+				width: 100%;
+				height: 100px;
+				background: linear-gradient(-45deg, #ffd800, #fde667, #ffaf04, #ff8314);
+				background-size: 400% 400%;
+    			animation: gradient 15s ease infinite;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				opacity: 0.7;
+				transition: all 0.2s ease;
+			}
+			.rockstar-panel:hover{
+				transition: all 0.2s ease;
+				cursor: pointer;
+				opacity: 1;
+			}
+			.rockstar-panel:hover .box-img-svg{
+				transform: translateX(10px);
+				transition: all 0.3s ease;
+				opacity: 1;
+			}
+			.rockstar-panel:hover h5{
+				transform: translateX(-10px);
+				transition: all 0.3s ease;
+			}
+			.rockstar-panel h5{
+				font-family: Poppins, sans-serif;
+				font-size: 25px;
+				color: white;
+				transition: all 0.3s ease;
+				transform: translateX(15px);
+			}
+			.rockstar-panel img{
+				transition: all 0.3s ease;
+			}
+			.rockstar-panel:hover img{
+				transform: translateX(-15px);
+				transition: all 0.3s ease;
+			}
+			.ubisoft-panel{
+				width: 100%;
+				height: 100px;
+				background: linear-gradient(-45deg, #bf14ff, #7400a0, #d891f3, #ff00a9);
+				background-size: 400% 400%;
+    			animation: gradient 15s ease infinite;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				opacity: 0.7;
+				transition: all 0.2s ease;
+			}
+			.ubisoft-panel:hover{
+				transition: all 0.2s ease;
+				cursor: pointer;
+				opacity: 1;
+			}
+			.ubisoft-panel:hover .box-img-svg{
+				transform: translateX(10px);
+				transition: all 0.3s ease;
+				opacity: 1;
+			}
+			.ubisoft-panel:hover h5{
+				transform: translateX(-10px);
+				transition: all 0.3s ease;
+			}
+			.ubisoft-panel h5{
+				font-family: Poppins, sans-serif;
+				font-size: 25px;
+				color: white;
+				transition: all 0.3s ease;
+				transform: translateX(15px);
+			}
+			.ubisoft-panel img{
+				transition: all 0.3s ease;
+			}
+			.ubisoft-panel:hover img{
+				transform: translateX(-15px);
+				transition: all 0.3s ease;
+			}
+			.activision-panel{
+				width: 100%;
+				height: 100px;
+				background: linear-gradient(-45deg, #b66530, #b74800, #af8336, #afa236);
+				background-size: 400% 400%;
+    			animation: gradient 15s ease infinite;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				opacity: 0.7;
+				transition: all 0.2s ease;
+			}
+			.activision-panel:hover{
+				transition: all 0.2s ease;
+				cursor: pointer;
+				opacity: 1;
+			}
+			.activision-panel:hover .box-img-svg{
+				transform: translateX(10px);
+				transition: all 0.3s ease;
+				opacity: 1;
+			}
+			.activision-panel:hover h5{
+				transform: translateX(-10px);
+				transition: all 0.3s ease;
+			}
+			.activision-panel h5{
+				font-family: Poppins, sans-serif;
+				font-size: 25px;
+				color: white;
+				transition: all 0.3s ease;
+				transform: translateX(15px);
+			}
+			.activision-panel img{
+				transition: all 0.3s ease;
+			}
+			.activision-panel:hover img{
+				transform: translateX(-15px);
+				transition: all 0.3s ease;
+			}
+			.ea-panel{
+				width: 100%;
+				height: 100px;
+				background: linear-gradient(-45deg, #d37070, #99acd7, #99d7be, #ccd799);
+				background-size: 400% 400%;
+    			animation: gradient 15s ease infinite;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				opacity: 0.7;
+				transition: all 0.2s ease;
+			}
+			.ea-panel:hover{
+				transition: all 0.2s ease;
+				cursor: pointer;
+				opacity: 1;
+			}
+			.ea-panel:hover .box-img-svg{
+				transform: translateX(10px);
+				transition: all 0.3s ease;
+				opacity: 1;
+			}
+			.ea-panel:hover h5{
+				transform: translateX(-10px);
+				transition: all 0.3s ease;
+			}
+			.ea-panel h5{
+				font-family: Poppins, sans-serif;
+				font-size: 25px;
+				color: white;
+				transition: all 0.3s ease;
+				transform: translateX(15px);
+			}
+			.ea-panel img{
+				transition: all 0.3s ease;
+			}
+			.ea-panel:hover img{
+				transform: translateX(-15px);
+				transition: all 0.3s ease;
+			}
+			.valve-panel{
+				width: 100%;
+				height: 100px;
+				background: linear-gradient(-45deg, #e6e6e6, #b2b2b2, #707070, #323232);
+				background-size: 400% 400%;
+    			animation: gradient 15s ease infinite;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				opacity: 0.7;
+				transition: all 0.2s ease;
+			}
+			.valve-panel:hover{
+				transition: all 0.2s ease;
+				cursor: pointer;
+				opacity: 1;
+			}
+			.valve-panel:hover .box-img-svg{
+				transform: translateX(10px);
+				transition: all 0.3s ease;
+				opacity: 1;
+			}
+			.valve-panel:hover h5{
+				transform: translateX(-10px);
+				transition: all 0.3s ease;
+			}
+			.valve-panel h5{
+				font-family: Poppins, sans-serif;
+				font-size: 25px;
+				color: white;
+				transition: all 0.3s ease;
+				transform: translateX(15px);
+			}
+			.valve-panel img{
+				transition: all 0.3s ease;
+			}
+			.valve-panel:hover img{
+				transform: translateX(-15px);
+				transition: all 0.3s ease;
+			}
+			.box-entreprise{
+				width: 100%;
+				height: 70px;
+				background: white;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.box-entreprise h2{
+				font-size: 25px;
+				font-family: Poppins, sans-serif;
+				text-decoration: underline;
+			}
+			.box-subheader{
+				position: relative;
+				width: 100%;
+				height: 350px;
+				background: linear-gradient(-45deg, #ff3333, #de6464, #630101, #c60000);
+				background-size: 400% 400%;
+    			animation: gradient 15s ease infinite;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.box-subheader h2{
+				font-size: 70px;
+				font-family: Poppins, sans-serif;
+				color: white;
+			}
+			.box-article{
+				position: relative;
+				width: 100%;
+				height: 1500px;
+				background-color: #333333;
+			}
+			.box-article-developper{
+				position: relative;
+				width: 100%;
+				height: 75px;
+				background: white;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: row;
+				flex-wrap: wrap;
+			}
+			.box-article-developper p{
+				font-size: 25px;
+				font-family: Poppins, sans-serif;
+				color: black;
+			}
+			a{
+				text-decoration: none;
+			}
+			.footer-box{
+				position: relative;
+				width: 100%;
+				height: 75px;
+				background-color: white;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: row;
+				flex-wrap: wrap;
+			}
+			.footer-box p{
+				font-size: 15px;
+				font-family: Poppins, sans-serif;
+				text-align: center;
+			}
