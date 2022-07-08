@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hugo Doueil - HugoOS</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+		<style type="text/css">
+			body{
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				font-family: Poppins, sans-serif;
+				background-image: url(img/background/matrix.webp); 
+				background-size: cover;
+				background-position: center;
+			}
+			a{
+				color: black;
+				text-decoration: none;
+				margin: 0;
+				padding: 0;
+			}
+			.hors-bureau{
+				position: absolute;
+				top: 10%;
+				left: 110%;
+				width: 500px;
+				height: 500px;
+				background-image: url(img/autres/shills.png); 
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+				font-size: 30px;
+				color: white;
+				text-decoration: underline;
+				font-weight: 900;
+			}
+			.hors-bureau2{
+				position: absolute;
+				top: 110%;
+				left: 10%;
+				width: 500px;
+				height: 500px;
+				background-image: url(img/autres/shills2.png); 
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+				font-size: 30px;
+				color: white;
+				text-decoration: underline;
+				font-weight: 900;
+			}
+			#desktop{
+				width: 100%;
+				height: 100vh;
+				background-image: url(img/background/background.jpg);
+				background-position: center;
+				background-size: cover;
+				background-repeat: no-repeat;
+			}
+			.desktop-navApp{
+				position: absolute;
+				left: 0;
+				width: 100px;
+				height: 100vh;
+				background: rgba( 255, 255, 255, 0.6 );
+				box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+				backdrop-filter: blur( 8px );
+				-webkit-backdrop-filter: blur( 8px );
+				z-index: 4;
+			}
+			.desktop-navApp-app{
+				width: 80px;
+				height: 80px;
+				margin: 10px;
+				border-radius: 2vh;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				box-shadow: 0;
+				backdrop-filter: blur( 0px );
+				-webkit-backdrop-filter: blur( 0px );
+				transition: all 0.2s ease;
+			}
+			.desktop-navApp-app-img{
+				width: 70px;
+				height: 70px;
+				transition: all 0.2s ease;
+			}
+			.desktop-navApp-app:hover{
+				background: rgba( 255, 255, 255, 0.6 );
+				box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+				backdrop-filter: blur( 8px );
+				-webkit-backdrop-filter: blur( 8px );
+				cursor: pointer;
+				transition: all 0.2s ease;
+			}
+			.desktop-navApp-app:active .desktop-navApp-app-img{
+				width: 60px;
+				height: 60px;
+				transition: all 0.2s ease;
+			}
+			.app{
+				display: none;
+				position: absolute;
+				top: 10px;
+				left: 115px;
+				width: 50vh;
+				border-radius: 2vh;
+				background: rgba( 255, 255, 255, 0.6 );
+				box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+				backdrop-filter: blur( 8px );
+				-webkit-backdrop-filter: blur( 8px );
+				z-index: 3;
+			}
+			.app-header{
+				width: 100% - padding;
+				padding: 2vh;
+				background: transparent;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+			}
+			.app-header-text{
+				font-size: 20px;
+				color: black;
+				margin: 0;
+				padding: 0;
+			}
+			.app-header-button{
+				width: 45px;
+				height: 45px;
+				border-radius: 50%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				background: rgba( 255, 255, 255, 0.6 );
+				box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+				backdrop-filter: blur( 8px );
+				-webkit-backdrop-filter: blur( 8px );
+				transition: all 0.2s ease;
+			}
+			.app-header-button-img{
+				width: 40px;
+				height: 40px;
+				transition: all 0.2s ease;
+			}
+			.app-header-button:hover{
+				cursor: pointer;
+				transition: all 0.2s ease;
+			}
+			.app-main{
+				width: 100% - margin;
+				height: 50vh;
+				background: white;
+				margin: 0vh 2vh 2vh 2vh;
+				padding: 2vh;
+				border-radius: 2vh;
+				transition: all 0.2s ease;
+			}
+			.MediaMoinsDe800PX{
+				display: none;
+				color: white;
+				transition: all 0.2s ease;
+			}
+			@keyframes appIn {
+				from{
+					transform: translateX(-50px) scale(0.9);
+					opacity: 0%;
+				}
+				to{
+					transform: translateX(0px) scale(1);
+					opacity: 100%;
+				}
+			}
+			@media(max-width: 800px){
+				.hors-bureau{
+					display: none;
+				}
+				.hors-bureau2{
+					display: none;
+				}
+				#desktop{
+					display: none;
+				}
+				.MediaMoinsDe800PX{
+					display: block;
+				}
+			}
+		</style>
+		<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  		<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+  		<script>
+		    $( function() {
+		    	$( "#app-projets" ).draggable();
+		    	$( "#app-music" ).draggable();
+		 	} );
+		</script>
+	</head>
+	<body>
+		<!-- BUREAU -->
+		<section id="desktop" class="desktop">
+
+			<!-- NAVBAR AVEC LES BOUTON DES APPLICATIONS -->
+			<div class="desktop-navApp animate__animated animate__fadeInLeft">
+				
+				<!-- BOUTON APPLICATION BOARD -->
+				<div class="desktop-navApp-app" onclick="mouseWhenBoardAppClicked()">
+					<img class="desktop-navApp-app-img" src="img/icone/board.png" title="Mon Board">
+				</div>
+
+				<!-- BOUTON APPLICATION PROJETS -->
+				<div class="desktop-navApp-app" onclick="mouseWhenProjetsAppClicked()">
+					<img class="desktop-navApp-app-img" src="img/icone/apps.png" title="Mes Projets">
+				</div>
+
+				<!-- BOUTON APPLICATION LIBRAIRE OUTILS -->
+				<div class="desktop-navApp-app">
+					<img class="desktop-navApp-app-img" src="img/icone/librairie.png" title="Librairie d'outils utiles">
+				</div>
+
+				<!-- BOUTON APPLICATION MUSIQUES -->
+				<div class="desktop-navApp-app">
+					<img class="desktop-navApp-app-img" src="img/icone/sacados.png" title="Mes Cours">
+				</div>
+
+				<!-- BOUTON APPLICATION VEILLE TECHNOLOGIQUE -->
+				<div class="desktop-navApp-app">
+					<img class="desktop-navApp-app-img" src="img/icone/news.png" title="Ma Veille Technologique">
+				</div>
+
+				<!-- BOUTON APPLICATION MUSIQUES -->
+				<div class="desktop-navApp-app" onclick="mouseWhenMusicAppClicked()">
+					<img class="desktop-navApp-app-img" src="img/icone/music.png" title="Musiques cools">
+				</div>
+
+			</div>
+
+			<!-- FENETRE QUI S'OUVRE QUAND LE BOUTON BOARD EST ACTIVÉ -->
+			<div class="app" id="app-board">
+				<div class="app-header">
+					<div style="display: flex; align-items: center;">
+						<img src="img/icone/board.png" style="width: 40px; margin-right: 2vh;">
+						<p class="app-header-text">Mon Board</p>
+					</div>
+					<div style="display: flex; align-items: center;">
+						<div class="app-header-button" onclick="mouseWhenBoardAppClickedOut()">
+							<img class="app-header-button-img" src="img/icone/dismiss.png">
+						</div>
+					</div>
+				</div>
+				<div class="app-main">
+					
+				</div>
+			</div>
+
+			<!-- FENETRE QUI S'OUVRE QUAND LE BOUTON MES PROJETS EST ACTIVÉ -->
+			<div class="app" id="app-projets">
+				<div class="app-header">
+					<div style="display: flex; align-items: center;">
+						<img src="img/icone/apps.png" style="width: 40px; margin-right: 2vh;">
+						<p class="app-header-text">Mes Projets</p>
+					</div>
+					<div style="display: flex; align-items: center;">
+						<div class="app-header-button" style="margin-right: 2vh;" onclick="mouseWhenProjetsAppResizeOutClicked()">
+							<img class="app-header-button-img" src="img/icone/resize2.png">
+						</div>
+						<div class="app-header-button" style="margin-right: 2vh;" onclick="mouseWhenProjetsAppResizeInClicked()">
+							<img class="app-header-button-img" src="img/icone/resize.png">
+						</div>
+						<div class="app-header-button" onclick="mouseWhenProjetsAppClickedOut()">
+							<img class="app-header-button-img" src="img/icone/dismiss.png">
+						</div>
+					</div>
+				</div>
+				<div class="app-main" id="app-projets-main" style="display: flex; align-items: center; justify-content: space-evenly; flex-wrap: wrap; overflow-y: auto;">
+					<div style="width: 40vh; padding: 2vh 0 2vh 0; background: red; display: flex; align-items: center; justify-content: center; border-radius: 2vh; margin: 3vh;">Portfolio v1</div>
+					<div style="width: 40vh; padding: 2vh 0 2vh 0; background: red; display: flex; align-items: center; justify-content: center; border-radius: 2vh; margin: 3vh;">Portfolio v1.5</div>
+					<div style="width: 40vh; padding: 2vh 0 2vh 0; background: red; display: flex; align-items: center; justify-content: center; border-radius: 2vh; margin: 3vh;">Portfolio v2</div>
+					<div style="width: 40vh; padding: 2vh 0 2vh 0; background: red; display: flex; align-items: center; justify-content: center; border-radius: 2vh; margin: 3vh;">Portfolio v4</div>
+					<div style="width: 40vh; padding: 2vh 0 2vh 0; background: red; display: flex; align-items: center; justify-content: center; border-radius: 2vh; margin: 3vh;">Portfolio v5</div>
+					<div style="width: 40vh; padding: 2vh 0 2vh 0; background: red; display: flex; align-items: center; justify-content: center; border-radius: 2vh; margin: 3vh;">Portfolio v7</div>
+					<div style="width: 40vh; padding: 2vh 0 2vh 0; background: red; display: flex; align-items: center; justify-content: center; border-radius: 2vh; margin: 3vh;">Portfolio v10</div>
+					<div style="width: 40vh; padding: 2vh 0 2vh 0; background: red; display: flex; align-items: center; justify-content: center; border-radius: 2vh; margin: 3vh;">Portfolio v11</div>
+					<div style="width: 40vh; padding: 2vh 0 2vh 0; background: red; display: flex; align-items: center; justify-content: center; border-radius: 2vh; margin: 3vh;">Portfolio v12</div>
+				</div>
+			</div>
+
+			<!-- FENETRE QUI S'OUVRE QUAND LE BOUTON MUSIQUE COOL EST ACTIVÉ -->
+			<div class="app" id="app-music">
+				<div class="app-header">
+					<div style="display: flex; align-items: center;">
+						<img src="img/icone/music.png" style="width: 40px; margin-right: 2vh;">
+						<p class="app-header-text">Musiques</p>
+					</div>
+					<div style="display: flex; align-items: center;">
+						<div class="app-header-button" style="margin-right: 2vh;" onclick="mouseWhenMusicAppResizeOutClicked()">
+							<img class="app-header-button-img" src="img/icone/resize2.png">
+						</div>
+						<div class="app-header-button" style="margin-right: 2vh;" onclick="mouseWhenMusicAppResizeInClicked()">
+							<img class="app-header-button-img" src="img/icone/resize.png">
+						</div>
+						<div class="app-header-button" onclick="mouseWhenMusicAppClickedOut()">
+							<img class="app-header-button-img" src="img/icone/dismiss.png">
+						</div>
+					</div>
+				</div>
+				<div class="app-main" id="app-music-main" style="display: flex; align-items: center; justify-content: space-evenly; flex-wrap: wrap; overflow-y: auto; overflow-x: hidden;">
+					<a href="https://www.youtube.com/watch?v=Hf244LCkkLc" onclick="window.open(this.href); return false;">
+						<div style="width: 40vh; padding: 2vh 0 2vh 0; background: red; display: flex; align-items: center; justify-content: center; border-radius: 2vh; margin: 3vh;">Ｆｕｎ Ｔｏｎｉｇｈｔ(FUTURE FUNK MIX)</div>
+					</a>
+					<a href="https://www.youtube.com/watch?v=lcFNaKYZzaE" onclick="window.open(this.href); return false;">
+						<div style="width: 40vh; padding: 2vh 0 2vh 0; background: red; display: flex; align-items: center; justify-content: center; border-radius: 2vh; margin: 3vh;">SONIC • Musiques Joyeuses & Entraînantes</div>
+					</a>
+					<a href="https://www.youtube.com/watch?v=Hf244LCkkLc" onclick="window.open(this.href); return false;">
+						<div style="width: 40vh; padding: 2vh 0 2vh 0; background: red; display: flex; align-items: center; justify-content: center; border-radius: 2vh; margin: 3vh;">Music Sounds Better With You</div>
+					</a>
+					<a href="https://www.youtube.com/watch?v=RVmG_d3HKBA" onclick="window.open(this.href); return false;">
+						<div style="width: 40vh; padding: 2vh 0 2vh 0; background: red; display: flex; align-items: center; justify-content: center; border-radius: 2vh; margin: 3vh;">MIKA - Relax, Take It Easy</div>
+					</a>
+				</div>
+			</div>
+
+		</section>
+
+		<section class="hors-bureau">
+			QUAND UN BUG RAJOUTE DU LORE SUR TA PAGE WEB
+		</section>
+
+		<section class="hors-bureau2">
+			BIENVENUE DANS LES BACKROOMS
+		</section>
+
+		<section class="MediaMoinsDe800PX">
+			Site réalisé pour un écran de plus de 800px de longueur.
+		</section>
+
+
+		<!-- SCRIPT -->
+		<script type="text/javascript">
+
+			// FONCTIONS UTILISÉES PAR L'APPLICATION BOARD 
+			function mouseWhenBoardAppClicked(){
+				document.getElementById("app-board").style.display = "block";
+				document.getElementById("app-board").style.animationName = "appIn";
+				document.getElementById("app-board").style.animationDuration = "0.5s";
+			}
+			function mouseWhenBoardAppClickedOut(){
+				document.getElementById("app-board").style.display = "none";
+			}
+
+			// FONCTIONS UTILISÉES POUR L'APPLICATION PROJET 
+			function mouseWhenProjetsAppClicked(){
+				document.getElementById("app-projets").style.display = "block";
+				document.getElementById("app-projets").style.animationName = "appIn";
+				document.getElementById("app-projets").style.animationDuration = "0.5s";
+			}
+			function mouseWhenProjetsAppClickedOut(){
+				document.getElementById("app-projets").style.display = "none";
+			}
+			function mouseWhenProjetsAppResizeInClicked(){
+				document.getElementById("app-projets").style.width = "80%";
+				document.getElementById("app-projets-main").style.height = "80vh";
+			}
+			function mouseWhenProjetsAppResizeOutClicked(){
+				document.getElementById("app-projets").style.width = "50vh";
+				document.getElementById("app-projets-main").style.height = "50vh";
+			}
+
+			// FONCTIONS UTILISÉES PAR L'APPLICATION MUSIQUE
+			function mouseWhenMusicAppClicked(){
+				document.getElementById("app-music").style.display = "block";
+				document.getElementById("app-music").style.animationName = "appIn";
+				document.getElementById("app-music").style.animationDuration = "0.5s";
+			}
+			function mouseWhenMusicAppClickedOut(){
+				document.getElementById("app-music").style.display = "none";
+			}
+			function mouseWhenMusicAppResizeInClicked(){
+				document.getElementById("app-music").style.width = "80%";
+				document.getElementById("app-music-main").style.height = "80vh";
+			}
+			function mouseWhenMusicAppResizeOutClicked(){
+				document.getElementById("app-music").style.width = "50vh";
+				document.getElementById("app-music-main").style.height = "50vh";
+			}
+		</script>
+	</body>
+</html>
