@@ -1,0 +1,1259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+body{
+	background-color: white;
+}
+
+
+
+/* CARTE DISPLAY 1 */
+.banqueSIO--display1{
+	width: 100%;
+	padding: 10vh 0 10vh 0;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+
+
+/* BOUTON 1 v1 */
+.banqueSIO--bouton1--v1{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v1--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v1:hover{
+	background-color: transparent;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v1:hover .banqueSIO--bouton1--v1--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v2 */
+.banqueSIO--bouton1--v2{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	border-radius: 15vh;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v2--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v2:hover{
+	background-color: transparent;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v2:hover .banqueSIO--bouton1--v2--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v3 */
+.banqueSIO--bouton1--v3{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v3--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v3:hover{
+	background-color: transparent;
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v3:hover .banqueSIO--bouton1--v3--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v4 */
+.banqueSIO--bouton1--v4{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	border-radius: 15vh;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v4--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v4:hover{
+	background-color: transparent;
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v4:hover .banqueSIO--bouton1--v4--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v5 */
+.banqueSIO--bouton1--v5{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v5--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v5:hover{
+	background-color: transparent;
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transform: translateY(-2vh);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v5:hover .banqueSIO--bouton1--v5--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v6 */
+.banqueSIO--bouton1--v6{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	border-radius: 15vh;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v6--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v6:hover{
+	background-color: transparent;
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transform: translateY(-2vh);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v6:hover .banqueSIO--bouton1--v6--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v7 */
+.banqueSIO--bouton1--v7{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v7--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v7:hover{
+	background-color: transparent;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v7:hover .banqueSIO--bouton1--v7--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v8 */
+.banqueSIO--bouton1--v8{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	border-radius: 15vh;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v8--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v8:hover{
+	background-color: transparent;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v8:hover .banqueSIO--bouton1--v8--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v9 */
+.banqueSIO--bouton1--v9{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v9--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v9:hover{
+	background-color: transparent;
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v9:hover .banqueSIO--bouton1--v9--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v10 */
+.banqueSIO--bouton1--v10{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	border-radius: 15vh;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v10--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v10:hover{
+	background-color: transparent;
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v10:hover .banqueSIO--bouton1--v10--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v11 */
+.banqueSIO--bouton1--v11{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v11--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v11:hover{
+	background-color: transparent;
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v11:hover .banqueSIO--bouton1--v11--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v12 */
+.banqueSIO--bouton1--v12{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	border-radius: 15vh;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v12--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v12:hover{
+	background-color: transparent;
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v12:hover .banqueSIO--bouton1--v12--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v13 */
+.banqueSIO--bouton1--v13{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v13--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v13:hover{
+	background-color: transparent;
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v13:hover .banqueSIO--bouton1--v13--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v14 */
+.banqueSIO--bouton1--v14{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	border-radius: 15vh;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v14--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v14:hover{
+	background-color: transparent;
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v14:hover .banqueSIO--bouton1--v14--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v15 */
+.banqueSIO--bouton1--v15{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v15--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v15:hover{
+	background-color: transparent;
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v15:hover .banqueSIO--bouton1--v15--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v15 */
+.banqueSIO--bouton1--v16{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	border-radius: 15vh;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v16--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v16:hover{
+	background-color: transparent;
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v16:hover .banqueSIO--bouton1--v16--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v17 */
+.banqueSIO--bouton1--v17{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v17--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v17:hover{
+	background-color: transparent;
+	transform: scale(0.9);
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v17:hover .banqueSIO--bouton1--v17--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v18 */
+.banqueSIO--bouton1--v18{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	border-radius: 15vh;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v18--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v18:hover{
+	background-color: transparent;
+	transform: scale(0.9);
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v18:hover .banqueSIO--bouton1--v18--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v19 */
+.banqueSIO--bouton1--v19{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v19--div1{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v19--div2{
+	width: 100%;
+	height: 0%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v19--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v19--img{
+	width: 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v19:hover{
+	background-color: transparent;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v19:hover .banqueSIO--bouton1--v19--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+.banqueSIO--bouton1--v19:hover .banqueSIO--bouton1--v19--div1{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v19:hover .banqueSIO--bouton1--v19--div2{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v19:hover .banqueSIO--bouton1--v19--img{
+	width: 3.5vh;
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v20 */
+.banqueSIO--bouton1--v20{
+	width: 24.9vh;
+	height: 9.9vh;
+	border-radius: 15vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v20--div1{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v20--div2{
+	width: 100%;
+	height: 0%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v20--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v20--img{
+	width: 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v20:hover{
+	background-color: transparent;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v20:hover .banqueSIO--bouton1--v20--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+.banqueSIO--bouton1--v20:hover .banqueSIO--bouton1--v20--div1{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v20:hover .banqueSIO--bouton1--v20--div2{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v20:hover .banqueSIO--bouton1--v20--img{
+	width: 3.5vh;
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v21 */
+.banqueSIO--bouton1--v21{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v21--div1{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v21--div2{
+	width: 100%;
+	height: 0%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v21--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v21--img{
+	width: 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v21:hover{
+	background-color: transparent;
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v21:hover .banqueSIO--bouton1--v21--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+.banqueSIO--bouton1--v21:hover .banqueSIO--bouton1--v21--div1{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v21:hover .banqueSIO--bouton1--v21--div2{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v21:hover .banqueSIO--bouton1--v21--img{
+	width: 3.5vh;
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v22 */
+.banqueSIO--bouton1--v22{
+	width: 24.9vh;
+	height: 9.9vh;
+	border-radius: 15vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v22--div1{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v22--div2{
+	width: 100%;
+	height: 0%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v22--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v22--img{
+	width: 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v22:hover{
+	background-color: transparent;
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v22:hover .banqueSIO--bouton1--v22--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+.banqueSIO--bouton1--v22:hover .banqueSIO--bouton1--v22--div1{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v22:hover .banqueSIO--bouton1--v22--div2{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v22:hover .banqueSIO--bouton1--v22--img{
+	width: 3.5vh;
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v23 */
+.banqueSIO--bouton1--v23{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v23--div1{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v23--div2{
+	width: 100%;
+	height: 0%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v23--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v23--img{
+	width: 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v23:hover{
+	background-color: transparent;
+	transform: scale(1.1);
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v23:hover .banqueSIO--bouton1--v23--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+.banqueSIO--bouton1--v23:hover .banqueSIO--bouton1--v23--div1{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v23:hover .banqueSIO--bouton1--v23--div2{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v23:hover .banqueSIO--bouton1--v23--img{
+	width: 3.5vh;
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v24 */
+.banqueSIO--bouton1--v24{
+	width: 24.9vh;
+	height: 9.9vh;
+	border-radius: 15vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v24--div1{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v24--div2{
+	width: 100%;
+	height: 0%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v24--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v24--img{
+	width: 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v24:hover{
+	background-color: transparent;
+	transform: scale(1.1);
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v24:hover .banqueSIO--bouton1--v24--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+.banqueSIO--bouton1--v24:hover .banqueSIO--bouton1--v24--div1{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v24:hover .banqueSIO--bouton1--v24--div2{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v24:hover .banqueSIO--bouton1--v24--img{
+	width: 3.5vh;
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v25 */
+.banqueSIO--bouton1--v25{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v25--div1{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v25--div2{
+	width: 100%;
+	height: 0%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v25--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v25--img{
+	width: 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v25:hover{
+	background-color: transparent;
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v25:hover .banqueSIO--bouton1--v25--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+.banqueSIO--bouton1--v25:hover .banqueSIO--bouton1--v25--div1{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v25:hover .banqueSIO--bouton1--v25--div2{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v25:hover .banqueSIO--bouton1--v25--img{
+	width: 3.5vh;
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v26 */
+.banqueSIO--bouton1--v26{
+	width: 24.9vh;
+	height: 9.9vh;
+	border-radius: 15vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v26--div1{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v26--div2{
+	width: 100%;
+	height: 0%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v26--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v26--img{
+	width: 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v26:hover{
+	background-color: transparent;
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v26:hover .banqueSIO--bouton1--v26--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+.banqueSIO--bouton1--v26:hover .banqueSIO--bouton1--v26--div1{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v26:hover .banqueSIO--bouton1--v26--div2{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v26:hover .banqueSIO--bouton1--v26--img{
+	width: 3.5vh;
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v27 */
+.banqueSIO--bouton1--v27{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v27--div1{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v27--div2{
+	width: 100%;
+	height: 0%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v27--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v27--img{
+	width: 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v27:hover{
+	background-color: transparent;
+	transform: scale(0.9);
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v27:hover .banqueSIO--bouton1--v27--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+.banqueSIO--bouton1--v27:hover .banqueSIO--bouton1--v27--div1{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v27:hover .banqueSIO--bouton1--v27--div2{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v27:hover .banqueSIO--bouton1--v27--img{
+	width: 3.5vh;
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v28 */
+.banqueSIO--bouton1--v28{
+	width: 24.9vh;
+	height: 9.9vh;
+	border-radius: 15vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v28--div1{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v28--div2{
+	width: 100%;
+	height: 0%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v28--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v28--img{
+	width: 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v28:hover{
+	background-color: transparent;
+	transform: scale(0.9);
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v28:hover .banqueSIO--bouton1--v28--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+.banqueSIO--bouton1--v28:hover .banqueSIO--bouton1--v28--div1{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v28:hover .banqueSIO--bouton1--v28--div2{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v28:hover .banqueSIO--bouton1--v28--img{
+	width: 3.5vh;
+	transition: all 0.2s ease;
+}

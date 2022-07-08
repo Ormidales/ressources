@@ -1,0 +1,3555 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+body{
+	background-color: white;
+}
+a{
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HEADERS */
+
+/* HEADER 1 */
+.banqueSIO--header1{
+	width: 100%;
+	height: 15vh;
+	background-color: white;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--header1--logo--p{
+	font-family: Poppins, sans-serif;
+	font-size: 5vh;
+	color: #191919;
+}
+.banqueSIO--header1--navigation{
+	width: 100vh;
+	height: 15vh;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--header1--navigation--p{
+	font-family: Poppins, sans-serif;
+	font-size: 2vh;
+	color: #191919;
+}
+.banqueSIO--header1--navigation--p:hover{
+	font-family: Poppins, sans-serif;
+	font-size: 2vh;
+	color: #128CFF;
+}
+.banqueSIO--header1--navigation--p:active{
+	transform: scale(0.9);
+}
+
+
+
+/* HEADER 2 */
+.banqueSIO--header2{
+	width: 100%;
+	height: 15vh;
+	background-color: white;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--header2--logo--p{
+	font-family: Poppins, sans-serif;
+	font-size: 5vh;
+	color: #191919;
+}
+.banqueSIO--header2--navigation{
+	width: 100vh;
+	height: 15vh;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--header2--navigation--p{
+	font-family: Poppins, sans-serif;
+	font-size: 2vh;
+	color: #191919;
+}
+.banqueSIO--header2--navigation--p:hover{
+	font-family: Poppins, sans-serif;
+	font-size: 2vh;
+	color: #128CFF;
+}
+.banqueSIO--header2--button{
+	height: 15vh;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
+.banqueSIO--header2--navigation--p:active{
+	transform: scale(0.9);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CARTE DISPLAYS */
+
+/* CARTE DISPLAY 1 */
+.banqueSIO--display1{
+	width: 100%;
+	padding: 10vh 0 10vh 0;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.banqueSIO--display1--p{
+	font-family: Poppins, sans-serif;
+	font-size: 5vh;
+	color: #191919;
+}
+
+
+
+/* CARTE DISPLAY 2 */
+.banqueSIO--display2{
+	width: 100%;
+	padding: 10vh 0 10vh 0;
+	background-color: #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.banqueSIO--display2--p{
+	font-family: Poppins, sans-serif;
+	font-size: 5vh;
+	color: white;
+}
+
+
+
+/* CARTE DISPLAY 3 */
+.banqueSIO--display3{
+	width: 100%;
+	padding: 10vh 0 10vh 0;
+	background-color: white;
+}
+.banqueSIO--display3--div1{
+	width: 100%;
+	height: 10vh;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.banqueSIO--display3--div2{
+	margin: 0 auto;
+	width: 100vh;
+	height: 20vh;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.banqueSIO--display3--p{
+	font-family: Poppins, sans-serif;
+	font-size: 5vh;
+	color: #191919;
+}
+
+
+
+/* CARTE DISPLAY 4 */
+.banqueSIO--display4{
+	width: 100%;
+	padding: 10vh 0 10vh 0;
+	background-color: #191919;
+}
+.banqueSIO--display4--div1{
+	width: 100%;
+	height: 10vh;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.banqueSIO--display4--div2{
+	margin: 0 auto;
+	width: 100vh;
+	height: 20vh;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.banqueSIO--display4--p{
+	font-family: Poppins, sans-serif;
+	font-size: 5vh;
+	color: white;
+}
+
+
+
+/* CARTE DISPLAY 5 */
+.banqueSIO--display5{
+	width: 100%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display5--div1{
+	width: 50%;
+	height: 70vh;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display5--div2{
+	width: 50%;
+	height: 70vh;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display5--p{
+	font-family: Poppins, sans-serif;
+	font-size: 5.5vh;
+	color: #191919;
+}
+
+
+
+/* CARTE DISPLAY 6 */
+.banqueSIO--display6{
+	width: 100%;
+	background-color: #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display6--div1{
+	width: 50%;
+	height: 70vh;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display6--div2{
+	width: 50%;
+	height: 70vh;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display6--p{
+	font-family: Poppins, sans-serif;
+	font-size: 5.5vh;
+	color: white;
+}
+
+
+
+/* CARTE DISPLAY 7 */
+.banqueSIO--display7{
+	width: 100%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display7--div1{
+	width: 50%;
+	height: 70vh;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display7--div2{
+	width: 50%;
+	height: 70vh;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display7--p{
+	font-family: Poppins, sans-serif;
+	font-size: 5.5vh;
+	color: #191919;
+}
+
+
+
+/* CARTE DISPLAY 8 */
+.banqueSIO--display8{
+	width: 100%;
+	background-color: #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display8--div1{
+	width: 50%;
+	height: 70vh;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display8--div2{
+	width: 50%;
+	height: 70vh;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display8--p{
+	font-family: Poppins, sans-serif;
+	font-size: 5.5vh;
+	color: white;
+}
+
+
+
+/* CARTE DISPLAY 9 */
+.banqueSIO--display9{
+	width: 100%;
+	padding: 10vh 0 10vh 0;
+	background-color: white;
+}
+.banqueSIO--display9--div1{
+	width: 100%;
+	height: 10vh;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.banqueSIO--display9--div2{
+	margin: 0 auto;
+	width: 100%;
+	height: 20vh;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.banqueSIO--display9--p{
+	font-family: Poppins, sans-serif;
+	font-size: 5vh;
+	color: #191919;
+}
+.banqueSIO--display9--div2--input{
+	width: 150vh;
+	height: 9.5vh;
+	border: 0.5vh solid #191919;
+	border-radius: 15vh;
+}
+.banqueSIO--display9--div2--input::-webkit-input-placeholder {
+	font-size: 2.5vh;
+	padding-left: 5vh; 
+}
+.banqueSIO--display9--div2--input::-moz-placeholder {
+	font-size: 2.5vh;
+	padding-left: 5vh; 
+}
+.banqueSIO--display9--div2--input:-ms-input-placeholder {
+	font-size: 2.5vh;
+	padding-left: 5vh; 
+}
+.banqueSIO--display9--div2--input:-moz-placeholder {
+	font-size: 2.5vh;
+	padding-left: 5vh; 
+}
+
+
+
+/* CARTE DISPLAY 10 */
+.banqueSIO--display10{
+	width: 100%;
+	padding: 10vh 0 10vh 0;
+	background-color: #191919;
+}
+.banqueSIO--display10--div1{
+	width: 100%;
+	height: 10vh;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.banqueSIO--display10--div2{
+	margin: 0 auto;
+	width: 100%;
+	height: 20vh;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.banqueSIO--display10--p{
+	font-family: Poppins, sans-serif;
+	font-size: 5vh;
+	color: white;
+}
+.banqueSIO--display10--div2--input{
+	width: 150vh;
+	height: 9.5vh;
+	border: 0.5vh solid white;
+	border-radius: 15vh;
+}
+.banqueSIO--display10--div2--input::-webkit-input-placeholder {
+	font-size: 2.5vh;
+	padding-left: 5vh; 
+}
+.banqueSIO--display10--div2--input::-moz-placeholder {
+	font-size: 2.5vh;
+	padding-left: 5vh; 
+}
+.banqueSIO--display10--div2--input:-ms-input-placeholder {
+	font-size: 2.5vh;
+	padding-left: 5vh; 
+}
+.banqueSIO--display10--div2--input:-moz-placeholder {
+	font-size: 2.5vh;
+	padding-left: 5vh; 
+}
+
+
+
+/* CARTE DISPLAY 11 */
+.banqueSIO--display11{
+	width: 100%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display11--div1{
+	width: 50%;
+	height: 70vh;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display11--div2{
+	width: 50%;
+	height: 70vh;
+	background: url(https://picsum.photos/g/1921/1081?random) top center;
+  	background-size: cover;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display11--p{
+	font-family: Poppins, sans-serif;
+	font-size: 5.5vh;
+	color: #191919;
+}
+
+
+
+/* CARTE DISPLAY 12 */
+.banqueSIO--display12{
+	width: 100%;
+	background-color: #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display12--div1{
+	width: 50%;
+	height: 70vh;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display12--div2{
+	width: 50%;
+	height: 70vh;
+	background: url(https://picsum.photos/g/1921/1081?random) top center;
+  	background-size: cover;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display12--p{
+	font-family: Poppins, sans-serif;
+	font-size: 5.5vh;
+	color: white;
+}
+
+
+
+/* CARTE DISPLAY 13 */
+.banqueSIO--display13{
+	width: 100%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display13--div1{
+	width: 50%;
+	height: 70vh;
+	background: url(https://picsum.photos/g/1921/1081?random) bottom center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display13--div2{
+	width: 50%;
+	height: 70vh;
+	background-color: transparent;
+  	background-size: cover;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display13--p{
+	font-family: Poppins, sans-serif;
+	font-size: 5.5vh;
+	color: #191919;
+}
+
+
+
+/* CARTE DISPLAY 14 */
+.banqueSIO--display14{
+	width: 100%;
+	background-color: #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display14--div1{
+	width: 50%;
+	height: 70vh;
+	background: url(https://picsum.photos/g/1921/1081?random) bottom center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display14--div2{
+	width: 50%;
+	height: 70vh;
+	background-color: transparent;
+  	background-size: cover;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display14--p{
+	font-family: Poppins, sans-serif;
+	font-size: 5.5vh;
+	color: white;
+}
+
+
+
+/* CARTE DISPLAY 15 */
+.banqueSIO--display15{
+	width: 100%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display15--div1{
+	width: 50%;
+	height: 70vh;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display15--div2{
+	width: 50%;
+	height: 70vh;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display15--div2--imgbox{
+	width: 80%;
+	height: 50vh;
+	background: url(https://picsum.photos/g/1921/1081?random) bottom center;
+	background-size: cover;
+	border-radius: 10vh;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display15--p{
+	font-family: Poppins, sans-serif;
+	font-size: 5.5vh;
+	color: #191919;
+}
+.banqueSIO--display15:hover{
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display15:hover .banqueSIO--display15--div2--imgbox{
+	width: 100%;
+	height: 70vh;
+	border-radius: 0;
+	transition: all 0.2s ease;
+}
+
+
+
+/* CARTE DISPLAY 16 */
+.banqueSIO--display16{
+	width: 100%;
+	background-color: #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display16--div1{
+	width: 50%;
+	height: 70vh;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display16--div2{
+	width: 50%;
+	height: 70vh;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display16--div2--imgbox{
+	width: 80%;
+	height: 50vh;
+	background: url(https://picsum.photos/g/1921/1081?random) bottom center;
+	background-size: cover;
+	border-radius: 10vh;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display16--p{
+	font-family: Poppins, sans-serif;
+	font-size: 5.5vh;
+	color: white;
+}
+.banqueSIO--display16:hover{
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display16:hover .banqueSIO--display16--div2--imgbox{
+	width: 100%;
+	height: 70vh;
+	border-radius: 0;
+	transition: all 0.2s ease;
+}
+
+
+
+/* CARTE DISPLAY 17 */
+.banqueSIO--display17{
+	width: 100%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display17--div1{
+	width: 50%;
+	height: 70vh;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display17--div2{
+	width: 50%;
+	height: 70vh;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display17--div2--imgbox{
+	width: 80%;
+	height: 50vh;
+	background: url(https://picsum.photos/g/1921/1081?random) bottom center;
+	background-size: cover;
+	border-radius: 10vh;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display17--p{
+	font-family: Poppins, sans-serif;
+	font-size: 5.5vh;
+	color: #191919;
+}
+.banqueSIO--display17:hover{
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display17:hover .banqueSIO--display17--div2--imgbox{
+	width: 100%;
+	height: 70vh;
+	border-radius: 0;
+	transition: all 0.2s ease;
+}
+
+
+
+/* CARTE DISPLAY 18 */
+.banqueSIO--display18{
+	width: 100%;
+	background-color: #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display18--div1{
+	width: 50%;
+	height: 70vh;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display18--div2{
+	width: 50%;
+	height: 70vh;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+}
+.banqueSIO--display18--div2--imgbox{
+	width: 80%;
+	height: 50vh;
+	background: url(https://picsum.photos/g/1921/1081?random) bottom center;
+	background-size: cover;
+	border-radius: 10vh;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display18--p{
+	font-family: Poppins, sans-serif;
+	font-size: 5.5vh;
+	color: white;
+}
+.banqueSIO--display18:hover{
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display18:hover .banqueSIO--display18--div2--imgbox{
+	width: 100%;
+	height: 70vh;
+	border-radius: 0;
+	transition: all 0.2s ease;
+}
+
+
+
+/* CARTE DISPLAY 19 */
+.banqueSIO--display19{
+	width: 100%;
+	padding: 5vh 0 5vh 0;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.banqueSIO--display19--box{
+	width: 30vh;
+	height: 30vh;
+	margin: 2vh;
+	background-color: #191919;
+	border-radius: 3vh;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display19--box--p{
+	font-family: Poppins, sans-serif;
+	font-size: 8vh;
+	color: white;
+}
+.banqueSIO--display19--box:hover{
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+}
+
+
+
+/* CARTE DISPLAY 20 */
+.banqueSIO--display20{
+	width: 100%;
+	padding: 5vh 0 5vh 0;
+	background-color: #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.banqueSIO--display20--box{
+	width: 30vh;
+	height: 30vh;
+	margin: 2vh;
+	background-color: white;
+	border-radius: 3vh;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display20--box--p{
+	font-family: Poppins, sans-serif;
+	font-size: 8vh;
+	color: #191919;
+}
+.banqueSIO--display20--box:hover{
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+}
+
+
+
+/* CARTE DISPLAY 21 */
+.banqueSIO--display21{
+	width: 100%;
+	padding: 15vh 0 10vh 0;
+	background-color: white;
+}
+.banqueSIO--display21--div1{
+	width: 100%;
+	padding: 1vh 0 1vh 0;
+}
+.banqueSIO--display21--div1--p1{
+	margin-left: 15vh;
+	margin-bottom: 2vh;
+	font-family: Poppins, sans-serif;
+	font-size: 2vh;
+	max-width: 50vh;
+	color: #969696;
+}
+.banqueSIO--display21--div1--p2{
+	margin-left: 15vh;
+	margin-bottom: 1vh;
+	font-family: Poppins, sans-serif;
+	font-size: 6vh;
+	max-width: 100vh;
+	color: #191919;
+}
+.banqueSIO--display21--div1--p3{
+	margin-left: 15vh;
+	margin-bottom: 5vh;
+	font-family: Poppins, sans-serif;
+	font-size: 3vh;
+	max-width: 60vh;
+	color: #969696;
+}
+.banqueSIO--display21--div2{
+	width: 100%;
+	padding: 5vh 0 5vh 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	align-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+
+
+/* CARTE DISPLAY 22 */
+.banqueSIO--display22{
+	width: 100%;
+	padding: 15vh 0 10vh 0;
+	background-color: #191919;
+}
+.banqueSIO--display22--div1{
+	width: 100%;
+	padding: 1vh 0 1vh 0;
+}
+.banqueSIO--display22--div1--p1{
+	margin-left: 15vh;
+	margin-bottom: 2vh;
+	font-family: Poppins, sans-serif;
+	font-size: 2vh;
+	max-width: 50vh;
+	color: #969696;
+}
+.banqueSIO--display22--div1--p2{
+	margin-left: 15vh;
+	margin-bottom: 1vh;
+	font-family: Poppins, sans-serif;
+	font-size: 6vh;
+	max-width: 100vh;
+	color: white;
+}
+.banqueSIO--display22--div1--p3{
+	margin-left: 15vh;
+	margin-bottom: 5vh;
+	font-family: Poppins, sans-serif;
+	font-size: 3vh;
+	max-width: 60vh;
+	color: #969696;
+}
+.banqueSIO--display22--div2{
+	width: 100%;
+	padding: 5vh 0 5vh 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	align-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+
+
+/* CARTE DISPLAY 23 */
+.banqueSIO--display23{
+	width: 100% - padding;
+	padding: 5% 8% 5% 8%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.banqueSIO--display23--box{
+	margin: 3vh 0 3vh 0;
+	width: 48vh;
+	height: 68vh;
+	padding: 2vh;
+	background-color: white;
+	border-radius: 3vh;
+	overflow: hidden;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display23--box:hover{
+	transform: translateY(-1vh);
+	box-shadow: 0px 0px 40px rgba(0,0,0,0.3);
+	transition: all 0.2s ease;
+}
+.banqueSIO--display23--box--p1{
+	font-family: Poppins, sans-serif;
+	font-size: 6vh;
+	text-align: center;
+	color: #191919;
+	margin: 4vh 0 2vh 0;
+}
+.banqueSIO--display23--box--p2{
+	font-family: Poppins, sans-serif;
+	font-size: 3vh;
+	text-align: center;
+	color: #6E6E6E;
+	margin: 0 0 10vh 0;
+}
+.banqueSIO--display23--box--img{
+	width: 48vh;
+}
+
+
+
+/* CARTE DISPLAY 24 */
+.banqueSIO--display24{
+	width: 100% - padding;
+	padding: 5% 8% 5% 8%;
+	background-color: #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.banqueSIO--display24--box{
+	margin: 3vh 0 3vh 0;
+	width: 48vh;
+	height: 68vh;
+	padding: 2vh;
+	background-color: #191919;
+	border-radius: 3vh;
+	overflow: hidden;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display24--box:hover{
+	background-color: white;
+	transform: translateY(-1vh);
+	box-shadow: 0px 0px 40px rgba(0,0,0,0.3);
+	transition: all 0.2s ease;
+}
+.banqueSIO--display24--box--p1{
+	font-family: Poppins, sans-serif;
+	font-size: 6vh;
+	text-align: center;
+	color: white;
+	margin: 4vh 0 2vh 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display24--box--p2{
+	font-family: Poppins, sans-serif;
+	font-size: 3vh;
+	text-align: center;
+	color: #6E6E6E;
+	margin: 0 0 10vh 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display24--box--img{
+	width: 48vh;
+}
+.banqueSIO--display24--box:hover .banqueSIO--display24--box--p1{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display24--box:hover .banqueSIO--display24--box--p2{
+	color: #6E6E6E;
+	transition: all 0.2s ease;
+}
+
+
+
+/* CARTE DISPLAY 25 */
+.banqueSIO--display25{
+	width: 100% - padding;
+	padding: 5% 8% 5% 8%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.banqueSIO--display25--box{
+	margin: 3vh 0 3vh 0;
+	width: 48vh;
+	height: 68vh;
+	padding: 2vh;
+	background-color: white;
+	border-radius: 3vh;
+	overflow: hidden;
+	box-shadow: 0px 0px 60px rgba(0,0,0,0.2);
+	transition: all 0.2s ease;
+}
+.banqueSIO--display25--box--p1{
+	font-family: Poppins, sans-serif;
+	font-size: 6vh;
+	text-align: center;
+	color: #191919;
+	margin: 4vh 0 2vh 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display25--box--p2{
+	font-family: Poppins, sans-serif;
+	font-size: 3vh;
+	text-align: center;
+	color: #6E6E6E;
+	margin: 0 0 10vh 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display25--box--img{
+	width: 48vh;
+}
+.banqueSIO--display25--box:hover{
+	background-color: #191919;
+	box-shadow: 0px 0px 60px rgba(0,0,0,0.2);
+	transition: all 0.2s ease;
+}
+.banqueSIO--display25--box:hover .banqueSIO--display25--box--p1{
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display25--box:hover .banqueSIO--display25--box--p2{
+	color: #6E6E6E;
+	transition: all 0.2s ease;
+}
+
+
+
+/* CARTE DISPLAY 26 */
+.banqueSIO--display26{
+	width: 100% - padding;
+	padding: 5% 8% 5% 8%;
+	background-color: #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.banqueSIO--display26--box{
+	margin: 3vh 0 3vh 0;
+	width: 48vh;
+	height: 68vh;
+	padding: 2vh;
+	background-color: #191919;
+	border-radius: 3vh;
+	overflow: hidden;
+	box-shadow: 0px 0px 60px rgba(0,0,0,0.2);
+	transition: all 0.2s ease;
+}
+.banqueSIO--display26--box--p1{
+	font-family: Poppins, sans-serif;
+	font-size: 6vh;
+	text-align: center;
+	color: white;
+	margin: 4vh 0 2vh 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display26--box--p2{
+	font-family: Poppins, sans-serif;
+	font-size: 3vh;
+	text-align: center;
+	color: #6E6E6E;
+	margin: 0 0 10vh 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display26--box--img{
+	width: 48vh;
+}
+.banqueSIO--display26--box:hover{
+	background-color: white;
+	box-shadow: 0px 0px 60px rgba(0,0,0,0.2);
+	transition: all 0.2s ease;
+}
+.banqueSIO--display26--box:hover .banqueSIO--display26--box--p1{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display26--box:hover .banqueSIO--display26--box--p2{
+	color: #6E6E6E;
+	transition: all 0.2s ease;
+}
+
+
+
+/* CARTE DISPLAY 27 */
+.banqueSIO--display27{
+	width: 100% - padding;
+	padding: 5% 8% 5% 8%;
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='2000' height='1250' preserveAspectRatio='none' viewBox='0 0 2000 1250'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1072%26quot%3b)' fill='none'%3e%3crect width='2000' height='1250' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cuse xlink:href='%23SvgjsSymbol1079' x='0' y='0'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsSymbol1079' x='0' y='720'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsSymbol1079' x='720' y='0'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsSymbol1079' x='720' y='720'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsSymbol1079' x='1440' y='0'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsSymbol1079' x='1440' y='720'%3e%3c/use%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1072'%3e%3crect width='2000' height='1250' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cpath d='M-1 0 a1 1 0 1 0 2 0 a1 1 0 1 0 -2 0z' id='SvgjsPath1075'%3e%3c/path%3e%3cpath d='M-3 0 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0z' id='SvgjsPath1077'%3e%3c/path%3e%3cpath d='M-5 0 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0z' id='SvgjsPath1074'%3e%3c/path%3e%3cpath d='M2 -2 L-2 2z' id='SvgjsPath1076'%3e%3c/path%3e%3cpath d='M6 -6 L-6 6z' id='SvgjsPath1073'%3e%3c/path%3e%3cpath d='M30 -30 L-30 30z' id='SvgjsPath1078'%3e%3c/path%3e%3c/defs%3e%3csymbol id='SvgjsSymbol1079'%3e%3cuse xlink:href='%23SvgjsPath1073' x='30' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='30' y='90' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='30' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='30' y='210' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1075' x='30' y='270' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='30' y='330' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1076' x='30' y='390' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='30' y='450' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='30' y='510' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1076' x='30' y='570' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='30' y='630' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='30' y='690' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='90' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='90' y='90' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1077' x='90' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='90' y='210' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1078' x='90' y='270' stroke='%231c538e' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1077' x='90' y='330' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='90' y='390' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='90' y='450' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='90' y='510' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1077' x='90' y='570' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='90' y='630' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1075' x='90' y='690' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='150' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='150' y='90' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='150' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='150' y='210' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='150' y='270' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='150' y='330' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1076' x='150' y='390' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='150' y='450' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1075' x='150' y='510' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1076' x='150' y='570' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1076' x='150' y='630' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='150' y='690' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='210' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='210' y='90' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='210' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1077' x='210' y='210' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='210' y='270' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='210' y='330' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1077' x='210' y='390' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1076' x='210' y='450' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1076' x='210' y='510' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='210' y='570' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='210' y='630' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='210' y='690' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='270' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='270' y='90' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='270' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='270' y='210' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='270' y='270' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1078' x='270' y='330' stroke='%231c538e' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1077' x='270' y='390' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='270' y='450' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1075' x='270' y='510' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='270' y='570' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='270' y='630' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='270' y='690' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='330' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1076' x='330' y='90' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1076' x='330' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1076' x='330' y='210' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1077' x='330' y='270' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1076' x='330' y='330' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='330' y='390' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1076' x='330' y='450' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1075' x='330' y='510' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1078' x='330' y='570' stroke='%231c538e' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='330' y='630' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='330' y='690' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='390' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1077' x='390' y='90' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='390' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='390' y='210' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='390' y='270' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1077' x='390' y='330' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='390' y='390' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='390' y='450' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='390' y='510' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1076' x='390' y='570' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='390' y='630' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1076' x='390' y='690' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='450' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='450' y='90' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='450' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='450' y='210' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='450' y='270' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1078' x='450' y='330' stroke='%231c538e' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='450' y='390' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='450' y='450' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1076' x='450' y='510' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1076' x='450' y='570' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='450' y='630' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='450' y='690' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='510' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='510' y='90' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='510' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='510' y='210' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='510' y='270' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='510' y='330' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='510' y='390' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1077' x='510' y='450' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='510' y='510' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='510' y='570' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1076' x='510' y='630' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1078' x='510' y='690' stroke='%231c538e' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='570' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='570' y='90' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='570' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='570' y='210' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='570' y='270' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='570' y='330' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1075' x='570' y='390' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='570' y='450' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='570' y='510' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1077' x='570' y='570' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1078' x='570' y='630' stroke='%231c538e' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1076' x='570' y='690' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='630' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1076' x='630' y='90' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1076' x='630' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='630' y='210' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='630' y='270' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='630' y='330' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='630' y='390' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='630' y='450' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='630' y='510' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1078' x='630' y='570' stroke='%231c538e' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='630' y='630' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='630' y='690' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='690' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='690' y='90' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1078' x='690' y='150' stroke='%231c538e' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='690' y='210' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1076' x='690' y='270' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1074' x='690' y='330' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1076' x='690' y='390' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='690' y='450' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1073' x='690' y='510' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1076' x='690' y='570' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1077' x='690' y='630' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1075' x='690' y='690' stroke='%231c538e'%3e%3c/use%3e%3c/symbol%3e%3c/svg%3e");	
+	background-size: 115%;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.banqueSIO--display27--box{
+	margin: 3vh 0 3vh 0;
+	width: 48vh;
+	height: 68vh;
+	padding: 2vh;
+	background-color: #191919;
+	border-radius: 3vh;
+	overflow: hidden;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display27--box:hover{
+	background-color: white;
+	transform: translateY(-1vh);
+	box-shadow: 0px 0px 40px rgba(0,0,0,0.3);
+	transition: all 0.2s ease;
+}
+.banqueSIO--display27--box--p1{
+	font-family: Poppins, sans-serif;
+	font-size: 6vh;
+	text-align: center;
+	color: white;
+	margin: 4vh 0 2vh 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display27--box--p2{
+	font-family: Poppins, sans-serif;
+	font-size: 3vh;
+	text-align: center;
+	color: #6E6E6E;
+	margin: 0 0 10vh 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display27--box--img{
+	width: 48vh;
+}
+.banqueSIO--display27--box:hover .banqueSIO--display27--box--p1{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display27--box:hover .banqueSIO--display27--box--p2{
+	color: #6E6E6E;
+	transition: all 0.2s ease;
+}
+
+
+
+/* DISPLAY 28 */
+.banqueSIO--display28{
+	width: 100%;
+	padding: 10vh 0 10vh 0;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+}
+.banqueSIO--display28--div1{
+	width: 40%;
+	padding: 5vh;
+	background-color: white;
+	box-shadow: 0px 0px 40px rgba(0,0,0,0.3);
+	border-radius: 3vh;
+}
+.banqueSIO--display28--div1--p{
+	font-family: Poppins, sans-serif;
+	font-size: 3vh;
+	color: #191919;
+	margin-bottom: 2vh;
+}
+.banqueSIO--display28--div1--div1{
+	width: 100%;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.banqueSIO--display28--div1--div1--box{
+	margin: 5vh;
+	width: 35%;
+	height: 12.5vh;
+	border-radius: 3vh;
+	background-color: white;
+	border: 0.2vh #6E6E6E solid;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display28--div1--div1--box--p1{
+	font-family: Poppins, sans-serif;
+	font-size: 2vh;
+	color: #191919;
+	margin: 2vh 2vh 1vh 2vh;
+}
+.banqueSIO--display28--div1--div1--box--p2{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: #6E6E6E;
+	margin: 2vh 2vh 1vh 2vh;
+}
+.banqueSIO--display28--div1--div1--box:hover{
+	margin: 5vh;
+	width: 35%;
+	height: 12.5vh;
+	border-radius: 3vh;
+	transform: translateY(-1vh);
+	background-color: white;
+	border: 0.2vh white solid;
+	box-shadow: 0px 0px 40px rgba(0,0,0,0.2);
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+
+
+
+/* DISPLAY 29 */
+.banqueSIO--display29{
+	width: 100%;
+	padding: 10vh 0 10vh 0;
+	background-color: #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+}
+.banqueSIO--display29--div1{
+	width: 40%;
+	padding: 5vh;
+	background-color: white;
+	box-shadow: 0px 0px 40px rgba(0,0,0,0.3);
+	border-radius: 3vh;
+}
+.banqueSIO--display29--div1--p{
+	font-family: Poppins, sans-serif;
+	font-size: 3vh;
+	color: #191919;
+	margin-bottom: 2vh;
+}
+.banqueSIO--display29--div1--div1{
+	width: 100%;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.banqueSIO--display29--div1--div1--box{
+	margin: 5vh;
+	width: 35%;
+	height: 12.5vh;
+	border-radius: 3vh;
+	background-color: #191919;
+	border: 0.2vh #6E6E6E solid;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display29--div1--div1--box--p1{
+	font-family: Poppins, sans-serif;
+	font-size: 2vh;
+	color: white;
+	margin: 2vh 2vh 1vh 2vh;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display29--div1--div1--box--p2{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: #6E6E6E;
+	margin: 2vh 2vh 1vh 2vh;
+}
+.banqueSIO--display29--div1--div1--box:hover{
+	margin: 5vh;
+	width: 35%;
+	height: 12.5vh;
+	border-radius: 3vh;
+	transform: translateY(-1vh);
+	background-color: white;
+	border: 0.2vh white solid;
+	box-shadow: 0px 0px 40px rgba(0,0,0,0.2);
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+.banqueSIO--display29--div1--div1--box:hover .banqueSIO--display29--div1--div1--box--p1{
+	font-family: Poppins, sans-serif;
+	font-size: 2vh;
+	color: #191919;
+	margin: 2vh 2vh 1vh 2vh;
+	transition: all 0.2s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CARDS */
+
+/* CARD 1 */
+.banqueSIO--card1{
+	margin: 3vh;
+	width: 40vh;
+	padding: 5vh;
+	background-color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--card1--p1{
+	margin-bottom: 2vh;
+	font-family: Poppins, sans-serif;
+	font-size: 3vh;
+	max-width: 40vh;
+	color: white;
+}
+.banqueSIO--card1--p2{
+	font-family: Poppins, sans-serif;
+	font-size: 2vh;
+	max-width: 40vh;
+	color: white;
+}
+.banqueSIO--card1:hover{
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+
+
+
+/* CARD 2 */
+.banqueSIO--card2{
+	margin: 3vh;
+	width: 40vh;
+	padding: 5vh;
+	background-color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--card2--p1{
+	margin-bottom: 2vh;
+	font-family: Poppins, sans-serif;
+	font-size: 3vh;
+	max-width: 40vh;
+	color: #191919;
+}
+.banqueSIO--card2--p2{
+	font-family: Poppins, sans-serif;
+	font-size: 2vh;
+	max-width: 40vh;
+	color: #191919;
+}
+.banqueSIO--card2--img{
+	width: 5vh;
+	margin-bottom: 5vh;
+}
+.banqueSIO--card2:hover{
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+
+
+
+/* CARD 3 */
+.banqueSIO--card3{
+	margin: 3vh;
+	width: 40vh;
+	border-radius: 3vh;
+	padding: 5vh;
+	background-color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--card3--p1{
+	margin-bottom: 2vh;
+	font-family: Poppins, sans-serif;
+	font-size: 3vh;
+	max-width: 40vh;
+	color: white;
+}
+.banqueSIO--card3--p2{
+	font-family: Poppins, sans-serif;
+	font-size: 2vh;
+	max-width: 40vh;
+	color: white;
+}
+.banqueSIO--card3:hover{
+	transform: scale(1.1);
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+
+
+
+/* CARD 4 */
+.banqueSIO--card4{
+	margin: 3vh;
+	width: 40vh;
+	padding: 5vh;
+	background-color: white;
+	border-radius: 3vh;
+	transition: all 0.2s ease;
+}
+.banqueSIO--card4--p1{
+	margin-bottom: 2vh;
+	font-family: Poppins, sans-serif;
+	font-size: 3vh;
+	max-width: 40vh;
+	color: #191919;
+}
+.banqueSIO--card4--p2{
+	font-family: Poppins, sans-serif;
+	font-size: 2vh;
+	max-width: 40vh;
+	color: #191919;
+}
+.banqueSIO--card4:hover{
+	transform: scale(1.1);
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BOUTONS */
+
+/* BOUTON 1 v1 */
+.banqueSIO--bouton1--v1{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v1--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v1:hover{
+	background-color: transparent;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v1:hover .banqueSIO--bouton1--v1--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v1:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v2 */
+.banqueSIO--bouton1--v2{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	border-radius: 15vh;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v2--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v2:hover{
+	background-color: transparent;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v2:hover .banqueSIO--bouton1--v2--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v2:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v3 */
+.banqueSIO--bouton1--v3{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v3--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v3:hover{
+	background-color: transparent;
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v3:hover .banqueSIO--bouton1--v3--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v3:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v4 */
+.banqueSIO--bouton1--v4{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	border-radius: 15vh;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v4--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v4:hover{
+	background-color: transparent;
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v4:hover .banqueSIO--bouton1--v4--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v4:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v5 */
+.banqueSIO--bouton1--v5{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v5--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v5:hover{
+	background-color: transparent;
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transform: translateY(-2vh);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v5:hover .banqueSIO--bouton1--v5--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v5:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v6 */
+.banqueSIO--bouton1--v6{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	border-radius: 15vh;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v6--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v6:hover{
+	background-color: transparent;
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transform: translateY(-2vh);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v6:hover .banqueSIO--bouton1--v6--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v6:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v7 */
+.banqueSIO--bouton1--v7{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v7--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v7:hover{
+	background-color: transparent;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v7:hover .banqueSIO--bouton1--v7--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v7:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v8 */
+.banqueSIO--bouton1--v8{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	border-radius: 15vh;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v8--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v8:hover{
+	background-color: transparent;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v8:hover .banqueSIO--bouton1--v8--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v8:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v9 */
+.banqueSIO--bouton1--v9{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v9--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v9:hover{
+	background-color: transparent;
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v9:hover .banqueSIO--bouton1--v9--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v9:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v10 */
+.banqueSIO--bouton1--v10{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	border-radius: 15vh;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v10--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v10:hover{
+	background-color: transparent;
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v10:hover .banqueSIO--bouton1--v10--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v10:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v11 */
+.banqueSIO--bouton1--v11{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v11--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v11:hover{
+	background-color: transparent;
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v11:hover .banqueSIO--bouton1--v11--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v11:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v12 */
+.banqueSIO--bouton1--v12{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	border-radius: 15vh;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v12--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v12:hover{
+	background-color: transparent;
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v12:hover .banqueSIO--bouton1--v12--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v12:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v13 */
+.banqueSIO--bouton1--v13{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v13--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v13:hover{
+	background-color: transparent;
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v13:hover .banqueSIO--bouton1--v13--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v13:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v14 */
+.banqueSIO--bouton1--v14{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	border-radius: 15vh;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v14--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v14:hover{
+	background-color: transparent;
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v14:hover .banqueSIO--bouton1--v14--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v14:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v15 */
+.banqueSIO--bouton1--v15{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v15--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v15:hover{
+	background-color: transparent;
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v15:hover .banqueSIO--bouton1--v15--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v15:active{
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v16 */
+.banqueSIO--bouton1--v16{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	border-radius: 15vh;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v16--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v16:hover{
+	background-color: transparent;
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v16:hover .banqueSIO--bouton1--v16--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v16:active{
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v17 */
+.banqueSIO--bouton1--v17{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v17--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v17:hover{
+	background-color: transparent;
+	transform: scale(0.9);
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v17:hover .banqueSIO--bouton1--v17--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v17:active{
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v18 */
+.banqueSIO--bouton1--v18{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	border-radius: 15vh;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v18--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v18:hover{
+	background-color: transparent;
+	transform: scale(0.9);
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v18:hover .banqueSIO--bouton1--v18--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v18:active{
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v19 */
+.banqueSIO--bouton1--v19{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v19--div1{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v19--div2{
+	width: 100%;
+	height: 0%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v19--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v19--img{
+	width: 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v19:hover{
+	background-color: transparent;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v19:hover .banqueSIO--bouton1--v19--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+.banqueSIO--bouton1--v19:hover .banqueSIO--bouton1--v19--div1{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v19:hover .banqueSIO--bouton1--v19--div2{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v19:hover .banqueSIO--bouton1--v19--img{
+	width: 3.5vh;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v19:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v20 */
+.banqueSIO--bouton1--v20{
+	width: 24.9vh;
+	height: 9.9vh;
+	border-radius: 15vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v20--div1{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v20--div2{
+	width: 100%;
+	height: 0%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v20--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v20--img{
+	width: 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v20:hover{
+	background-color: transparent;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v20:hover .banqueSIO--bouton1--v20--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+.banqueSIO--bouton1--v20:hover .banqueSIO--bouton1--v20--div1{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v20:hover .banqueSIO--bouton1--v20--div2{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v20:hover .banqueSIO--bouton1--v20--img{
+	width: 3.5vh;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v20:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v21 */
+.banqueSIO--bouton1--v21{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v21--div1{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v21--div2{
+	width: 100%;
+	height: 0%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v21--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v21--img{
+	width: 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v21:hover{
+	background-color: transparent;
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v21:hover .banqueSIO--bouton1--v21--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+.banqueSIO--bouton1--v21:hover .banqueSIO--bouton1--v21--div1{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v21:hover .banqueSIO--bouton1--v21--div2{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v21:hover .banqueSIO--bouton1--v21--img{
+	width: 3.5vh;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v21:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v22 */
+.banqueSIO--bouton1--v22{
+	width: 24.9vh;
+	height: 9.9vh;
+	border-radius: 15vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v22--div1{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v22--div2{
+	width: 100%;
+	height: 0%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v22--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v22--img{
+	width: 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v22:hover{
+	background-color: transparent;
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v22:hover .banqueSIO--bouton1--v22--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+.banqueSIO--bouton1--v22:hover .banqueSIO--bouton1--v22--div1{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v22:hover .banqueSIO--bouton1--v22--div2{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v22:hover .banqueSIO--bouton1--v22--img{
+	width: 3.5vh;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v22:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v23 */
+.banqueSIO--bouton1--v23{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v23--div1{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v23--div2{
+	width: 100%;
+	height: 0%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v23--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v23--img{
+	width: 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v23:hover{
+	background-color: transparent;
+	transform: scale(1.1);
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v23:hover .banqueSIO--bouton1--v23--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+.banqueSIO--bouton1--v23:hover .banqueSIO--bouton1--v23--div1{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v23:hover .banqueSIO--bouton1--v23--div2{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v23:hover .banqueSIO--bouton1--v23--img{
+	width: 3.5vh;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v23:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v24 */
+.banqueSIO--bouton1--v24{
+	width: 24.9vh;
+	height: 9.9vh;
+	border-radius: 15vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v24--div1{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v24--div2{
+	width: 100%;
+	height: 0%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v24--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v24--img{
+	width: 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v24:hover{
+	background-color: transparent;
+	transform: scale(1.1);
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v24:hover .banqueSIO--bouton1--v24--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+.banqueSIO--bouton1--v24:hover .banqueSIO--bouton1--v24--div1{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v24:hover .banqueSIO--bouton1--v24--div2{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v24:hover .banqueSIO--bouton1--v24--img{
+	width: 3.5vh;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v24:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v25 */
+.banqueSIO--bouton1--v25{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v25--div1{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v25--div2{
+	width: 100%;
+	height: 0%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v25--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v25--img{
+	width: 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v25:hover{
+	background-color: transparent;
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v25:hover .banqueSIO--bouton1--v25--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+.banqueSIO--bouton1--v25:hover .banqueSIO--bouton1--v25--div1{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v25:hover .banqueSIO--bouton1--v25--div2{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v25:hover .banqueSIO--bouton1--v25--img{
+	width: 3.5vh;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v25:active{
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v26 */
+.banqueSIO--bouton1--v26{
+	width: 24.9vh;
+	height: 9.9vh;
+	border-radius: 15vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v26--div1{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v26--div2{
+	width: 100%;
+	height: 0%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v26--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v26--img{
+	width: 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v26:hover{
+	background-color: transparent;
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v26:hover .banqueSIO--bouton1--v26--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+.banqueSIO--bouton1--v26:hover .banqueSIO--bouton1--v26--div1{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v26:hover .banqueSIO--bouton1--v26--div2{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v26:hover .banqueSIO--bouton1--v26--img{
+	width: 3.5vh;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v26:active{
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v27 */
+.banqueSIO--bouton1--v27{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v27--div1{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v27--div2{
+	width: 100%;
+	height: 0%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v27--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v27--img{
+	width: 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v27:hover{
+	background-color: transparent;
+	transform: scale(0.9);
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v27:hover .banqueSIO--bouton1--v27--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+.banqueSIO--bouton1--v27:hover .banqueSIO--bouton1--v27--div1{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v27:hover .banqueSIO--bouton1--v27--div2{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v27:hover .banqueSIO--bouton1--v27--img{
+	width: 3.5vh;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v27:active{
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 1 v28 */
+.banqueSIO--bouton1--v28{
+	width: 24.9vh;
+	height: 9.9vh;
+	border-radius: 15vh;
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v28--div1{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v28--div2{
+	width: 100%;
+	height: 0%;
+	background-color: transparent;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v28--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v28--img{
+	width: 0;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v28:hover{
+	background-color: transparent;
+	transform: scale(0.9);
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton1--v28:hover .banqueSIO--bouton1--v28--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+
+.banqueSIO--bouton1--v28:hover .banqueSIO--bouton1--v28--div1{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v28:hover .banqueSIO--bouton1--v28--div2{
+	width: 100%;
+	height: 50%;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v28:hover .banqueSIO--bouton1--v28--img{
+	width: 3.5vh;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton1--v28:active{
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 2 v1 */
+.banqueSIO--bouton2--v1{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: transparent;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v1--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v1:hover{
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton2--v1:hover .banqueSIO--bouton2--v1--p{
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v1:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 2 v2 */
+.banqueSIO--bouton2--v2{
+	width: 24.9vh;
+	height: 9.9vh;
+	border-radius: 15vh;
+	background-color: transparent;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v2--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v2:hover{
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton2--v2:hover .banqueSIO--bouton2--v2--p{
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v2:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 2 v3 */
+.banqueSIO--bouton2--v3{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: transparent;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v3--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v3:hover{
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton2--v3:hover .banqueSIO--bouton2--v3--p{
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v3:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 2 v4 */
+.banqueSIO--bouton2--v4{
+	width: 24.9vh;
+	height: 9.9vh;
+	border-radius: 15vh;
+	background-color: transparent;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v4--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v4:hover{
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton2--v4:hover .banqueSIO--bouton2--v4--p{
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v4:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 2 v5 */
+.banqueSIO--bouton2--v5{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: transparent;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v5--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v5:hover{
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transform: translateY(-2vh);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton2--v5:hover .banqueSIO--bouton2--v5--p{
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v5:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 2 v6 */
+.banqueSIO--bouton2--v6{
+	width: 24.9vh;
+	height: 9.9vh;
+	border-radius: 15vh;
+	background-color: transparent;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v6--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v6:hover{
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transform: translateY(-2vh);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton2--v6:hover .banqueSIO--bouton2--v6--p{
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v6:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 2 v7 */
+.banqueSIO--bouton2--v7{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: transparent;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v7--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v7:hover{
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transform: translateY(-2vh);
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton2--v7:hover .banqueSIO--bouton2--v7--p{
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v7:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 2 v8 */
+.banqueSIO--bouton2--v8{
+	width: 24.9vh;
+	height: 9.9vh;
+	border-radius: 15vh;
+	background-color: transparent;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v8--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v8:hover{
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transform: translateY(-2vh);
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton2--v8:hover .banqueSIO--bouton2--v8--p{
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v8:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 2 v9 */
+.banqueSIO--bouton2--v9{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: transparent;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v9--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v9:hover{
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton2--v9:hover .banqueSIO--bouton2--v9--p{
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v9:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 2 v10 */
+.banqueSIO--bouton2--v10{
+	width: 24.9vh;
+	height: 9.9vh;
+	border-radius: 15vh;
+	background-color: transparent;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v10--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v10:hover{
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton2--v10:hover .banqueSIO--bouton2--v10--p{
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v10:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 2 v11 */
+.banqueSIO--bouton2--v11{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: transparent;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v11--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v11:hover{
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transform: scale(1.1);
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton2--v11:hover .banqueSIO--bouton2--v11--p{
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v11:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 2 v12 */
+.banqueSIO--bouton2--v12{
+	width: 24.9vh;
+	height: 9.9vh;
+	border-radius: 15vh;
+	background-color: transparent;
+	border: 0.3vh solid #191919;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v12--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v12:hover{
+	background-color: #191919;
+	border: 0.3vh solid #191919;
+	transform: scale(1.1);
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton2--v12:hover .banqueSIO--bouton2--v12--p{
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton2--v12:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 3 v1 */
+.banqueSIO--bouton3--v1{
+	width: 24.9vh;
+	height: 9.9vh;
+	background-color: transparent;
+	border: 0.3vh solid white;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton3--v1--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton3--v1:hover{
+	background-color: white;
+	border: 0.3vh solid white;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton3--v1:hover .banqueSIO--bouton3--v1--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton3--v1:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+
+
+/* BOUTON 3 v2 */
+.banqueSIO--bouton3--v2{
+	width: 24.9vh;
+	height: 9.9vh;
+	border-radius: 15vh;
+	background-color: transparent;
+	border: 0.3vh solid white;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton3--v2--p{
+	font-family: Poppins, sans-serif;
+	font-size: 1.5vh;
+	color: white;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton3--v2:hover{
+	background-color: white;
+	border: 0.3vh solid white;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.banqueSIO--bouton3--v2:hover .banqueSIO--bouton3--v2--p{
+	color: #191919;
+	transition: all 0.2s ease;
+}
+.banqueSIO--bouton3--v2:active{
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
