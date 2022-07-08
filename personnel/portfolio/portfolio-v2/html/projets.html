@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Projets et Activités - Portfolio Hugo Doueil</title>
+	<meta charset="utf-8">
+	<meta lang="fr">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<link href="../lightbox2-dev\dist\css/lightbox.css" rel="stylesheet" />
+	<link href="https://unpkg.com/vuesax@4.0.1-alpha.16/dist/vuesax.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+	<style type="text/css">
+		*{
+			scroll-behavior: smooth;
+		}
+		.col-md-6{
+			margin-bottom: 4vh;
+		}
+	</style>
+</head>
+<body>
+	
+	<header class="p-3 bg-dark text-white animate__animated animate__fadeInDown">
+	    <div class="container">
+	      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+	        <a href="../index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+	          <button class="btn btn-outline-light" type="button" style="margin-right: 3vh;">Hugo Doueil</button>
+	        </a>
+
+	        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+	          <li><a href="profil.html" class="nav-link px-2 text-white" data-toggle="tooltip" data-placement="bottom" title="Profil de l'étudiant">Profil</a></li>
+	          <li><a href="#" class="nav-link px-2 text-white" data-toggle="tooltip" data-placement="bottom" title="Parcours Scolaire de l'étufiant">Parcours Scolaire</a></li>
+	          <li><a href="#" class="nav-link px-2 text-white" data-toggle="tooltip" data-placement="bottom" title="Stages en Entreprises de l'étudiant">Stages</a></li>
+	          <li><a href="projets.html" class="nav-link px-2 text-secondary" data-toggle="tooltip" data-placement="bottom" title="Projets de l'étudiant">Projets<span class="badge rounded-pill bg-secondary text-dark" style="margin-left: 1vh;">4</span></a></li>
+	          <li><a href="#" class="nav-link px-2 text-white" data-toggle="tooltip" data-placement="bottom" title="Veille technologique de l'étudiant">Veille Technologique</a></li>
+	          <li><a href="#" class="nav-link px-2 text-white" data-toggle="tooltip" data-placement="bottom" title="Mise en contact avec l'étudiant">Contact</a></li>
+	        </ul>
+
+	        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+	          <input type="search" class="form-control form-control-dark" placeholder="Rechercher..." aria-label="Search">
+	        </form>
+
+	        <div class="text-end">
+	          <a href="projets.html">
+	          	<button type="button" class="btn btn-warning">Voir mes projets récents</button>
+	          </a>
+	        </div>
+	      </div>
+	    </div>
+  	</header>
+
+  	<main class="animate__animated animate__fadeInLeft">
+  		<div class="container px-4 py-5 animate__animated animate__fadeIn" id="custom-cards">
+		    <h2 class="pb-2 border-bottom">Projets récemment mis à jour :</h2>
+
+		    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+		      <div class="col">
+		        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../img/projets/projets-recent/1.jpg'); background-size: 100%; background-position: center; border-radius: 2.5vh;" data-tilt data-tilt-glare data-tilt-max-glare="0.3" data-tilt-scale="1.05" data-tilt data-tilt-max="10" data-tilt-speed="1000" data-tilt-perspective="1000">
+		          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+		            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">PPE2 - Website BTS SIO SLAM d'Auch</h2>
+		            <ul class="d-flex list-unstyled mt-auto">
+		              <li class="me-auto">
+		                <img src="../img/projets/github.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+		              </li>
+		              <li class="d-flex align-items-center me-3">
+		                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+		                <small>Hugo Doueil</small>
+		              </li>
+		              <li class="d-flex align-items-center">
+		                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+		                <small>Update il y a 3j</small>
+		              </li>
+		            </ul>
+		          </div>
+		        </div>
+		      </div>
+
+		      <div class="col">
+		        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../img/projets/projets-recent/2.jpg'); background-size: 100%; background-position: center; border-radius: 2.5vh;" data-tilt data-tilt-glare data-tilt-max-glare="0.3" data-tilt-scale="1.05" data-tilt data-tilt-max="10" data-tilt-speed="1000" data-tilt-perspective="1000">
+		          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+		            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">banqueSIO - Framework</h2>
+		            <ul class="d-flex list-unstyled mt-auto">
+		              <li class="me-auto">
+		                <img src="../img/projets/github.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+		              </li>
+		              <li class="d-flex align-items-center me-3">
+		                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+		                <small>Hugo Doueil</small>
+		              </li>
+		              <li class="d-flex align-items-center">
+		                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+		                <small>Update il y a 4j</small>
+		              </li>
+		            </ul>
+		          </div>
+		        </div>
+		      </div>
+
+		      <div class="col">
+		       <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../img/projets/projets-recent/3.jpg'); background-size: 100%; background-position: center; border-radius: 2.5vh;" data-tilt data-tilt-glare data-tilt-max-glare="0.3" data-tilt-scale="1.05" data-tilt data-tilt-max="10" data-tilt-speed="1000" data-tilt-perspective="1000">
+		          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+		            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Portfolio 2021 - Hugo Doueil</h2>
+		            <ul class="d-flex list-unstyled mt-auto">
+		              <li class="me-auto">
+		                <img src="../img/projets/github.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+		              </li>
+		              <li class="d-flex align-items-center me-3">
+		                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+		                <small>Hugo Doueil</small>
+		              </li>
+		              <li class="d-flex align-items-center">
+		                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+		                <small>Update il y a 5j</small>
+		              </li>
+		            </ul>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		</div>
+
+		<div class="container px-4 py-5" id="indexhtml">
+		    <h2 class="pb-2 border-bottom">Liste de toutes les activités scolaires par années :</h2>
+		</div>
+
+	    <div class="p-5 mb-4 bg-white rounded-3">
+	      <div class="container col-xxl-8 px-4 py-5">
+		    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+		      <div class="col-10 col-sm-8 col-lg-6">
+		      	<a href="img/header-image.jpg" data-lightbox="activite" data-title="Image de l'accueil du site du PPE2. Le but était de créer un website pour la filière BTS SIO SLAM du lycée Pardailhan d'Auch. Il a était réalisé en 8 semaines au total.">
+		        	<img src="../img/projets/website/ppe2.png" class="d-block mx-lg-auto img-fluid" alt="Image du site PPE2" width="300" height="500" loading="lazy" data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt-scale="1.1" data-tilt data-tilt-max="10" data-tilt-speed="1000" data-tilt-perspective="1000" title="Image de l'accueil du site du PPE2. Le but était de créer un website pour la filière BTS SIO SLAM du lycée Pardailhan d'Auch. Il a était réalisé en 8 semaines au total.">
+		        </a>
+		      </div>
+		      <div class="col-lg-6">
+		      	<p class="lead">2021</p>
+		        <h1 class="display-5 fw-bold lh-1 mb-3">Activité - PPE2 (Website BTS SIO SLAM d'Auch)</h1>
+		        <p class="lead">En 2021, mes camarades et moi même avons réalisé un projet nommé PPE2, ou le but était pour notre cas de créer un Site Web pour la section BTS SIO SLAM du lycée Pardailhan d'Auch (32).</p>
+		        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+		          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Voir le site web</button>
+		          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Voir les documents</button>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+	    </div>
+	    <div class="p-5 mb-4 bg-white rounded-3">
+	      <div class="container col-xxl-8 px-4 py-5">
+		    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+		      <div class="col-10 col-sm-8 col-lg-6">
+		      	<a href="img/header-image.jpg" data-lightbox="activite" data-title="Image du Github utilisé lors du PPE1. Le but était d'apprendre et de d'utiliser les outils de versioning tel que Github, Gitlab, Bitbucket et Git. Le projet à était réalisé en 8 semaines au total.">
+		        	<img src="../img/projets/website/ppe1.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="800" height="500" loading="lazy" data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt-scale="1.1" data-tilt data-tilt-max="10" data-tilt-speed="1000" data-tilt-perspective="1000" title="Image du Github utilisé lors du PPE1. Le but était d'apprendre et de d'utiliser les outils de versioning tel que Github, Gitlab, Bitbucket et Git. Le projet à était réalisé en 8 semaines au total.">
+		        </a>
+		      </div>	
+		      <div class="col-lg-6">
+		      	<p class="lead">2020</p>
+		        <h1 class="display-5 fw-bold lh-1 mb-3">Activité - PPE1 (Étude sur le versioning)</h1>
+		        <p class="lead">En 2020, mes camarades et moi même avons participés au PPE1, une activité qui avait pour but dans notre cas de réaliser une étude sur les outils et le fonctionnement du versioning.</p>
+		        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+		          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Voir les documents</button>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+	    </div>
+
+	    <div class="container px-4 py-5" id="custom-cards">
+		    <h2 class="pb-2 border-bottom">Liste des projets personnels réalisés par années :</h2>
+		</div>
+
+		<div class="p-5 mb-4 bg-white rounded-3">
+	      <div class="container col-xxl-8 px-4 py-5">
+		    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+		      <div class="col-10 col-sm-8 col-lg-6">
+		      	<a href="img/header-image.jpg" data-lightbox="activite" data-title="Capture d'écran de la page d'accueil du site Portfolio Hugo Doueil, prise le 26/05/2021.">
+		        	<img src="../img/projets/website/portfolio.png" class="d-block mx-lg-auto img-fluid border" alt="Image du site PPE2" width="300" height="500" loading="lazy" data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt-scale="1.1" data-tilt data-tilt-max="10" data-tilt-speed="1000" data-tilt-perspective="1000" title="Image de l'accueil du site du PPE2. Le but était de créer un website pour la filière BTS SIO SLAM du lycée Pardailhan d'Auch. Il a était réalisé en 8 semaines au total.">
+		        </a>
+		      </div>
+		      <div class="col-lg-6">
+		      	<p class="lead">2021</p>
+		        <h1 class="display-5 fw-bold lh-1 mb-3">Site Web - Portfolio Étudiant</h1>
+		        <p class="lead">En 2021, j'ai décidé de créer mon propre portfolio (celui sur lequel vous êtes), pour m'entrainer à l'utilisation des frameworks CSS et javascript (bootstrap, animate.css, Vue.js) et les librairies Javascript (Lightbox, React, jQuery).</p>
+		        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+		          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Voir le site web</button>
+		          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Voir les documents</button>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+	  </div>
+	  <div class="p-5 mb-4 bg-white rounded-3">
+	      <div class="container col-xxl-8 px-4 py-5">
+		    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+		      <div class="col-10 col-sm-8 col-lg-6">
+		      	<a href="img/header-image.jpg" data-lightbox="activite" data-title="Image du github du projet banqueSIO prise le 26/05/2021.">
+		        	<img src="../img/projets/website/banqueSIO.png" class="d-block mx-lg-auto img-fluid border" alt="Image du site PPE2" width="700" height="500" loading="lazy" data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt-scale="1.1" data-tilt data-tilt-max="10" data-tilt-speed="1000" data-tilt-perspective="1000" title="Image de l'accueil du site du PPE2. Le but était de créer un website pour la filière BTS SIO SLAM du lycée Pardailhan d'Auch. Il a était réalisé en 8 semaines au total.">
+		        </a>
+		      </div>
+		      <div class="col-lg-6">
+		      	<p class="lead">2021</p>
+		        <h1 class="display-5 fw-bold lh-1 mb-3">Framework CSS - banqueSIO</h1>
+		        <p class="lead">En 2021, je me suis mis à créer un petit framework pour m'aider à réaliser les sites plus rapidement. Je l'ai nommé "banqueSIO" car il est fait pour être utilisé exclusivement dans mon parcours d'étudiant.</p>
+		        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+		          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Voir le site web</button>
+		          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Voir les documents</button>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+	  </div>
+
+	  <div class="container py-4">
+	    <footer class="pt-3 mt-4 text-muted border-top">
+	      &copy; 2021 Hugo Doueil / <a href="#">Mentions Légales</a> / <a href="#">Paramètres de Confidentialité</a> / <a href="#">Plan du Site</a>
+	    </footer>
+	  </div>
+	</main>
+
+  	
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="../javascript/vanilla-tilt.js"></script>
+		<script src="../lightbox2-dev/dist/js/lightbox-plus-jquery.js"></script>
+		<script>
+		    lightbox.option({
+		      'resizeDuration': 100,
+		      'wrapAround': true
+		    })
+		</script>
+		<script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vuesax@4.0.1-alpha.16/dist/vuesax.min.js"></script>
+    <script>
+      new Vue({
+        el: '#app'
+      })
+    </script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  	<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+
+</body>
+</html>

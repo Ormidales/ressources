@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Accueil - Portfolio Hugo Doueil</title>
+	<meta charset="utf-8">
+	<meta lang="fr">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<link href="lightbox2-dev\dist\css/lightbox.css" rel="stylesheet" />
+	<link href="https://unpkg.com/vuesax@4.0.1-alpha.16/dist/vuesax.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+	<style type="text/css">
+		.col-md-6{
+			margin-bottom: 4vh;
+		}
+	</style>
+</head>
+<body>
+	
+	<header class="p-3 bg-dark text-white animate__animated animate__fadeInDown">
+	    <div class="container">
+	      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+	        <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+	          <button class="btn btn-outline-secondary" type="button" style="margin-right: 3vh;">Hugo Doueil</button>
+	        </a>
+
+	        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+	          <li><a href="html/profil.html" class="nav-link px-2 text-white" data-toggle="tooltip" data-placement="bottom" title="Profil de l'étudiant">Profil</a></li>
+	          <li><a href="#" class="nav-link px-2 text-white" data-toggle="tooltip" data-placement="bottom" title="Parcours Scolaire de l'étufiant">Parcours Scolaire</a></li>
+	          <li><a href="#" class="nav-link px-2 text-white" data-toggle="tooltip" data-placement="bottom" title="Stages en Entreprises de l'étudiant">Stages</a></li>
+	          <li><a href="html/projets.html" class="nav-link px-2 text-white" data-toggle="tooltip" data-placement="bottom" title="Projets de l'étudiant">Projets<span class="badge rounded-pill bg-light text-dark" style="margin-left: 1vh;">4</span></a></li>
+	          <li><a href="#" class="nav-link px-2 text-white" data-toggle="tooltip" data-placement="bottom" title="Veille technologique de l'étudiant">Veille Technologique</a></li>
+	          <li><a href="#" class="nav-link px-2 text-white" data-toggle="tooltip" data-placement="bottom" title="Mise en contact avec l'étudiant">Contact</a></li>
+	        </ul>
+
+	        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+	          <input type="search" class="form-control form-control-dark" placeholder="Rechercher..." aria-label="Search">
+	        </form>
+
+	        <div class="text-end">
+	          <a href="html/projets.html">
+	          	<button type="button" class="btn btn-warning">Voir mes projets récents</button>
+	          </a>
+	        </div>
+	      </div>
+	    </div>
+  	</header>
+
+  	<main>
+	  <div class="container py-4 animate__animated animate__fadeInLeft">
+
+	    <div class="p-5 mb-4 bg-light rounded-3 border">
+	      <div class="container-fluid py-5">
+	      	<a href="img/header-image.jpg" data-lightbox="header-image" data-title="Image de #Header.">
+	      		<img src="img/header-image.jpg" class="img-fluid border" alt="Header-Image" style="margin-bottom: 3vh;" data-toggle="tooltip" data-placement="bottom" title="Image Header-Image">
+	      	</a>
+	        <h1 class="display-5">Bonjour, je m'appelle Hugo Doueil, je suis étudiant en BTS SIO SLAM (première année) à Auch (32).</h1>
+	      </div>
+	    </div>
+
+	    <div class="row align-items-md-stretch">
+	      <div class="col-md-6">
+	        <div class="h-100 p-5 bg-light border rounded-3">
+	          <img src="img/svg/briefcase.svg" alt="Mon CV et Profil Complet" title="Mon CV et Profil Complet" class="rounded" style="width: 10vh; margin-bottom: 3vh;">
+	          <h2>Mon CV et Profil Complet</h2>
+	          <p>En cliquant sur le bouton ci-dessous, vous pourrez voir mon profil détaillé (Compétences, Certifications, etc...) ainsi que mon curriculum vitae (CV).</p>
+	          <a href="html/profil.html"><button class="btn btn-outline-secondary" type="button">Voir mon CV et mon Profil Complet</button></a>
+	        </div>
+	      </div>
+	      <div class="col-md-6">
+	        <div class="h-100 p-5 bg-light border rounded-3">
+	          <img src="img/svg/archive.svg" alt="Mes Activités en PPE" title="Mes Activités en PPE" class="rounded" style="width: 10vh; margin-bottom: 3vh;">
+	          <h2>Mes Activités en PPE</h2>
+	          <p>En BTS SIO, nous effectuons des activités nommées PPE (PPE1, PPE2, etc...). Elles nous permettent de créer des sites webs ainsi que des solutions webs en classe par groupe de camarades. Vous pouvez les explorer en cliquant sur le bouton ci-dessous.</p>
+	          <a href="html/projets.html#indexhtml"><button class="btn btn-outline-secondary" type="button">Voir mes Activités en PPE</button></a>
+	        </div>
+	      </div>
+	      <div class="col-md-6">
+	        <div class="h-100 p-5 bg-light border rounded-3">
+	          <img src="img/svg/newspaper.svg" alt="Ma Veille Technologique" title="Ma Veille Technologique" class="rounded" style="width: 10vh; margin-bottom: 3vh;">
+	          <h2>Ma Veille Technologique</h2>
+	          <p>J'ai réalisé une veille technologique lors de ma première année de BTS SIO SLAM à Auch, cliquez sur le bouton ci-dessous pour la voir en détail.</p>
+	          <button class="btn btn-outline-secondary" type="button">Voir ma Veille Technologique</button>
+	        </div>
+	      </div>
+	      <div class="col-md-6">
+	        <div class="h-100 p-5 bg-light border rounded-3">
+	          <img src="img/svg/people.svg" alt="Mes Stages en Entreprises" title="Mes Stages en Entreprises" class="rounded" style="width: 10vh; margin-bottom: 3vh;">
+	          <h2>Mes Stages en Entreprises</h2>
+	          <p>Ayant fait un BTS SIO option SLAM, j'ai effectué deux stages en entreprises durant mes deux années de cours. Vous pouvez les explorer en cliquant sur le bouton ci-dessous.</p>
+	          <button class="btn btn-outline-secondary" type="button">Voir mes Stages en Entreprises</button>
+	        </div>
+	      </div>
+	    </div>
+
+	    <div class="p-5 mb-4 bg-light rounded-3 border">
+	      <div class="container-fluid py-5">
+	      	<img src="img/svg/patch-check.svg" alt="Mes Certifications" title="Mes Certifications" class="rounded" style="width: 10vh; margin-bottom: 3vh;">
+	        <h1 class="display-5 fw-bold">Mes Certifications</h1>
+	        <p class="col-md-8 fs-4">J'ai obtenu diverses certifications lors de mes études en BTS SIO SLAM d'Auch. Vous pouvez trouvez toutes les certifications obtenues en cliquant sur le bouton ci-dessous.</p>
+        	<button class="btn btn-outline-secondary" type="button">Voir mes Certifications</button>
+	      </div>
+	    </div>
+
+	    <footer class="pt-3 mt-4 text-muted border-top">
+	      &copy; 2021 Hugo Doueil / <a href="#">Mentions Légales</a> / <a href="#">Paramètres de Confidentialité</a> / <a href="#">Plan du Site</a>
+	    </footer>
+	  </div>
+	</main>
+
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="javascript/vanilla-tilt.js"></script>
+	<script src="lightbox2-dev/dist/js/lightbox-plus-jquery.js"></script>
+	<script>
+		lightbox.option({
+		   'resizeDuration': 100,
+		   'wrapAround': true
+	    })
+	</script>
+	<script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vuesax@4.0.1-alpha.16/dist/vuesax.min.js"></script>
+    <script>
+      new Vue({
+        el: '#app'
+      })
+    </script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  	<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+
+</body>
+</html>
