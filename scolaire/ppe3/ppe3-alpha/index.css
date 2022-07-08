@@ -1,0 +1,26 @@
+:root{
+	--color-green: hsla(137, 36%, 73%, 1);
+	--color-black: hsla( 200, 32%, 18%, 1);
+	--color-white: hsla( 0, 0%, 100%, 1);
+}
+
+.section1{
+	width: 100% - padding;
+	padding: 15vh;
+	background-color: var(--color-green);
+}
+
+.section2{
+	width: 100% - padding;
+	padding: 5vh;
+	background-color: var(--color-black);
+}
+
+.section3{
+	width: 100% - padding;
+	padding: 5vh;
+	background-color: var(--color-white);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
