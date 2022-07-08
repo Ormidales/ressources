@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>BTS SIO SLAM | Auch (32) | Lycée Pardailhan</title>
+
+	<!-- FRAMEWORKS ET LIBRAIRIES -->
+
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/css/uikit.min.css" />
+
+	<!-- JQUERY -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+	<!-- Animate.css -->
+	<link
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Parallax.js -->
+	<script src="framework\parallax.js-1.5.0/parallax.js"></script>
+
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+		.section-header-div2-p1{
+		    font-family: Arial, sans-serif;
+		    font-size: 8vw;
+		    height: 8.5vw;
+		    -webkit-text-fill-color: transparent;
+		    -webkit-text-stroke-width: 2px;
+		    -webkit-text-stroke-color: white;
+		    z-index: 1;
+		    margin-top: 6vh;
+		}
+		.section-header-div2-p2{
+		    font-family: Poppins, sans-serif;
+		    font-size: 5vw;
+		    color: white;
+		    z-index: 1;
+		}
+		.section-header-div2-p3{
+		    font-family: Poppins, sans-serif;
+		    font-size: 2vw;
+		    color: white;
+		    z-index: 1;
+		}
+	</style>
+
+</head>
+<body>
+
+	<!-- HEADER -->
+
+	<div class="uk-width-large parallax-window" style="width: 100%; height: 100vh;" data-parallax="scroll" data-image-src="img\index/background-header.svg">
+
+		<!-- ALERTE COOKIES -->
+
+		<!-- <div class="uk-alert-primary animate__animated animate__fadeInDown" uk-alert>
+		    <a class="uk-alert-close" uk-close></a>
+		    <p>Notre site n'utilise pas de cookies, mais peut avoir besoin de récolter certaines de vos informations personnelles.</p>
+		</div> --> 
+
+		<div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 200" style="height: 15vh;">
+		    <nav class="uk-navbar-container" uk-navbar style="position: relative; z-index: 980; background: rgba( 255, 255, 255, 0.25 ); box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); backdrop-filter: blur( 4px ); -webkit-backdrop-filter: blur( 4px ); border: 1px solid rgba( 255, 255, 255, 0.18 );">
+		    	<div class="uk-navbar-left" style="margin-left: 2vh;">
+		    		<!-- LOGO LYCÉE PARDAILHAN -->
+
+					<a href="https://pardailhan.mon-ent-occitanie.fr" style="margin-right: 1vh;" uk-tooltip="title: Aller sur le site du Lycée Pardailhan; pos: bottom">
+						<img data-src="img\index\pardailhan.png" width="150px" height="" alt="Lycée Pardailhan" uk-img data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt-scale="1.1">
+					</a>
+
+					<!-- LOGO BTS SIO SLAM AUCH -->
+
+					<a href="index.html" uk-tooltip="title: Aller sur la page d'accueil du BTS SIO SLAM d'Auch; pos: bottom">
+						<img data-src="img\index\logoSIO.png" width="150px" height="" alt="Lycée Pardailhan" uk-img data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt-scale="1.1">
+					</a>
+
+		    	</div>
+		        <div class="uk-navbar-right" style="margin-right: 2vh;">
+
+		            <ul class="uk-navbar-nav">
+		                <li>
+		                    <a href="#" style="color: white;">Présentation<span class="uk-margin-small-left" uk-icon="triangle-down"></a>
+		                    <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 500">
+							    <ul class="uk-nav uk-dropdown-nav">
+							        <li class="uk-nav-header">Accueil du BTS</li>
+							        <li class="uk-nav-divider"></li>
+							        <li><a href="#"><span class="uk-margin-small-right" uk-icon="chevron-double-right"></span>C'est quoi le BTS SIO SLAM ?</a></li>
+							        <li><a href="#"><span class="uk-margin-small-right" uk-icon="chevron-double-right"></span>En savoir plus sur notre formation</a></li>
+							        <li class="uk-nav-header">Les poursuites d'études</li>
+							        <li class="uk-nav-divider"></li>
+							        <li><a href="#"><span class="uk-margin-small-right" uk-icon="chevron-double-right"></span>Admissions au BTS SIO SLAM</a></li>
+							        <li><a href="#"><span class="uk-margin-small-right" uk-icon="chevron-double-right"></span>Poursuites d'études possibles</a></li>
+							        <li class="uk-nav-header">Wiki BTS SIO SLAM AUCH</li>
+							        <li class="uk-nav-divider"></li>
+							        <li><a href="#"><span class="uk-margin-small-right" uk-icon="chevron-double-right"></span>Aller sur le wiki</a></li>
+							    </ul>
+							</div>
+		                </li>
+		                <li>
+		                	<a href="#" style="color: white;">Établissement<span class="uk-margin-small-left" uk-icon="triangle-down"></a>
+		                	<div uk-dropdown="animation: uk-animation-slide-top-small; duration: 500">
+							    <ul class="uk-nav uk-dropdown-nav">
+							        <li class="uk-nav-header">Les salles de classes</li>
+							        <li class="uk-nav-divider"></li>
+							        <li><a href="#"><span class="uk-margin-small-right" uk-icon="chevron-double-right"></span>Salle du 1er étage<span class="uk-label uk-label-success uk-margin-small-left">360°</span></a></li>
+							        <li><a href="#"><span class="uk-margin-small-right" uk-icon="chevron-double-right"></span>Salle du 2ème étage<span class="uk-label uk-label-success uk-margin-small-left">360°</span></a></li>
+							        <hr class="uk-divider-icon">
+							        <li class="uk-nav-header">Équipements</li>
+							        <li class="uk-nav-divider"></li>
+							        <li><a href="#"><span class="uk-margin-small-right" uk-icon="chevron-double-right"></span>Voir les équipements du BTS</a></li>
+							        <hr class="uk-divider-icon">
+							        <li class="uk-nav-header">Équipe pédagogique</li>
+							        <li class="uk-nav-divider"></li>
+							        <li><a href="#"><span class="uk-margin-small-right" uk-icon="chevron-double-right"></span>Voir l'équipe pédagogique</a></li>
+							        <li><a href="#"><span class="uk-margin-small-right" uk-icon="chevron-double-right"></span>Voir les matières</a></li>
+							    </ul>
+							</div>
+		                </li>
+		                <li>
+		                	<a href="#" style="color: white;">Compétences<span class="uk-margin-small-left" uk-icon="triangle-down"></a>
+		                	<div uk-dropdown="animation: uk-animation-slide-top-small; duration: 500">
+							    <ul class="uk-nav uk-dropdown-nav">
+							        <li class="uk-nav-header">Compétences dans le BTS</li>
+							        <li class="uk-nav-divider"></li>
+							        <li><a href="#"><span class="uk-margin-small-right" uk-icon="chevron-double-right"></span>Voir les compétences</a></li>
+							    </ul>
+							</div>
+		                </li>
+		                <li>
+		                	<a href="#" style="color: white;">Actualités<span class="uk-margin-small-left" uk-icon="triangle-down"></a>
+		                	<div uk-dropdown="animation: uk-animation-slide-top-small; duration: 500">
+							    <ul class="uk-nav uk-dropdown-nav">
+							        <li class="uk-nav-header">Actualités du BTS</li>
+							        <li class="uk-nav-divider"></li>
+							        <li><a href="#"><span class="uk-margin-small-right" uk-icon="chevron-double-right"></span>Voir les actualités du BTS</a></li>
+							        <hr class="uk-divider-icon">
+							        <li class="uk-nav-header">Actualités du Lycée Pardailhan</li>
+							        <li class="uk-nav-divider"></li>
+							        <li><a href="#"><span class="uk-margin-small-right" uk-icon="chevron-double-right"></span>Voir les actualités du Lycée Pardailhan</a></li>
+							    </ul>
+							</div>
+		                </li>
+		                <li>
+		                	<a href="#" style="color: white;">Témoignages<span class="uk-margin-small-left" uk-icon="triangle-down"></a>
+		                	<div uk-dropdown="animation: uk-animation-slide-top-small; duration: 500; boundary: .boundary">
+							    <ul class="uk-nav uk-dropdown-nav">
+							        <li class="uk-nav-header">Témoignages d'anciens élèves</li>
+							        <li class="uk-nav-divider"></li>
+							        <li><a href="#"><span class="uk-margin-small-right" uk-icon="chevron-double-right"></span>Voir les témoignages</a></li>
+							    </ul>
+							</div>
+		                </li>
+		                <li>
+		                	<a href="#" style="color: white;">Contact<span class="uk-margin-small-left" uk-icon="triangle-down"></a>
+			                <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 500; boundary: .boundary">
+							    <ul class="uk-nav uk-dropdown-nav">
+							        <li class="uk-nav-header">Contacter l'équipe du BTS SIO SLAM</li>
+							        <li class="uk-nav-divider"></li>
+							        <li><a href="#"><span class="uk-margin-small-right" uk-icon="chevron-double-right"></span>Cliquer ici pour nous contacter</a></li>
+							    </ul>
+							</div>
+		                </li>
+		            </ul>
+
+		        </div>
+		    </nav>
+		</div>
+
+		<!-- DIV 2 AVEC TITRE -->
+		<div class="uk-width-large" style="width:  100%; height: 60vh; background-color: transparent; padding-left: 10vh;">
+			<b><h2 class="section-header-div2-p1 animate__animated animate__fadeInDown">BTS SIO SLAM</h2></b>
+			<b><p class="section-header-div2-p2 animate__animated animate__fadeInDown">Lycée Pardailhan à Auch</p></b>
+			<i><p class="section-header-div2-p3 animate__animated animate__fadeInDown">57 Chemin de Baron, 32000 Auch / Tel : 05.62.61.42.50</p></i>
+		</div>
+	</div>
+
+	<!-- MAIN 1 -->
+
+	<div class="uk-width-large" style="width:  100%; height: 100vh; background-color: black;">
+		
+	</div>
+
+
+
+
+
+	
+
+	<!-- FRAMEWORKS ET LIBRAIRIES -->
+
+	<!-- UIkit JS -->
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/js/uikit.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/js/uikit-icons.min.js"></script>
+
+	<!-- Vanilla-tilt.js -->
+	<script type="text/javascript" src="javascript/vanilla-tilt.js"></script>
+	
+</body>
+</html>

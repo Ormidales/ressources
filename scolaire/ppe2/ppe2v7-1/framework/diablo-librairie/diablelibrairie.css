@@ -1,0 +1,606 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+
+
+
+
+
+
+.diablo--fontColor--white{
+	color: white;
+}
+.diablo--fontColor--christalle{
+	color: #2f0369;
+}
+.diablo--fontColor--lola{
+	color: #ddd5dd;
+}
+.diablo--fontColor--brandyrose{
+	color: #c09381;
+}
+.diablo--fontColor--rosebudcherry{
+	color: #6b075c;
+}
+.diablo--fontColor--purpleheat{
+	color: #5219d7;
+}
+.diablo--fontColor--chenin{
+	color: #e2d164;
+}
+.diablo--fontColor--ecalyptus{
+	color: #1d9049;
+}
+.diablo--fontColor--buttercup{
+	color: #eeba0e;
+}
+.diablo--fontColor--dallas{
+	color: #784f2a;
+}
+.diablo--fontColor--royalblue{
+	color: #7337ea;
+}
+.diablo--fontColor--meteorite{
+	color: #40236c;
+}
+.diablo--fontColor--hippieblue{
+	color: #519eb5;
+}
+.diablo--fontColor--putty{
+	color: #e5d588;
+}
+.diablo--fontColor--junglegreen{
+	color: #26a566;
+}
+.diablo--fontColor--pompadour{
+	color: #6b0353;
+}
+.diablo--fontColor--chileanfire{
+	color: #fa7509;
+}
+.diablo--fontColor--rock{
+	color: #563f3a;
+}
+.diablo--fontColor--wewak{
+	color: #f3aeab;
+}
+.diablo--fontColor--frenchpass{
+	color: #b8f9fe;
+}
+.diablo--fontColor--nutmeg{
+	color: #803d28;
+}
+.diablo--fontColor--ultramarine{
+	color: #23088e;
+}
+.diablo--fontColor--aeroblue{
+	color: #a6fee7;
+}
+.diablo--fontColor--siren{
+	color: #7d044b;
+}
+.diablo--fontColor--heliotrope{
+	color: #a363fc;
+}
+.diablo--fontColor--grenadier{
+	color: #cb3701;
+}
+.diablo--fontColor--crete{
+	color: #536626;
+}
+.diablo--fontColor--tacha{
+	color: #dac654;
+}
+.diablo--fontColor--anzac{
+	color: #d9bb39;
+}
+
+
+
+
+
+.diablo--bgColor--primary--success{
+	background-color: #67C23A;
+}
+.diablo--bgColor--primary--advertissment{
+	background-color: #E6A23C;
+}
+.diablo--bgColor--primary--danger{
+	background-color: #F56C6C;
+}
+.diablo--bgColor--primary--info{
+	background-color: #909399;
+}
+.diablo--bgColor--primary--black{
+	background-color: #000000;
+}
+.diablo--bgColor--primary--white{
+	background-color: #FFFFFF;
+}
+.diablo--bgColor--primary--transparent{
+	background-color: transparent;
+}
+.diablo--bgColor--text--primary{
+	background-color: #303133;
+}
+.diablo--bgColor--text--normal{
+	background-color: #606266;
+}
+.diablo--bgColor--text--secondary{
+	background-color: #909399;
+}
+.diablo--bgColor--text--placeholder{
+	background-color: #C0C4CC;
+}
+.diablo--bgColor--border--primary{
+	background-color: #DCDFE6;
+}
+.diablo--bgColor--border--clear1{
+	background-color: #E4E7ED;
+}
+.diablo--bgColor--border--clear2{
+	background-color: #EBEEF5;
+}
+.diablo--bgColor--border--clear3{
+	background-color: #F2F6FC;
+}
+.diablo--bgColor--christalle{
+	background-color: #2f0369;
+}
+.diablo--bgColor--lola{
+	background-color: #ddd5dd;
+}
+.diablo--bgColor--brandyrose{
+	background-color: #c09381;
+}
+.diablo--bgColor--rosebudcherry{
+	background-color: #6b075c;
+}
+.diablo--bgColor--purpleheat{
+	background-color: #5219d7;
+}
+.diablo--bgColor--chenin{
+	background-color: #e2d164;
+}
+.diablo--bgColor--ecalyptus{
+	background-color: #1d9049;
+}
+.diablo--bgColor--buttercup{
+	background-color: #eeba0e;
+}
+.diablo--bgColor--dallas{
+	background-color: #784f2a;
+}
+.diablo--bgColor--royalblue{
+	background-color: #7337ea;
+}
+.diablo--bgColor--meteorite{
+	background-color: #40236c;
+}
+.diablo--bgColor--hippieblue{
+	background-color: #519eb5;
+}
+.diablo--bgColor--putty{
+	background-color: #e5d588;
+}
+.diablo--bgColor--junglegreen{
+	background-color: #26a566;
+}
+.diablo--bgColor--pompadour{
+	background-color: #6b0353;
+}
+.diablo--bgColor--chileanfire{
+	background-color: #fa7509;
+}
+.diablo--bgColor--rock{
+	background-color: #563f3a;
+}
+.diablo--bgColor--wewak{
+	background-color: #f3aeab;
+}
+.diablo--bgColor--frenchpass{
+	background-color: #b8f9fe;
+}
+.diablo--bgColor--nutmeg{
+	background-color: #803d28;
+}
+.diablo--bgColor--ultramarine{
+	background-color: #23088e;
+}
+.diablo--bgColor--aeroblue{
+	background-color: #a6fee7;
+}
+.diablo--bgColor--siren{
+	background-color: #7d044b;
+}
+.diablo--bgColor--heliotrope{
+	background-color: #a363fc;
+}
+.diablo--bgColor--grenadier{
+	background-color: #cb3701;
+}
+.diablo--bgColor--crete{
+	background-color: #536626;
+}
+.diablo--bgColor--tacha{
+	background-color: #dac654;
+}
+.diablo--bgColor--anzac{
+	background-color: #d9bb39;
+}
+.diablo--bgColor--calico{
+	background-color: #e2bd93;
+}
+.diablo--bgColor--tiemaria{
+	background-color: #cb3c0c;
+}
+.diablo--bgColor--forestgreen{
+	background-color: #249c3c;
+}
+.diablo--bgColor--anakiwa{
+	background-color: #9cf7fd;
+}
+.diablo--bgColor--disco{
+	background-color: #7c1d63;
+}
+.diablo--bgColor--scandal{
+	background-color: #c6f9ec;
+}
+.diablo--bgColor--monza{
+	background-color: #c5031d;
+}
+.diablo--bgColor--madang{
+	background-color: #bff6c5;
+}
+.diablo--bgColor--pinkred{
+	background-color: #e93a55;
+}
+.diablo--bgColor--nightyblue{
+	background-color: #571aff;
+}
+.diablo--bgColor--moregrey{
+	background-color: #f2f3fc;
+}
+.diablo--bgColor--peach{
+	background-color: #ffbc7d;
+}
+.diablo--bgColor--clearpeach{
+	background-color: #ffdcc5;
+}
+.diablo--bgColor--liquidorange{
+	background-color: #ff3700;
+}
+.diablo--bgColor--nuancegreen{
+	background-color: #46f2b6;
+}
+.diablo--bgColor--darkblue{
+	background-color: #010051;
+}
+.diablo--bgColor--liquidpink{
+	background-color: #ff7be5;
+}
+.diablo--bgColor--darkpink{
+	background-color: #92003b;
+}
+
+
+
+
+
+
+/* FONT SIZE PRIMARY PX */
+.diablo--fontSize--px--extrasmall{
+	font-size: 6px;
+}
+.diablo--fontSize--px--small{
+	font-size: 12.5px;
+}
+.diablo--fontSize--px--base{
+	font-size: 20px;
+}
+.diablo--fontSize--px--medium{
+	font-size: 30px;
+}
+.diablo--fontSize--px--large{
+	font-size: 35px;
+}
+.diablo--fontSize--px--extralarge{
+	font-size: 40px;
+}
+
+/* FONT SIZE PRIMARY VH */
+.diablo--fontSize--vh--extrasmall{
+	font-size: 3vh;
+}
+.diablo--fontSize--vh--small{
+	font-size: 6vh;
+}
+.diablo--fontSize--vh--base{
+	font-size: 8vh;
+}
+.diablo--fontSize--vh--medium{
+	font-size: 10vh;
+}
+.diablo--fontSize--vh--large{
+	font-size: 13vh;
+}
+.diablo--fontSize--vh--extralarge{
+	font-size: 15vh;
+}
+
+/* FONT SIZE EN PX */
+.diablo--fontSize--0-1px{
+	font-size: 0.1px;
+}
+.diablo--fontSize--0-2px{
+	font-size: 0.2px;
+}
+.diablo--fontSize--0-3px{
+	font-size: 0.3px;
+}
+.diablo--fontSize--0-4px{
+	font-size: 0.4px;
+}
+.diablo--fontSize--0-5px{
+	font-size: 0.5px;
+}
+.diablo--fontSize--1px{
+	font-size: 1px;
+}
+.diablo--fontSize--2px{
+	font-size: 2px;
+}
+.diablo--fontSize--3px{
+	font-size: 3px;
+}
+.diablo--fontSize--4px{
+	font-size: 4px;
+}
+.diablo--fontSize--5px{
+	font-size: 5px;
+}
+.diablo--fontSize--6px{
+	font-size: 6px;
+}
+.diablo--fontSize--7px{
+	font-size: 7px;
+}
+.diablo--fontSize--8px{
+	font-size: 8px;
+}
+.diablo--fontSize--9px{
+	font-size: 9px;
+}
+.diablo--fontSize--10px{
+	font-size: 10px;
+}
+.diablo--fontSize--11px{
+	font-size: 11px;
+}
+.diablo--fontSize--12px{
+	font-size: 12px;
+}
+.diablo--fontSize--13px{
+	font-size: 13px;
+}
+.diablo--fontSize--14px{
+	font-size: 14px;
+}
+.diablo--fontSize--15px{
+	font-size: 15px;
+}
+.diablo--fontSize--16px{
+	font-size: 16px;
+}
+.diablo--fontSize--17px{
+	font-size: 17px;
+}
+.diablo--fontSize--18px{
+	font-size: 18px;
+}
+.diablo--fontSize--19px{
+	font-size: 19px;
+}
+.diablo--fontSize--20px{
+	font-size: 20px;
+}
+
+/* FONT SIZE EN VH */
+.diablo--fontSize--0-1vh{
+	font-size: 0.1vh;
+}
+.diablo--fontSize--0-2vh{
+	font-size: 0.2vh;
+}
+.diablo--fontSize--0-3vh{
+	font-size: 0.3vh;
+}
+.diablo--fontSize--0-4vh{
+	font-size: 0.4vh;
+}
+.diablo--fontSize--0-5vh{
+	font-size: 0.5vh;
+}
+.diablo--fontSize--1vh{
+	font-size: 1vh;
+}
+.diablo--fontSize--2vh{
+	font-size: 2vh;
+}
+.diablo--fontSize--3vh{
+	font-size: 3vh;
+}
+.diablo--fontSize--4vh{
+	font-size: 4vh;
+}
+.diablo--fontSize--5vh{
+	font-size: 5vh;
+}
+.diablo--fontSize--6vh{
+	font-size: 6vh;
+}
+.diablo--fontSize--7vh{
+	font-size: 7vh;
+}
+.diablo--fontSize--8vh{
+	font-size: 8vh;
+}
+.diablo--fontSize--9vh{
+	font-size: 9vh;
+}
+.diablo--fontSize--10vh{
+	font-size: 10vh;
+}
+.diablo--fontSize--11vh{
+	font-size: 11vh;
+}
+.diablo--fontSize--12vh{
+	font-size: 12vh;
+}
+.diablo--fontSize--13vh{
+	font-size: 13vh;
+}
+.diablo--fontSize--14vh{
+	font-size: 14vh;
+}
+.diablo--fontSize--15vh{
+	font-size: 15vh;
+}
+.diablo--fontSize--16vh{
+	font-size: 16vh;
+}
+.diablo--fontSize--17vh{
+	font-size: 17vh;
+}
+.diablo--fontSize--18vh{
+	font-size: 18vh;
+}
+.diablo--fontSize--19vh{
+	font-size: 19vh;
+}
+.diablo--fontSize--20vh{
+	font-size: 20vh;
+}
+
+
+
+
+
+
+.diablo--fontFamily--arial{
+	font-family: Arial;
+}
+.diablo--fontFamily--arialSS{
+	font-family: Arial, sans-serif;
+}
+
+
+
+
+
+
+.diablo--width--10vh{
+	width: 10vh;
+}
+.diablo--width--20vh{
+	width: 20vh;
+}
+.diablo--width--30vh{
+	width: 30vh;
+}
+.diablo--width--40vh{
+	width: 40vh;
+}
+.diablo--width--50vh{
+	width: 50vh;
+}
+.diablo--width--60vh{
+	width: 60vh;
+}
+.diablo--width--70vh{
+	width: 70vh;
+}
+.diablo--width--80vh{
+	width: 80vh;
+}
+.diablo--width--90vh{
+	width: 90vh;
+}
+.diablo--width--100vh{
+	width: 100vh;
+}
+.diablo--width--all{
+	width: all;
+}
+.diablo--width--max{
+	width: 100%;
+}
+
+
+
+
+.diablo--height--10vh{
+	height: 10vh;
+}
+.diablo--height--20vh{
+	height: 20vh;
+}
+.diablo--height--30vh{
+	height: 30vh;
+}
+.diablo--height--40vh{
+	height: 40vh;
+}
+.diablo--height--50vh{
+	height: 50vh;
+}
+.diablo--height--60vh{
+	height: 60vh;
+}
+.diablo--height--70vh{
+	height: 70vh;
+}
+.diablo--height--80vh{
+	height: 80vh;
+}
+.diablo--height--90vh{
+	height: 90vh;
+}
+.diablo--height--100vh{
+	height: 100vh;
+}
+.diablo--height--all{
+	height: all;
+}
+.diablo--height--max{
+	height: 100%;
+}
+
+
+
+
+
+
+
+.diablo--fontFamily--poppins{
+	font-family: Poppins;
+}
+.diablo--fontFamily--poppinsSS{
+	font-family: Poppins, sans-serif;
+}
+.diablo--fontFamily--roboto{
+	font-family: Roboto;
+}
+.diablo--fontFamily--robotoSS{
+	font-family: Roboto, sans-serif;
+}
+.diablo--fontFamily--opensans{
+	font-family: OpenSans;
+}
+.diablo--fontFamily--opensansSS{
+	font-family: OpenSans, sans-serif;
+}
+.diablo--fontFamily--montserrat{
+	font-family: Montserrat;
+}
+.diablo--fontFamily--montserratSS{
+	font-family: Montserrat, sans-serif;
+}
