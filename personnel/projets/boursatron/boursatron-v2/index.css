@@ -1,0 +1,577 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	background-image: url("Images/background1.jpg");
+	margin: 0px;
+	padding: 0px;
+}
+.all-content{
+	margin: 0 auto;
+	padding: 0px;
+	width: 100%;
+	position: relative;
+	top: auto;
+}
+.header{
+	margin: 0 auto;
+	padding: 0px;
+	width: 100%;
+	height: 80px;
+	background-color: #008BFF;
+	position: relative;
+	top: auto;
+}
+.header-content{
+	margin: 0 auto;
+	padding: 0px;
+	width: 400px;
+	height: 70px;
+	background-color: #008BFF;
+	position: relative;
+	top: auto;
+}
+.header-content-title{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Shadows Into Light", sans-serif;
+	font-size: 50px;
+	color: white;
+	position: relative;
+	top: -3px;
+	text-align: center;
+	text-shadow: black 2px 2px;
+}
+.footer{
+	margin: 0 auto;
+	padding: 0px;
+	width: 100%;
+	height: 205px;
+	background-color: #008BFF;
+	position: relative;
+	top: auto;
+}
+.footer-content{
+	margin: 0 auto;
+	padding: 0px;
+	width: 700px;
+	background-color: transparent;
+	position: relative;
+	top: auto;
+}
+.footer-content-title{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Shadows Into Light", sans-serif;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 18px;
+	text-shadow: black 2px 2px;
+}
+.footer-content-title2{
+	margin: 0px;
+	padding: 0px;
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 18px;
+}
+.sub-footer{
+	margin: 0 auto;
+	padding: 0px;
+	width: 100%;
+	height: 50px;
+	background-color: #ffffff;
+	box-shadow: 0 0 30px rgba(0,0,0,.30);
+}
+.sub-footer-sub{
+	margin: 0 auto;
+	padding: 0px;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	letter-spacing: 0.5px;
+	font-family: "Nunito", sans-serif;
+}
+.sub-header{
+	margin: 0 auto;
+	padding: 0px;
+	width: 100%;
+	height: 50px;
+	background-color: #ffffff;
+	box-shadow: 0 0 30px rgba(0,0,0,.30);
+}
+.sub-header-sub{
+	margin: 0 auto;
+	padding: 0px;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	letter-spacing: 0.5px;
+	font-family: "Nunito", sans-serif;
+}
+.up-header{
+	margin: 0 auto;
+	padding: 0px;
+	width: 100%;
+	height: 25px;
+	background-color: #ffffff;
+	box-shadow: 0 0 30px rgba(0,0,0,.30);
+}
+.up-header-sub{
+	margin: 0 auto;
+	float: right;
+	padding: 0px;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	letter-spacing: 0.5px;
+	font-family: "Nunito", sans-serif;
+}
+.up-header-button-menu{
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+	width: 200px;
+	height: 25px;
+	text-align: center;
+	color: black;
+	transition: all 0.2s ease; 
+}
+.up-header-button-menu:hover{
+	background-color: #DC7868;
+	cursor: pointer;
+	color: white;
+	text-shadow: black 2px 2px;
+	transition: all 0.2s ease; 
+}
+.up-header-button-menu-text{
+	position: relative;
+	top: 1px;
+}
+.up-header-button-menu-theme{
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+	width: 200px;
+	height: 25px;
+	float: left;
+	text-align: center;
+	color: black;
+	transition: all 0.2s ease; 
+}
+.up-header-button-menu-theme:hover{
+	background-color: #DC7868;
+	cursor: pointer;
+	color: white;
+	text-shadow: black 2px 2px;
+	transition: all 0.2s ease; 
+}
+.up-header-button-menu-text-theme{
+	position: relative;
+	top: 1px;
+}
+.button-menu{
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	color: black;
+	transition: all 0.2s ease; 
+}
+.button-menu:hover{
+	background-color: #DC7868;
+	cursor: pointer;
+	color: white;
+	text-shadow: black 2px 2px;
+	transition: all 0.2s ease; 
+}
+.button-menu-text{
+	position: relative;
+	top: 13px;
+}
+.main{
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	padding: 0px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	background-color: white;
+	max-width: 1250px;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	box-shadow: 0 0 30px rgba(0,0,0,.30);
+}
+.ancre-news-box{
+	position: relative;
+	background-color: #008BFF;
+	border-radius: 15px;
+	margin: 30px;
+}
+.news-box{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	background-color: white;
+	width: 300px;
+	height: 350px;
+	border-radius: 15px;
+	border: 5px white solid;
+	box-shadow: 0 0 50px rgba(0,0,0,.50);
+	transition: all 0.15s ease;
+}
+.news-box:hover{
+	transform: translateY(-10px);
+	transition: all 0.15s ease;
+}
+.news-box-visuel{
+	display: block;
+	position: relative;
+	padding: calc(100% / 1.914) 0 0 0;
+	overflow: hidden;
+}
+.news-box-visuel img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 50%;
+	height: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	border-radius: 15px 15px 15px 15px;
+}
+.news-box-title{
+	padding: 20px;
+	min-height: 80px;
+	background-color: white;
+	border-radius: 15px;
+}
+.tag{
+	text-transform: uppercase;
+	color: #008BFF;
+	line-height: 24px;
+	font-family: "Assistant", sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 15px;
+}
+.date{
+	text-transform: uppercase;
+	color: #008BFF;
+	line-height: 24px;
+	font-family: "Assistant", sans-serif;
+	font-size: 14px;
+	float: right;
+	font-weight: 700;
+	border-radius: 15px;
+}
+.news-box-title-h3{
+	color: #4b5157;
+	font-size: 15px;
+	font-weight: 600;
+	font-family: "Nunito", sans-serif;
+	border-radius: 15px;
+}
+article{
+	display: block;
+}
+p{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.faq{
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	padding: 0px;
+	padding-top: 25px;
+	background-color: white;
+	max-width: 1250px;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	box-shadow: 0 0 30px rgba(0,0,0,.30);
+}
+.faqquestion{
+	margin: 0 auto;
+	margin-bottom: 30px;
+	padding: 0px;
+	width: 90%;
+}
+.faqbutton{
+	margin: 0 auto;
+	padding: 0px;
+	width: 100%;
+	height: 80px;
+	background-color: #404040;
+	text-align: center;
+	border-radius: 15px 15px 0px 0px;
+	transition: all 0.2s ease;
+}
+.faqbutton:hover{
+	background-color: #505050;
+	cursor: pointer;
+	transition: all 0.2s ease; 
+}
+.faqbutton h4{
+	position: relative;
+	top: 12px;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font-family: Helvetica, sans-serif;
+	font-size: 30px;
+}
+.faqbutton p{
+	position: relative;
+	top: 12px;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+}
+.panel{
+	margin: 0 auto;
+	position: relative;
+	top: auto;
+	padding: 0px;
+	width: 100%;
+	height: 150px;
+	background-color: #909090;
+	text-align: center;
+	overflow: auto;
+	display: none;
+	border-radius: 0px 0px 15px 15px;
+}
+.panel p{
+	position: relative;
+	top: 15px;
+	margin: 0px
+	padding: 0px;
+	color: white;
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+}
+.panel2{
+	margin: 0 auto;
+	position: relative;
+	top: auto;
+	padding: 0px;
+	width: 100%;
+	height: 80px;
+	background-color: #909090;
+	text-align: center;
+	overflow: auto;
+	display: none;
+	border-radius: 0px 0px 15px 15px;
+}
+.panel2 p{
+	position: relative;
+	top: 15px;
+	margin: 0px
+	padding: 0px;
+	color: white;
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+}
+.roadmap{
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	padding: 0px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	background-color: white;
+	max-width: 1250px;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	box-shadow: 0 0 30px rgba(0,0,0,.30);
+}
+.ancre-roadmap-box{
+	position: relative;
+	background-color: #DC7868;
+	border-radius: 15px;
+	margin: 30px;
+}
+.roadmap-box{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	background-color: white;
+	width: 300px;
+	height: 200px;
+	border-radius: 15px;
+	border: 5px white solid;
+	box-shadow: 0 0 50px rgba(0,0,0,.50);
+	transition: all 0.15s ease;
+}
+.roadmap-box:hover{
+	transform: translateY(-10px);
+	transition: all 0.15s ease;
+}
+.roadmap-box-visuel{
+	display: block;
+	position: relative;
+	padding: calc(100% / 1.914) 0 0 0;
+	overflow: hidden;
+}
+.roadmap-box-visuel img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 50%;
+	height: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	border-radius: 15px 15px 15px 15px;
+}
+.roadmap-box-title{
+	padding: 10px;
+	min-height: 20px;
+	background-color: white;
+	border-radius: 15px;
+}
+.roadmap-box-title-h3{
+	color: #4b5157;
+	font-size: 15px;
+	font-weight: 600;
+	font-family: "Nunito", sans-serif;
+	border-radius: 15px;
+}
+.roadmap-tag{
+	text-transform: uppercase;
+	color: #DC7868;
+	line-height: 24px;
+	font-family: "Assistant", sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 15px;
+}
+.roadmap-date{
+	text-transform: uppercase;
+	color: #DC7868;
+	line-height: 24px;
+	font-family: "Assistant", sans-serif;
+	font-size: 14px;
+	float: right;
+	font-weight: 700;
+	border-radius: 15px;
+}
+::-webkit-scrollbar{
+	width: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #303030;
+} 
+::-webkit-scrollbar-corner {
+    background-color: #292929;
+}
+
+
+#menuNavigation.fixe{
+	position: fixed;
+	top: 0px;
+	z-index: 1;
+	box-shadow: 0 0 50px rgba(0,0,0,.50);
+}
+
+.svg-span{
+	margin: 0 auto;
+	width: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	position: relative;
+	top: -15px;
+}
+.svg-footer{
+	width: 50px;
+	margin: 0 auto;
+}
+
+.defilement-box{
+	height: 40px;
+	width: all;
+	margin: 0px;
+	padding: 0px;
+	background-color: red;
+	position: relative;
+}
+.defilement-box-marquee{
+	font-family: Nunito, sans-serif;
+	font-size: 20px;
+	color: white;
+	position: relative;
+	top: 5px;
+	margin: 0px;
+	padding: 0px;
+}
+.defilement-box-marquee-ancre{
+	background-color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+	transition: all 0.2s ease; 
+}
+.defilement-box-marquee-ancre:hover{
+	background-color: #5F5F5F;
+	transition: all 0.2s ease;
+}
+
+.all-news-button{
+	margin: 0 auto;
+	margin-top: 35px;
+	padding: 0px;
+	width: 800px;
+	height: 100px;
+	background-color: #404040;
+	border-radius: 15px;
+	transition: all 0.2s ease;
+}
+.all-news-button:hover{
+	background-color: #FF3434;
+	cursor: pointer;
+	text-shadow: black 2px 2px;
+	transition: all 0.2s ease;
+}
+.all-news-button h2{
+	font-family: Nunito, sans-serif;
+	font-size: 50px;
+	color: white;
+	position: relative;
+	top: 15px;
+	text-align: center;
+}
+
+
+/* CODE PAR ORMIDALES */
+/* 13/11/2020 FRANCE */
+/* UTILISATION DU LANGAGE HTML / CSS / JAVASCRIPT */
