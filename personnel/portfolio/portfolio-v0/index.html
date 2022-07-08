@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hugo Doueil | Portfolio</title>
+		<meta charset="utf-8" lang="fr">
+		<meta name="author" content="Hugo Doueil">
+		<meta name="description" content="Portfolio de Hugo Doueil">
+		<meta name="keywords" content="">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+		<style type="text/css">
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			html{
+				scroll-behavior: smooth;
+			}
+			body{
+				background-color: black;
+			}
+			.contact-box{
+				position: relative;
+				height: 560px;
+				background-image: url(images/contact-background.jpg);
+				background-repeat: no-repeat;
+				background-position: center;
+				width: 100%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.contact-box h6{
+				font-family: Poppins, sans-serif;
+				font-size: 45px;
+				background-color: red;
+				padding-left: 15px;
+				padding-right: 15px;
+				color: white;
+			}
+			.row{
+				display: -webkit-box;
+				display: flex;
+				flex-wrap: wrap;
+				margin-right: -15px;
+				margin-left: -15px;
+			}
+			.col1{
+				-webkit-box-flex : 0;
+				flex: 0 0 50%;
+				width: 60px;
+			}
+			.form-group{
+				margin-bottom: 25px;
+			}
+			input{
+				width: 300px;
+				padding: 10px 10px;
+				box-sizing: border-box;
+				border: none;
+				background-color: white;
+				color: black;
+				font-family: Helvetica, sans-serif;
+				border-radius: 10px;
+			}
+			textarea{
+				font-family: Helvetica, sans-serif;
+				padding: 15px 15px;
+				resize: none;
+				border-radius: 10px;
+			}
+			input[type=button]{
+			  background-color: red;
+			  border: none;
+			  color: white;
+			  padding: 16px 32px;
+			  text-decoration: none;
+			  margin: 4px 2px;
+			  cursor: pointer;
+			  font-family: Helvetica, sans-serif;
+			  font-size: 25px;
+			  border-radius: 50px;
+			  transition: all 0.2s ease;
+			}
+			input[type=button]:hover{
+				box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+				transition: all 0.2s ease;
+			}
+			.box-header{
+				position: relative;
+			}
+			.box-header img{
+				width: 100%;
+				position: relative;
+			}
+			.box-header-box{
+				width: 100%;
+				height: 70px;
+				background: white;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.box-header-box-box{
+				max-width: 1200px;
+				height: 60px;
+				background-color: transparent;
+				position: relative;
+				left: 40px;
+				padding-left: 20px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.box-header-box-box h1{
+				font-size: 35px;
+				font-family: Poppins, sans-serif;
+			}
+			.cv-box{
+				width: 100%;
+				height: 100px;
+				background: linear-gradient(50deg, #C60B06 0, #C68306 100%);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				opacity: 0.7;
+				transition: all 0.2s ease;
+			}
+			.cv-box:hover{
+				background: linear-gradient(50deg, #C60B06 20%, #C68306 100%);
+				transition: all 0.2s ease;
+				cursor: pointer;
+				opacity: 1;
+			}
+			.box-img-svg{
+				transition: all 0.3s ease;
+				opacity: 0;
+			}
+			.cv-box:hover .box-img-svg{
+				transform: translateX(10px);
+				transition: all 0.3s ease;
+				opacity: 1;
+			}
+			.cv-box:hover h5{
+				transform: translateX(-10px);
+				transition: all 0.3s ease;
+			}
+			.cv-box h5{
+				font-family: Poppins, sans-serif;
+				font-size: 25px;
+				color: white;
+				transition: all 0.3s ease;
+				transform: translateX(15px);
+			}
+			.veille-box{
+				width: 100%;
+				height: 100px;
+				background: linear-gradient(50deg, #00AE96 0, #002DAE 100%);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				opacity: 0.7;
+				transition: all 0.2s ease;
+			}
+			.veille-box:hover{
+				background: linear-gradient(50deg, #00AE96 20%, #002DAE 100%);
+				transition: all 0.2s ease;
+				cursor: pointer;
+				opacity: 1;
+			}
+			.veille-box:hover .box-img-svg{
+				transform: translateX(10px);
+				transition: all 0.3s ease;
+				opacity: 1;
+			}
+			.veille-box:hover h5{
+				transform: translateX(-10px);
+				transition: all 0.3s ease;
+			}
+			.veille-box h5{
+				font-family: Poppins, sans-serif;
+				font-size: 25px;
+				color: white;
+				transition: all 0.3s ease;
+				transform: translateX(20px);
+			}
+			.stage-box{
+				width: 100%;
+				height: 100px;
+				background: linear-gradient(50deg, #A70035 0, #7E0000 100%);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				opacity: 0.7;
+				transition: all 0.2s ease;
+			}
+			.stage-box:hover{
+				background: linear-gradient(50deg, #A70035 20%, #7E0000 100%);
+				transition: all 0.2s ease;
+				cursor: pointer;
+				opacity: 1;
+			}
+			.stage-box:hover .box-img-svg{
+				transform: translateX(10px);
+				transition: all 0.3s ease;
+				opacity: 1;
+			}
+			.stage-box:hover h5{
+				transform: translateX(-10px);
+				transition: all 0.3s ease;
+			}
+			.stage-box h5{
+				font-family: Poppins, sans-serif;
+				font-size: 25px;
+				color: white;
+				transition: all 0.3s ease;
+				transform: translateX(15px);
+			}
+			.ppe-box{
+				width: 100%;
+				height: 100px;
+				background: linear-gradient(50deg, #1EA900 0, #04A08B 100%);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				opacity: 0.7;
+				transition: all 0.2s ease;
+			}
+			.ppe-box:hover{
+				background: linear-gradient(50deg, #1EA900 70%, #04A08B 100%);
+				transition: all 0.2s ease;
+				cursor: pointer;
+				opacity: 1;
+			}
+			.ppe-box:hover .box-img-svg{
+				transform: translateX(10px);
+				transition: all 0.3s ease;
+				opacity: 1;
+			}
+			.ppe-box:hover h5{
+				transform: translateX(-10px);
+				transition: all 0.3s ease;
+			}
+			.ppe-box h5{
+				font-family: Poppins, sans-serif;
+				font-size: 25px;
+				color: white;
+				transition: all 0.3s ease;
+				transform: translateX(15px);
+			}
+			.certification-box{
+				width: 100%;
+				height: 100px;
+				background: linear-gradient(50deg, #003895 0, #3C00A7 100%);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				opacity: 0.7;
+				transition: all 0.2s ease;
+			}
+			.certification-box:hover{
+				background: linear-gradient(50deg, #003895 50%, #3C00A7 100%);
+				transition: all 0.2s ease;
+				cursor: pointer;
+				opacity: 1;
+			}
+			.certification-box:hover .box-img-svg{
+				transform: translateX(10px);
+				transition: all 0.3s ease;
+				opacity: 1;
+			}
+			.certification-box:hover h5{
+				transform: translateX(-10px);
+				transition: all 0.3s ease;
+			}
+			.certification-box h5{
+				font-family: Poppins, sans-serif;
+				font-size: 25px;
+				color: white;
+				transition: all 0.3s ease;
+				transform: translateX(15px);
+			}
+			.box-header-menu{
+				display: flex;
+				flex-wrap: wrap;
+				flex-flow: row;
+				align-items: center;
+				justify-content: center;
+				background-color: white;
+				height: 50px;
+			}
+			.dropbtn {
+			  background-color: #2A2A2A;
+			  color: white;
+			  padding: 15px;
+			  font-size: 16px;
+			  border: none;
+			  cursor: pointer;
+			  display: flex;
+			  align-items: center;
+			  justify-content: center;
+			}
+			.dropbtn p{
+				font-family: Poppins, sans-serif;
+			}
+			/* The container <div> - needed to position the dropdown content */
+			.dropdown {
+			  position: relative;
+			  display: inline-block;
+			}
+
+			/* Dropdown Content (Hidden by Default) */
+			.dropdown-content {
+			  display: none;
+			  position: absolute;
+			  background-color: #f9f9f9;
+			  min-width: 180px;
+			  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			  z-index: 1;
+			}
+
+			/* Links inside the dropdown */
+			.dropdown-content a {
+			  color: black;
+			  padding: 12px 16px;
+			  text-decoration: none;
+			  font-family: Ubuntu, sans-serif;
+			  display: block;
+			}
+
+			/* Change color of dropdown links on hover */
+			.dropdown-content a:hover {background-color: #D1D1D1}
+
+			/* Show the dropdown menu on hover */
+			.dropdown:hover .dropdown-content {
+			  display: block;
+			}
+
+			/* Change the background color of the dropdown button when the dropdown content is shown */
+			.dropdown:hover .dropbtn {
+			  background-color: #424242;
+			}
+			.svg-menu{
+				transition: all 0.3s ease;
+			}
+			.dropbtn:hover .svg-menu{
+				transform: rotateZ(180deg);
+				transition: all 0.3s ease;
+			}
+			.barrier{
+				width: 50px;
+				height: 50px;
+				background-color: transparent;
+			}
+			.barrier-svg{
+				width: 30px;
+				height: 50px;
+				background-color: transparent;
+			}
+			.barrier-svg-menu{
+				width: 10px;
+				height: 10px;
+				background-color: transparent;
+			}
+			.barriere-box{
+				width: 100%;
+				height: 4px;
+				background: black;
+			}
+			footer{
+				width: 100%;
+				height: 50px;
+				background-color: white;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-flow: row;
+				flex-wrap: wrap;
+				font-family: Poppins, sans-serif;
+				font-size: 15px;
+			}
+			a{
+				text-decoration: none;
+				color: black;
+			}
+			a:hover{
+				color: red;
+			}
+			.competence-box{
+				position: relative;
+				width: 100%;
+				height: 900px;
+				background-image: url("images/competence.png");
+				background-repeat: repeat;
+				display: flex;
+				background-position: center;
+				align-items: center;
+				justify-content: center;
+			}
+			.competence-box-main{
+				position: relative;
+				min-width: 800px;
+				background-color: white;
+				padding: 30px;
+				border-radius: 15px;
+				box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+			}
+			.competence-box-barrier{
+				width: all;
+				height: 15px;
+				background-color: transparent;
+			}
+			.jauge-html{
+				width: 100%;
+				height: 50px;
+				background-color: black;
+				border-radius: 50px;
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				padding: 5px;
+				transition: all 0.2s ease;
+			}
+			.jauge-html:hover{
+				transition: all 0.2s ease;
+				box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+			}
+			.jauge-html-inside{
+				width: 750px;
+				height: 50px;
+				background: linear-gradient(50deg, #42AE00 50%, #00AE42 100%);
+				border-radius: 50px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.jauge-html-inside h6{
+				font-family: Poppins, sans-serif;
+				font-size: 28px;
+				color: white;
+			}
+			.jauge-css{
+				width: 100%;
+				height: 50px;
+				background-color: black;
+				border-radius: 50px;
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				padding: 5px;
+				transition: all 0.2s ease;
+			}
+			.jauge-css:hover{
+				transition: all 0.2s ease;
+				box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+			}
+			.jauge-css-inside{
+				width: 700px;
+				height: 50px;
+				background: linear-gradient(50deg, #F1D000 50%, #C5F100 100%);
+				border-radius: 50px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.jauge-css-inside h6{
+				font-family: Poppins, sans-serif;
+				font-size: 28px;
+				color: white;
+			}
+			.jauge-javascript{
+				width: 100%;
+				height: 50px;
+				background-color: black;
+				border-radius: 50px;
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				padding: 5px;
+				transition: all 0.2s ease;
+			}
+			.jauge-javascript:hover{
+				transition: all 0.2s ease;
+				box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+			}
+			.jauge-javascript-inside{
+				width: 300px;
+				height: 50px;
+				background: linear-gradient(50deg, #D95200 50%, #D99B00 100%);
+				border-radius: 50px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.jauge-javascript-inside h6{
+				font-family: Poppins, sans-serif;
+				font-size: 28px;
+				color: white;
+			}
+			.jauge-SGBD{
+				width: 100%;
+				height: 50px;
+				background-color: black;
+				border-radius: 50px;
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				padding: 5px;
+				transition: all 0.2s ease;
+			}
+			.jauge-SGBD:hover{
+				transition: all 0.2s ease;
+				box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+			}
+			.jauge-SGBD-inside{
+				width: 750px;
+				height: 50px;
+				background: linear-gradient(50deg, #0087D9 50%, #003ED9 100%);
+				border-radius: 50px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.jauge-SGBD-inside h6{
+				font-family: Poppins, sans-serif;
+				font-size: 28px;
+				color: white;
+			}
+			.jauge-csharp{
+				width: 100%;
+				height: 50px;
+				background-color: black;
+				border-radius: 50px;
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				padding: 5px;
+				transition: all 0.2s ease;
+			}
+			.jauge-csharp:hover{
+				transition: all 0.2s ease;
+				box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+			}
+			.jauge-csharp-inside{
+				width: 650px;
+				height: 50px;
+				background: linear-gradient(50deg, #9E00D9 50%, #D900C5 100%);
+				border-radius: 50px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.jauge-csharp-inside h6{
+				font-family: Poppins, sans-serif;
+				font-size: 28px;
+				color: white;
+			}
+			.jauge-support{
+				width: 100%;
+				height: 50px;
+				background-color: black;
+				border-radius: 50px;
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				padding: 5px;
+				transition: all 0.2s ease;
+			}
+			.jauge-support:hover{
+				transition: all 0.2s ease;
+				box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+			}
+			.jauge-support-inside{
+				width: 900px;
+				height: 50px;
+				background: linear-gradient(50deg, #D9002E 50%, #00BBD9 100%);
+				border-radius: 50px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.jauge-support-inside h6{
+				font-family: Poppins, sans-serif;
+				font-size: 28px;
+				color: white;
+			}
+			.jauge-cybersecu{
+				width: 100%;
+				height: 50px;
+				background-color: black;
+				border-radius: 50px;
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				padding: 5px;
+				transition: all 0.2s ease;
+			}
+			.jauge-cybersecu:hover{
+				transition: all 0.2s ease;
+				box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+			}
+			.jauge-cybersecu-inside{
+				width: 900px;
+				height: 50px;
+				background: linear-gradient(50deg, #70D900 50%, #00D952 100%);
+				border-radius: 50px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.jauge-cybersecu-inside h6{
+				font-family: Poppins, sans-serif;
+				font-size: 28px;
+				color: white;
+			}
+			.jauge-php{
+				width: 100%;
+				height: 50px;
+				background-color: black;
+				border-radius: 50px;
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				padding: 5px;
+				transition: all 0.2s ease;
+			}
+			.jauge-php:hover{
+				transition: all 0.2s ease;
+				box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+			}
+			.jauge-php-inside{
+				width: 685px;
+				height: 50px;
+				background: linear-gradient(50deg, #00D97A 50%, #00D9B5 100%);
+				border-radius: 50px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.jauge-php-inside h6{
+				font-family: Poppins, sans-serif;
+				font-size: 28px;
+				color: white;
+			}
+			.apropos-box{
+				width: 100%;
+				height: 900px;
+				background-image: url(images/apropos.jpg);
+				background-repeat: no-repeat;
+				background-position: center;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.apropos-box-main{
+				width: 950px;
+				height: 700px;
+				background-color: white;
+				border-radius: 15px;
+				box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+			}
+			.apropos-box-main-1{
+				width: 100%;
+				height: 50%;
+				background-color: transparent;
+				border-radius: 15px 15px 0 0;
+			}
+			.apropos-box-main-1-title{
+				width: 600px;
+				height: 60px;
+				background-color: transparent;
+				position: relative;
+				margin: 0 auto;
+				top: 30px;
+			}
+			.apropos-box-main-1-title h4{
+				font-size: 40px;
+				font-family: Poppins, sans-serif;
+				color: black;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.apropos-box-main-1-desc{
+				width: 700px;
+				height: 150px;
+				background-color: transparent;
+				position: relative;
+				margin: 0 auto;
+				top: 65px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-wrap: wrap;
+				flex-direction: row;
+			}
+			.apropos-box-main-1-desc p{
+				font-size: 15px;
+				font-family: Poppins, sans-serif;
+				color: black;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box-header">
+			<div class="box-header-box">
+				<div class="box-header-box-box">
+					<h1>Hugo Doueil</h1>
+					<div class="barrier"></div>
+					<div class="box-header-menu">
+					<div class="dropdown">
+					  <div class="dropbtn">
+					  	<p>Profil</p>
+					  	<div class="barrier-svg-menu"></div>
+					  	<object type="image/svg+xml" data="images/chevron-down.svg" width="20px" class="svg-menu"></object>
+					  </div>
+					  <div class="dropdown-content">
+					    <a href="#">A Propos</a>
+					    <a href="#">Mon CV</a>
+					    <a href="index.html#competence-box">Mes Compétences</a>
+					    <a href="#">Mes Certifications</a>
+					  </div>
+					</div>
+					<div class="dropdown">
+					  <div class="dropbtn">
+					  	<p>Projets</p>
+					  	<div class="barrier-svg-menu"></div>
+					  	<object type="image/svg+xml" data="images/chevron-down.svg" width="20px" class="svg-menu"></object>
+					  </div>
+					  <div class="dropdown-content">
+					    <a href="#">PPE1 - 1er année</a>
+					    <a href="#">PPE2 - 1er année</a>
+					    <a href="#">PPE3 - 2ème année</a>
+					    <a href="#">PPE4 - 2ème année</a>
+					    <a href="#">Situation 1</a>
+					    <a href="#">Situation 2</a>
+					  </div>
+					</div>
+					<div class="dropdown">
+					  <div class="dropbtn">
+					  	<p>Stages</p>
+					  	<div class="barrier-svg-menu"></div>
+					  	<object type="image/svg+xml" data="images/chevron-down.svg" width="20px" class="svg-menu"></object>
+					  </div>
+					  <div class="dropdown-content">
+					    <a href="#">Première Année</a>
+					    <a href="#">Deuxième Année</a>
+					  </div>
+					</div>
+					<div class="dropdown">
+					  <div class="dropbtn">
+					  	<p>Parcours</p>
+					  	<div class="barrier-svg-menu"></div>
+					  	<object type="image/svg+xml" data="images/chevron-down.svg" width="20px" class="svg-menu"></object>
+					  </div>
+					  <div class="dropdown-content">
+					    <a href="#">Scolaire</a>
+					  </div>
+					</div>
+					<div class="dropdown">
+					  <div class="dropbtn">
+					  	<p>Veille</p>
+					  	<div class="barrier-svg-menu"></div>
+					  	<object type="image/svg+xml" data="images/chevron-down.svg" width="20px" class="svg-menu"></object>
+					  </div>
+					  <div class="dropdown-content">
+					    <a href="#">Technologique</a>
+					  </div>
+					</div>
+					<div class="dropdown">
+					  <div class="dropbtn">
+					  	<p>Contact</p>
+					  	<div class="barrier-svg-menu"></div>
+					  	<object type="image/svg+xml" data="images/chevron-down.svg" width="20px" class="svg-menu"></object>
+					  </div>
+					  <div class="dropdown-content">
+					    <a href="index.html#contact-box">Me contacter</a>
+					  </div>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="barriere-box"></div>
+			<img src="images/header-image.jpg">
+		</div>
+		<div class="cv-box">
+			<h5>Mon Profil et CV</h5>
+			<div class="barrier-svg"></div>
+			<img src="images/arrow-right.svg" width="50px" class="box-img-svg">
+		</div>
+		<div class="ppe-box">
+			<h5>Mes activités en PPE</h5>
+			<div class="barrier-svg"></div>
+			<img src="images/arrow-right.svg" width="50px" class="box-img-svg">
+		</div>
+		<div class="veille-box">
+			<h5>Ma Veille Technologique</h5>
+			<div class="barrier-svg"></div>
+			<img src="images/arrow-right.svg" width="50px" class="box-img-svg">
+		</div>
+		<div class="stage-box">
+			<h5>Mes Stages</h5>
+			<div class="barrier-svg"></div>
+			<img src="images/arrow-right.svg" width="50px" class="box-img-svg">
+		</div>
+		<div class="certification-box">
+			<h5>Mes Certifications</h5>
+			<div class="barrier-svg"></div>
+			<img src="images/arrow-right.svg" width="50px" class="box-img-svg">
+		</div>
+		<div class="barriere-box"></div>
+		<div class="apropos-box">
+			<div class="apropos-box-main">
+				<div class="apropos-box-main-1">
+					<div class="apropos-box-main-1-title">
+						<h4>Qui suis-je ?</h4>
+					</div>
+					<div class="apropos-box-main-1-desc">
+						<p>Bonjour, je m'appelle <font style="text-decoration: underline;">Hugo Doueil</font>, je suis un étudiant de BTS SIO SLAM au lycée Pardailhan à Auch (32000). Intéressé par l'informatique et la conception de site web, J'aimerai me spécialiser dans ce domaine et en faire mon métier. Pour cela, j'ai pris connaissance de plusieurs langages informatiques tels que les langages de Balisages (<font style="text-decoration: underline;">HTML, CSS</font>), de Programmations (<font style="text-decoration: underline;">C#, Javascript, PHP, etc...</font>), je pratique le développement chez moi car j'aime créer mes propres sites webs.</p>
+					</div>
+				</div>
+				<div class="apropos-box-main-1">
+					<div class="apropos-box-main-1-title">
+						<h4>Qu'est-ce que le BTS SIO ?</h4>
+					</div>
+					<div class="apropos-box-main-1-desc">
+						<p>Ce BTS prépare aux métiers de l’informatique Tertiaire : développement et administration d’applications et de systèmes qui sont utilisés pour les fonctions tertiaires, dans les organisations. Il s’agit donc d’applications et de systèmes de gestion des fichiers clients, des fichiers fournisseurs, d’administration des relations avec les clients et les fournisseurs (commandes – livraisons – facturations), de gestion des personnels, de relations avec tous les partenaires de l’entreprise… Il prépare aussi à la conception et à l’administration de réseaux. L’informatique tertiaire est donc différente de l’informatique industrielle.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="barriere-box"></div>
+		<div class="competence-box" id="competence-box">
+			<div class="competence-box-main">
+				<div class="jauge-html">
+					<div class="jauge-html-inside">
+						<h6>HTML</h6>
+					</div>
+				</div>
+				<div class="competence-box-barrier"></div>
+				<div class="jauge-css">
+					<div class="jauge-css-inside">
+						<h6>CSS</h6>
+					</div>
+				</div>
+				<div class="competence-box-barrier"></div>
+				<div class="jauge-javascript">
+					<div class="jauge-javascript-inside">
+						<h6>JAVASCRIPT</h6>
+					</div>
+				</div>
+				<div class="competence-box-barrier"></div>
+				<div class="jauge-php">
+					<div class="jauge-php-inside">
+						<h6>PHP</h6>
+					</div>
+				</div>
+				<div class="competence-box-barrier"></div>
+				<div class="jauge-SGBD">
+					<div class="jauge-SGBD-inside">
+						<h6>Système de Gestion de Base de Données</h6>
+					</div>
+				</div>
+				<div class="competence-box-barrier"></div>
+				<div class="jauge-csharp">
+					<div class="jauge-csharp-inside">
+						<h6>C#</h6>
+					</div>
+				</div>
+				<div class="competence-box-barrier"></div>
+				<div class="jauge-support">
+					<div class="jauge-support-inside">
+						<h6>Support Technique et Assistance aux Utilisateurs</h6>
+					</div>
+				</div>
+				<div class="competence-box-barrier"></div>
+				<div class="jauge-cybersecu">
+					<div class="jauge-cybersecu-inside">
+						<h6>Cybersécurité et RGPD</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="barriere-box"></div>
+		<div class="contact-box" id="contact-box">
+			<img src="images/mail.svg" width="70px">
+			<div class="barrier"></div>
+			<h6>Contactez Moi</h6>
+			<div class="barrier"></div>
+			<div class="barrier"></div>
+			<div class="row">
+				<div class="col1">
+					<div class="form-group">
+						<input type="text" class="form-control" id="name" placeholder="Votre Nom *">
+					</div>
+					<div class="form-group">
+						<input type="email" id="email" class="form-control" placeholder="Votre Email *">
+					</div>
+					<div class="form-group">
+						<input type="tel" id="phone" class="form-control" placeholder="Votre Numéro de Téléphone *">
+					</div>
+				</div>
+				<div class="col2">
+					<div class="form-group">
+						<textarea class="form-control" id="message" placeholder="Laissez moi un message *" rows="8" cols="50" required="required"></textarea>
+					</div>
+				</div>
+			</div>
+			<div class="barrier"></div>
+			<div class="button-form">
+				<input type="button" value="Valider la saisie">
+			</div>
+		</div>
+		<div class="barriere-box"></div>
+		<footer>
+			<img src="images/bookmark.svg" width="25px">
+			<div class="barrier-svg-menu"></div>
+			<a href="#"><p><b>Paramètres de Confidentialité</b></p></a>
+			<div class="barrier"></div>
+			<p><b>|</b></p>
+			<div class="barrier"></div>
+			<img src="images/linkedin-1.svg" width="25px">
+			<div class="barrier-svg-menu"></div>
+			<a href="newindex.html"><p><b>Créer par Hugo Doueil</b></p></a>
+			<div class="barrier"></div>
+			<p><b>|</b></p>
+			<div class="barrier"></div>
+			<img src="images/book-3.svg" width="25px">
+			<div class="barrier-svg-menu"></div>
+			<a href="#"><p><b>Mentions Légales</b></p></a>
+		</footer>
+	</body>
+</html>

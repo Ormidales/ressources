@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hugo Doueil | Mes Stages et mes PPE</title>
+	<meta charset="utf-8" lang="fr">
+	<meta name="author" content="Hugo Doueil">
+	<meta name="description" content="Portfolio de Hugo Doueil">
+	<meta name="keywords" content="">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+	<style type="text/css">
+		*{
+				margin: 0px;
+				padding: 0px;
+			}
+			html{
+				scroll-behavior: smooth;
+			}
+			body{
+				background-color: black;
+			}
+			.box-header{
+				position: relative;
+			}
+			.box-header img{
+				width: 100%;
+				position: relative;
+			}
+			.box-header-box{
+				width: 100%;
+				height: 70px;
+				background: white;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.box-header-box-box{
+				max-width: 1200px;
+				height: 60px;
+				background-color: transparent;
+				position: relative;
+				left: 40px;
+				padding-left: 20px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.box-header-box-box h1{
+				font-size: 35px;
+				font-family: Poppins, sans-serif;
+			}
+			.box-header-menu{
+				display: flex;
+				flex-wrap: wrap;
+				flex-flow: row;
+				align-items: center;
+				justify-content: center;
+				background-color: white;
+				height: 50px;
+			}
+			.dropbtn {
+			  background-color: #2A2A2A;
+			  color: white;
+			  padding: 15px;
+			  font-size: 16px;
+			  border: none;
+			  cursor: pointer;
+			  display: flex;
+			  align-items: center;
+			  justify-content: center;
+			}
+			.dropbtn p{
+				font-family: Poppins, sans-serif;
+			}
+			/* The container <div> - needed to position the dropdown content */
+			.dropdown {
+			  position: relative;
+			  display: inline-block;
+			}
+
+			/* Dropdown Content (Hidden by Default) */
+			.dropdown-content {
+			  display: none;
+			  position: absolute;
+			  background-color: #f9f9f9;
+			  min-width: 180px;
+			  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			  z-index: 1;
+			}
+
+			/* Links inside the dropdown */
+			.dropdown-content a {
+			  color: black;
+			  padding: 12px 16px;
+			  text-decoration: none;
+			  font-family: Ubuntu, sans-serif;
+			  display: block;
+			}
+
+			/* Change color of dropdown links on hover */
+			.dropdown-content a:hover {background-color: #D1D1D1}
+
+			/* Show the dropdown menu on hover */
+			.dropdown:hover .dropdown-content {
+			  display: block;
+			}
+
+			/* Change the background color of the dropdown button when the dropdown content is shown */
+			.dropdown:hover .dropbtn {
+			  background-color: #424242;
+			}
+			.svg-menu{
+				transition: all 0.3s ease;
+			}
+			.dropbtn:hover .svg-menu{
+				transform: rotateZ(180deg);
+				transition: all 0.3s ease;
+			}
+			.barrier{
+				width: 50px;
+				height: 50px;
+				background-color: transparent;
+			}
+			.barrier-svg{
+				width: 30px;
+				height: 50px;
+				background-color: transparent;
+			}
+			.barrier-svg-menu{
+				width: 10px;
+				height: 10px;
+				background-color: transparent;
+			}
+			.barriere-box{
+				width: 100%;
+				height: 4px;
+				background: black;
+			}
+			footer{
+				width: 100%;
+				height: 50px;
+				background-color: white;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-flow: row;
+				flex-wrap: wrap;
+				font-family: Poppins, sans-serif;
+				font-size: 15px;
+			}
+			a{
+				text-decoration: none;
+				color: black;
+			}
+			a:hover{
+				color: red;
+			}
+			@keyframes gradient {
+			    0% {
+			        background-position: 0% 50%;
+			    }
+			    50% {
+			        background-position: 100% 50%;
+			    }
+			    100% {
+			        background-position: 0% 50%;
+			    }
+			}
+			.main-box2{
+				width: 100%;
+				background-color: white;
+    			display: flex;
+    			align-items: center;
+    			justify-content: center;
+    			flex-wrap: wrap;
+    			flex-flow: row;
+    			flex-direction: row;
+			}
+			.title-box{
+				width: 100%;
+				height: 100px;
+				background-color: white;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-family: Poppins, sans-serif;
+				font-size: 35px;
+				color: black
+			}
+			.cv-box{
+				width: 100%;
+				height: 100px;
+				background: linear-gradient(50deg, #C60B06 0, #C68306 100%);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				opacity: 0.7;
+				transition: all 0.2s ease;
+			}
+			.cv-box:hover{
+				background: linear-gradient(50deg, #C60B06 20%, #C68306 100%);
+				transition: all 0.2s ease;
+				cursor: pointer;
+				opacity: 1;
+			}
+			.box-img-svg{
+				transition: all 0.3s ease;
+				opacity: 0;
+			}
+			.cv-box:hover .box-img-svg{
+				transform: translateX(10px);
+				transition: all 0.3s ease;
+				opacity: 1;
+			}
+			.cv-box:hover h5{
+				transform: translateX(-10px);
+				transition: all 0.3s ease;
+			}
+			.cv-box h5{
+				font-family: Poppins, sans-serif;
+				font-size: 25px;
+				color: white;
+				transition: all 0.3s ease;
+				transform: translateX(15px);
+			}
+			.ancre{
+				width: 100%;
+			}
+	</style>
+</head>
+<body>
+	<div class="box-header">
+			<div class="box-header-box">
+				<div class="box-header-box-box">
+					<h1>Hugo Doueil</h1>
+					<div class="barrier"></div>
+					<div class="box-header-menu">
+					<div class="dropdown">
+					  <div class="dropbtn">
+					  	<p>Profil</p>
+					  	<div class="barrier-svg-menu"></div>
+					  	<object type="image/svg+xml" data="images/chevron-down.svg" width="20px" class="svg-menu"></object>
+					  </div>
+					  <div class="dropdown-content">
+					    <a href="index.html#apropos-box">A Propos</a>
+					    <a href="cv.html#cv">Mon CV</a>
+					    <a href="index.html#competence-box">Mes Compétences</a>
+					    <a href="cv.html#certification">Mes Certifications</a>
+					  </div>
+					</div>
+					<div class="dropdown">
+					  <div class="dropbtn">
+					  	<p>Projets</p>
+					  	<div class="barrier-svg-menu"></div>
+					  	<object type="image/svg+xml" data="images/chevron-down.svg" width="20px" class="svg-menu"></object>
+					  </div>
+					  <div class="dropdown-content">
+					    <a href="stageandppe.html">PPE1 - 1er année</a>
+					    <a href="stageandppe.html">PPE2 - 1er année</a>
+					    <a href="stageandppe.html">PPE3 - 2ème année</a>
+					    <a href="stageandppe.html">PPE4 - 2ème année</a>
+					    <a href="stageandppe.html">Situation 1</a>
+					    <a href="stageandppe.html">Situation 2</a>
+					  </div>
+					</div>
+					<div class="dropdown">
+					  <div class="dropbtn">
+					  	<p>Stages</p>
+					  	<div class="barrier-svg-menu"></div>
+					  	<object type="image/svg+xml" data="images/chevron-down.svg" width="20px" class="svg-menu"></object>
+					  </div>
+					  <div class="dropdown-content">
+					    <a href="stageandppe.html">Première Année</a>
+					    <a href="stageandppe.html">Deuxième Année</a>
+					  </div>
+					</div>
+					<div class="dropdown">
+					  <div class="dropbtn">
+					  	<p>Parcours</p>
+					  	<div class="barrier-svg-menu"></div>
+					  	<object type="image/svg+xml" data="images/chevron-down.svg" width="20px" class="svg-menu"></object>
+					  </div>
+					  <div class="dropdown-content">
+					    <a href="#">Scolaire</a>
+					  </div>
+					</div>
+					<div class="dropdown">
+					  <div class="dropbtn">
+					  	<p>Veille</p>
+					  	<div class="barrier-svg-menu"></div>
+					  	<object type="image/svg+xml" data="images/chevron-down.svg" width="20px" class="svg-menu"></object>
+					  </div>
+					  <div class="dropdown-content">
+					    <a href="#">Technologique</a>
+					  </div>
+					</div>
+					<div class="dropdown">
+					  <div class="dropbtn">
+					  	<p>Contact</p>
+					  	<div class="barrier-svg-menu"></div>
+					  	<object type="image/svg+xml" data="images/chevron-down.svg" width="20px" class="svg-menu"></object>
+					  </div>
+					  <div class="dropdown-content">
+					    <a href="index.html#contact-box">Me contacter</a>
+					  </div>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="barriere-box"></div>
+			<img src="images/header-image.jpg">
+		</div>
+		<div class="barriere-box"></div>
+		<div class="title-box">
+			<h5>Mes PPE et Situations</h5>
+		</div>
+		<div class="barriere-box"></div>
+		<div class="main-box2">
+			<a href="#apropos-box" class="ancre">
+				<div class="cv-box">
+					<h5>PPE1 - 1er Année</h5>
+					<div class="barrier-svg"></div>
+					<img src="images/arrow-right.svg" width="50px" class="box-img-svg">
+				</div>
+			</a>
+		</div>
+		<div class="barriere-box"></div>
+		<div class="main-box2">
+			<a href="#apropos-box" class="ancre">
+				<div class="cv-box">
+					<h5>PPE2 - 1er Année</h5>
+					<div class="barrier-svg"></div>
+					<img src="images/arrow-right.svg" width="50px" class="box-img-svg">
+				</div>
+			</a>
+		</div>
+		<div class="barriere-box"></div>
+		<div class="main-box2">
+			<a href="#apropos-box" class="ancre">
+				<div class="cv-box">
+					<h5>PPE3 - 2ème Année</h5>
+					<div class="barrier-svg"></div>
+					<img src="images/arrow-right.svg" width="50px" class="box-img-svg">
+				</div>
+			</a>
+		</div>
+		<div class="barriere-box"></div>
+		<div class="main-box2">
+			<a href="#apropos-box" class="ancre">
+				<div class="cv-box">
+					<h5>PPE4 - 2ème Année</h5>
+					<div class="barrier-svg"></div>
+					<img src="images/arrow-right.svg" width="50px" class="box-img-svg">
+				</div>
+			</a>
+		</div>
+		<div class="barriere-box"></div>
+		<div class="main-box2">
+			<a href="#apropos-box" class="ancre">
+				<div class="cv-box">
+					<h5>Situation 1</h5>
+					<div class="barrier-svg"></div>
+					<img src="images/arrow-right.svg" width="50px" class="box-img-svg">
+				</div>
+			</a>
+		</div>
+		<div class="barriere-box"></div>
+		<div class="main-box2">
+			<a href="#apropos-box" class="ancre">
+				<div class="cv-box">
+					<h5>Situation 2</h5>
+					<div class="barrier-svg"></div>
+					<img src="images/arrow-right.svg" width="50px" class="box-img-svg">
+				</div>
+			</a>
+		</div>
+		<div class="barriere-box"></div>
+		<div class="title-box">
+			<h5>Mes Stages</h5>
+		</div>
+		<div class="barriere-box"></div>
+		<div class="main-box2">
+			<a href="#apropos-box" class="ancre">
+				<div class="cv-box">
+					<h5>1er année</h5>
+					<div class="barrier-svg"></div>
+					<img src="images/arrow-right.svg" width="50px" class="box-img-svg">
+				</div>
+			</a>
+		</div>
+		<div class="barriere-box"></div>
+		<div class="main-box2">
+			<a href="#apropos-box" class="ancre">
+				<div class="cv-box">
+					<h5>2ème année</h5>
+					<div class="barrier-svg"></div>
+					<img src="images/arrow-right.svg" width="50px" class="box-img-svg">
+				</div>
+			</a>
+		</div>
+		<div class="barriere-box"></div>
+		<footer>
+			<img src="images/bookmark.svg" width="25px">
+			<div class="barrier-svg-menu"></div>
+			<a href="#"><p><b>Paramètres de Confidentialité</b></p></a>
+			<div class="barrier"></div>
+			<p><b>|</b></p>
+			<div class="barrier"></div>
+			<img src="images/linkedin-1.svg" width="25px">
+			<div class="barrier-svg-menu"></div>
+			<a href="https://www.linkedin.com/in/hugo-doueil-8a80081b5/"><p><b>Créer par Hugo Doueil</b></p></a>
+			<div class="barrier"></div>
+			<p><b>|</b></p>
+			<div class="barrier"></div>
+			<img src="images/book-3.svg" width="25px">
+			<div class="barrier-svg-menu"></div>
+			<a href="#"><p><b>Mentions Légales</b></p></a>
+		</footer>
+</body>
+</html>
