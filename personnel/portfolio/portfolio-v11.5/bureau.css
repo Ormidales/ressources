@@ -1,0 +1,358 @@
+body{
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#bureau{
+    display: block;
+}
+
+#bureau-nonafficher{
+    display: none;
+}
+
+
+@media (max-width: 800px) {
+    #bureau{
+        display: none;
+    }
+    #bureau-nonafficher{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#application-parametre{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#application-catalogue{
+    display: none;
+    width: 100vh;
+    height: 65vh;
+}
+#application-catalogue-body{
+    width: 100%;
+    height: 54vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#menu-retrocomp{
+    display: none;
+}
+#sub-retrocomp{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#application-changementtheme{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#application-projets{
+    display: none;
+    width: 100vh;
+    height: 65vh;
+}
+#application-projets-body{
+    width: 100%;
+    height: 54vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#application-stages{
+    display: none;
+    width: 100vh;
+    height: 65vh;
+}
+#application-stages-body{
+    width: 100%;
+    height: 54vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#menu-apps{
+    display: none;
+}
+#bouton-menu-apps{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image-png{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes applicationIn {
+    from{
+        opacity: 0;
+        transform: scale(0.85) rotate(7deg);
+    }
+    80%{
+        opacity: 0.95;
+        transform: scale(1.03);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1) rotate(0deg);;
+    }
+}
+
+@keyframes applicationOut {
+    from{
+        opacity: 1;
+        transform: scale(1);
+    }
+    20%{
+        opacity: 0.95;
+        transform: scale(1.03);
+    }
+    to{
+        opacity: 0;
+        transform: scale(0.8);
+        display: none;
+    }
+}
+
+@keyframes menuIn {
+    from{
+        transform: scale(0.8) translateX(500vh);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1) translateX(0vh);
+        opacity: 1;
+    }
+}
+
+@keyframes menuIn2 {
+    from{
+        transform: scale(0.8) translateX(-500vh);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1) translateX(0vh);
+        opacity: 1;
+    }
+}
+
+@keyframes menuIn3 {
+    from{
+        transform: translateX(-20vh);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0vh);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    min-width: 200px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 28%;
+    left: 220%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
