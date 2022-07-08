@@ -1,0 +1,360 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	scroll-behavior: smooth;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	width: 100%;
+	height: 970px;
+	background: linear-gradient(-45deg, #09D6D0, #099ED6, #8B09D6, #900C3F);
+	background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+	position: relative;
+	z-index: 1;
+}
+a{
+	cursor: pointer;
+	text-decoration: none;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+	    background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.subheader1{
+	width: 100%;
+	height: 40px;
+	background-color: black;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	flex-flow: row;
+	flex-wrap: wrap;
+}
+.subheader1 img{
+	position: relative;
+	left: 40px;
+}
+.subheader1 p{
+	position: relative;
+	left: 80px;
+	font-size: 16px;
+	font-family: Poppins, sans-serif;
+	color: white;
+}
+.subheader1 a:hover{
+	text-decoration: underline;
+	color: white;
+}
+.subheader2{
+	width: 100%;
+	height: 100px;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-flow: row;
+	flex-wrap: wrap;
+}
+.subheader2 h4{
+	font-family: Poppins, sans-serif;
+	font-size: 22px;
+	color: white;
+	background-color: black;
+	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-radius: 10px;
+}
+.subheader3{
+	width: 100%;
+	height: 650px;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-flow: row;
+	flex-wrap: wrap;
+}
+.subheader3 h2{
+	font-family: Poppins, sans-serif;
+	font-size: 90px;
+	color: white;
+}
+.subheader4{
+	width: 100%;
+	height: 180px;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.subheader4 p{
+	font-family: Poppins, sans-serif;
+	font-size: 40px;
+	color: white;
+	transform: rotateZ(0deg);
+	animation: translate 3s ease infinite;
+}
+@keyframes translate{
+	0%{
+		transform: translateY(30px);
+	}
+	50%{
+		transform: translateY(-10px);
+	}
+	100%{
+		transform: translateY(30px);
+	}
+}
+.box-header-menu{
+				display: flex;
+				flex-wrap: wrap;
+				flex-flow: row;
+				align-items: center;
+				justify-content: center;
+				background-color: transparent;
+			}
+			.dropbtn {
+			  background-color: transparent;
+			  color: white;
+			  padding: 15px;
+			  padding-right: 15px;
+			  padding-left: 15px;
+			  font-size: 16px;
+			  border: none;
+			  cursor: pointer;
+			  display: flex;
+			  align-items: center;
+			  justify-content: center;
+			  border-radius: 10px 10px 0px 0px;
+			  z-index: 3;
+			}
+			.dropbtn p{
+				font-family: Poppins, sans-serif;
+				margin-right: 10px;
+			}
+			.dropbtn-lang {
+			  background-color: transparent;
+			  color: white;
+			  padding-top: 15px;
+			  padding-bottom: 15px;
+			  font-size: 16px;
+			  width: 120px;
+			  border: none;
+			  cursor: pointer;
+			  display: flex;
+			  align-items: center;
+			  justify-content: center;
+			  border-radius: 10px 10px 0px 0px;
+			  z-index: 3;
+			}
+			.dropbtn-lang p{
+				font-family: Poppins, sans-serif;
+				margin-right: 10px;
+			}
+			/* The container <div> - needed to position the dropdown content */
+			.dropdown {
+			  position: relative;
+			  display: inline-block;
+			}
+
+			/* Dropdown Content (Hidden by Default) */
+			.dropdown-content {
+			  display: none;
+			  position: absolute;
+			  background-color: #f9f9f9;
+			  min-width: 200px;
+			  border-radius: 0px 10px 10px 10px;
+			  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			  z-index: 1;
+			}
+
+			/* Links inside the dropdown */
+			.dropdown-content a {
+			  color: black;
+			  padding: 12px 16px;
+			  text-decoration: none;
+			  font-family: Poppins, sans-serif;
+			  display: block;
+			}
+
+			/* Change color of dropdown links on hover */
+			.dropdown-content a:hover {
+				background-color: #D1D1D1;
+				border-radius: 10px;
+			}
+
+			/* Show the dropdown menu on hover */
+			.dropdown:hover .dropdown-content {
+			  display: block;
+			}
+
+			/* Change the background color of the dropdown button when the dropdown content is shown */
+			.dropdown:hover .dropbtn {
+			  background-color: white;
+			  color: black;
+			  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			}
+			.dropdown:hover .dropbtn-lang {
+			  background-color: white;
+			  color: black;
+			}
+			.dropdown-content1 {
+			  display: none;
+			  position: absolute;
+			  background-color: #f9f9f9;
+			  min-width: 120px;
+			  border-radius: 0px 0px 10px 10px;
+			  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			  z-index: 1;
+			}
+
+			/* Links inside the dropdown */
+			.dropdown-content1 a {
+			  color: black;
+			  padding: 12px 16px;
+			  text-decoration: none;
+			  font-family: Poppins, sans-serif;
+			  display: block;
+			}
+
+			/* Change color of dropdown links on hover */
+			.dropdown-content1 a:hover {
+				background-color: #D1D1D1;
+				border-radius: 10px;
+			}
+
+			/* Show the dropdown menu on hover */
+			.dropdown:hover .dropdown-content1 {
+			  display: block;
+			}
+			.dropbtn-arrow{
+				transform: rotateZ(90deg);
+				transition: all 0.2s ease;
+			}
+			.dropdown:hover .dropbtn-arrow{
+				transform: rotateZ(-90deg);
+				transition: all 0.2s ease;
+			}
+.presentation-btssio{
+	position: relative;
+	width: 100%;
+	height: 970px;
+	background-image: url(../images/autres/devimage.jpg);
+	background-repeat: repeat;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: row;
+	flex-wrap: wrap;
+}
+.presentation-btssio-box{
+	position: relative;
+	width: 1000px;
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 20px;
+}
+.presentation-btssio-box h6{
+	font-family: Poppins, sans-serif;
+	font-size: 30px;
+	color: black;
+}
+.presentation-btssio-box p{
+	font-family: Poppins, sans-serif;
+	font-size: 16px;
+	color: black;
+}
+a .presentation-btssio-box-button{
+	position: relative;
+	text-align: center;
+	font-family: Poppins, sans-serif;
+	font-size: 16px;
+	color: white;
+	background-color: black;
+	padding: 15px;
+	border-radius: 15px;
+}
+.classe-btssio{
+	position: relative;
+	width: 100%;
+	height: 970px;
+	background-color: #e3e3e3;
+	background-repeat: repeat;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: row;
+	flex-wrap: wrap;
+	font-family: Poppins, sans-serif;
+	font-size: 13px;
+	color: black;
+}
+.poursuiteetude-btssio{
+	position: relative;
+	width: 100%;
+	height: 970px;
+	background-color: #a6a6a6;
+	background-repeat: repeat;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: row;
+	flex-wrap: wrap;
+	font-family: Poppins, sans-serif;
+	font-size: 13px;
+	color: black;
+}
+
+
+.subfooter1{
+	width: 100%;
+	height: 70px;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-flow: row;
+}
+.subfooter1 p{
+	font-family: Poppins, sans-serif;
+	font-size: 13px;
+	color: white;
+}
+.subfooter2{
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	flex-flow: row;
+}
+.subfooter2 p{
+	font-family: Poppins, sans-serif;
+	font-size: 13px;
+	color: white;
+}
+.subfooter2 a:hover{
+	text-decoration: underline;
+	color: white;
+}
