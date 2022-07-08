@@ -1,0 +1,40 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#bureau{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/background/background-index.jpg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+
+#menu-options-bouton-2{
+    display: none;
+}
+#menu-options{
+    display: none;
+}
+
+
+
+@keyframes menu-options-1{
+    from{
+        transform: scale(0.8) translateY(10vh);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1) translateY(0vh);
+        opacity: 1;
+    }
+}
