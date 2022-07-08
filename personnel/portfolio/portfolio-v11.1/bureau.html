@@ -1,0 +1,406 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hugo Doueil | Portfolio 2022 - Bureau</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="bureau.js"></script>
+        <link rel="stylesheet" href="bureau.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  		<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+  		<script>
+		    /*$( function() {
+		    	$( "#application-catalogue" ).draggable();
+		 	} );*/
+		</script>
+        <script>
+            $(document).ready(function(){
+                $('.owl-carousel').owlCarousel({
+                    loop:true,
+                    autoplay:true,
+                    autoWidth:true,
+                    autoplayTimeout:1500,
+                    autoplayHoverPause:true,
+                    responsive:{
+                        0:{
+                            items:1
+                        },
+                        600:{
+                            items:3
+                        },
+                        1000:{
+                            items:5
+                        }
+                    }
+                })
+                
+            });
+        </script>
+        <link rel="stylesheet" href="owl.carousel.min.css">
+        <link rel="stylesheet" href="owl.theme.default.min.css">
+    </head>
+    <body>
+
+        <!-- SECTION ENTIERE -->
+        <section id="all-content" class="overflow-hidden">
+
+            <!-- BUREAU -->
+            <div id="bureau" class="w-full h-screen bg-cover overflow-hidden" style="overflow: hidden; background-image: url(img/background14.png);">
+
+                <!-- MENU RETROCOMPATIBILITE -->
+                <div id="menu-retrocomp" class="absolute top-0 left-0 w-full p-4 bg-slate-900 z-[999] flex justify-between hover:z-[999]">
+                    <div class="relative w-[40vh] h-[4vh] bg-purple-700 rounded-xl flex justify-center items-center text-white">
+                        <svg class="mr-3" width="25" height="25" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m15.207 2.292 4 3.995a1 1 0 0 1 .084 1.32l-.083.094-4 4.006a1 1 0 0 1-1.498-1.32l.083-.094L16.083 8H5.5a1 1 0 0 1-.994-.883L4.5 7a1 1 0 0 1 .883-.993L5.5 6h10.59l-2.296-2.293a1 1 0 0 1-.084-1.32l.083-.095a1 1 0 0 1 1.32-.084l.094.084 4 3.995-4-3.995Zm4.283 14.591.007.117a1 1 0 0 1-.883.993l-.117.007H7.913l2.294 2.293a1 1 0 0 1 .084 1.32l-.083.094a1 1 0 0 1-1.32.084l-.095-.084-4-3.996a1 1 0 0 1-.083-1.32l.083-.094 4-4.004a1 1 0 0 1 1.498 1.32l-.083.094L7.918 16h10.579a1 1 0 0 1 .993.883l.007.117-.007-.117Z" fill="#ffffff"/></svg>
+                        Menu de rétrocompatibilité v1.1 alpha
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="relative w-[15vh] h-[4vh] bg-blue-700 rounded-xl flex justify-center items-center text-white" onclick="boutonSubRetrocompClickedIn()">Versions</div>
+                        <div class="relative w-[15vh] h-[4vh] bg-red-700 rounded-xl flex justify-center items-center text-white" onclick="boutonMenuRetrocompClickedOut()">Quitter</div>
+                    </div>
+                </div>
+                <div id="sub-retrocomp" class="absolute top-[7.5vh] left-0 w-full pt-0 px-4 pb-4 bg-slate-900 z-[999] flex justify-between hover:z-[999]">
+                        <div class="owl-carousel py-5 flex gap-2">
+                            <div class="item w-44 h-16 bg-blue-700 rounded-xl mr-8 flex justify-center items-center text-white" style="overflow: hidden;">
+                                Maquette
+                            </div>
+                            <div class="item w-44 h-16 bg-white rounded-xl mr-8 flex justify-center items-center text-blue-700" style="overflow: hidden;">
+                                Version 0
+                            </div>
+                            <div class="item w-44 h-16 bg-blue-700 rounded-xl mr-8 flex justify-center items-center text-white" style="overflow: hidden;">
+                                Version 1
+                            </div>
+                            <div class="item w-44 h-16 bg-white rounded-xl mr-8 flex justify-center items-center text-blue-700" style="overflow: hidden;">
+                                Version 1.5
+                            </div>
+                            <div class="item w-44 h-16 bg-blue-700 rounded-xl mr-8 flex justify-center items-center text-white" style="overflow: hidden;">
+                                Version 2
+                            </div>
+                            <div class="item w-44 h-16 bg-white rounded-xl mr-8 flex justify-center items-center text-blue-700" style="overflow: hidden;">
+                                Version 3
+                            </div>
+                            <div class="item w-44 h-16 bg-blue-700 rounded-xl mr-8 flex justify-center items-center text-white" style="overflow: hidden;">
+                                Version 4
+                            </div>
+                            <div class="item w-44 h-16 bg-white rounded-xl mr-8 flex justify-center items-center text-blue-700" style="overflow: hidden;">
+                                Version 5
+                            </div>
+                            <div class="item w-44 h-16 bg-blue-700 rounded-xl mr-8 flex justify-center items-center text-white" style="overflow: hidden;">
+                                Version 6
+                            </div>
+                            <div class="item w-44 h-16 bg-white rounded-xl mr-8 flex justify-center items-center text-blue-700" style="overflow: hidden;">
+                                Version 7
+                            </div>
+                            <div class="item w-44 h-16 bg-blue-700 rounded-xl mr-8 flex justify-center items-center text-white" style="overflow: hidden;">
+                                Version 7.1
+                            </div>
+                            <div class="item w-44 h-16 bg-white rounded-xl mr-8 flex justify-center items-center text-blue-700" style="overflow: hidden;">
+                                Version 7.2
+                            </div>
+                            <div class="item w-44 h-16 bg-blue-700 rounded-xl mr-8 flex justify-center items-center text-white" style="overflow: hidden;">
+                                Version 8
+                            </div>
+                            <div class="item w-44 h-16 bg-white rounded-xl mr-8 flex justify-center items-center text-blue-700" style="overflow: hidden;">
+                                Version 9
+                            </div>
+                            <div class="item w-44 h-16 bg-blue-700 rounded-xl mr-8 flex justify-center items-center text-white" style="overflow: hidden;">
+                                Version 10
+                            </div>
+                            <div class="item w-44 h-16 bg-white rounded-xl mr-8 flex justify-center items-center text-blue-700" style="overflow: hidden;">
+                                Version 11 (actuelle)
+                            </div>
+                        </div>
+                </div>
+
+                <!-- MENU APPLICATIONS -->
+                <div id="menu-apps" class="absolute top-0 left-0 p-6 h-screen backdrop-blur-xl grid grid-cols-1 z-[998]" style="box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.50);">
+                    <div id="button-app-title" class="relative w-20 h-20 bg-white rounded-lg shadow-lg flex justify-center items-center hover:rounded-2xl hover:shadow-xl hover:scale-110 transition-all">
+                        <svg width="65" height="65" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10.788 3.103c.495-1.004 1.926-1.004 2.421 0l2.358 4.777 5.273.766c1.107.161 1.549 1.522.748 2.303l-3.816 3.72.901 5.25c.19 1.103-.968 1.944-1.959 1.424l-4.716-2.48-4.715 2.48c-.99.52-2.148-.32-1.96-1.424l.901-5.25-3.815-3.72c-.801-.78-.359-2.142.748-2.303L8.43 7.88l2.358-4.777Z" fill="#222F3D"/></svg>
+                    </div>
+                    <div class="grid place-content-end gap-10">
+                        <div id="button-app-stages" class="relative w-20 h-20 bg-white rounded-lg shadow-lg flex justify-center items-center hover:rounded-2xl hover:shadow-xl hover:scale-110 transition-all">
+                            <svg width="65" height="65" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5 17.75v-3.766l4.06 2.653a5.375 5.375 0 0 0 5.88 0L19 13.984v3.766a.75.75 0 0 1-.15.45l-.001.001-.001.002-.003.004-.009.01-.012.016-.013.017-.086.101a5.325 5.325 0 0 1-.317.33c-.277.267-.69.614-1.25.958C16.037 20.329 14.339 21 12 21c-2.339 0-4.036-.67-5.159-1.361a7.433 7.433 0 0 1-1.25-.957 5.313 5.313 0 0 1-.427-.464l-.009-.01-.003-.005v-.002A.755.755 0 0 1 5 17.75Z" fill="#222F3D"/><path d="m22.16 10.128-8.04 5.253a3.875 3.875 0 0 1-4.24 0L3 10.886v5.364a.75.75 0 0 1-1.5 0V10c0-.088.015-.172.043-.25a.75.75 0 0 1 .302-.881l8.064-5.17a3.875 3.875 0 0 1 4.182 0l8.064 5.17a.75.75 0 0 1 .005 1.259Z" fill="#222F3D"/></svg>
+                        </div>
+                        <div id="button-app-projets" class="relative w-20 h-20 bg-white rounded-lg shadow-lg flex justify-center items-center hover:rounded-2xl hover:shadow-xl hover:scale-110 transition-all" onclick="boutonAppProjetsClickedIn()">
+                            <svg width="65" height="65" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13.821 6.5h5.929a2.25 2.25 0 0 1 2.229 1.938l.016.158.005.154v9a2.25 2.25 0 0 1-2.096 2.245L19.75 20H4.25a2.25 2.25 0 0 1-2.245-2.096L2 17.75v-7.251l6.207.001.196-.009a2.25 2.25 0 0 0 1.088-.393l.156-.12L13.821 6.5ZM8.207 4c.46 0 .908.141 1.284.402l.156.12 2.103 1.751-3.063 2.553-.085.061a.75.75 0 0 1-.29.106L8.206 9 2 8.999V6.25a2.25 2.25 0 0 1 2.096-2.245L4.25 4h3.957Z" fill="#222F3D"/></svg>
+                        </div>
+                        <div id="button-app-catalogue" class="relative w-20 h-20 bg-white rounded-lg shadow-lg flex justify-center items-center hover:rounded-2xl hover:shadow-xl hover:scale-110 transition-all" onclick="boutonAppCatalogueClickedIn()">
+                            <svg width="65" height="65" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M8.75 13A2.25 2.25 0 0 1 11 15.25v3.5A2.25 2.25 0 0 1 8.75 21h-3.5A2.25 2.25 0 0 1 3 18.75v-3.5A2.25 2.25 0 0 1 5.25 13h3.5Zm10 0A2.25 2.25 0 0 1 21 15.25v3.5A2.25 2.25 0 0 1 18.75 21h-3.5A2.25 2.25 0 0 1 13 18.75v-3.5A2.25 2.25 0 0 1 15.25 13h3.5Zm-10-10A2.25 2.25 0 0 1 11 5.25v3.5A2.25 2.25 0 0 1 8.75 11h-3.5A2.25 2.25 0 0 1 3 8.75v-3.5A2.25 2.25 0 0 1 5.25 3h3.5Zm10 0A2.25 2.25 0 0 1 21 5.25v3.5A2.25 2.25 0 0 1 18.75 11h-3.5A2.25 2.25 0 0 1 13 8.75v-3.5A2.25 2.25 0 0 1 15.25 3h3.5Z" fill="#222F3D"/></svg>
+                        </div>
+                        <div id="button-app-parametres" class="relative w-20 h-20 bg-white rounded-lg shadow-lg flex justify-center items-center hover:rounded-2xl hover:shadow-xl hover:scale-110 transition-all" onclick="boutonAppParametreClickedIn()">
+                            <svg width="65" height="65" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12.012 2.25c.734.008 1.465.093 2.182.253a.75.75 0 0 1 .582.649l.17 1.527a1.384 1.384 0 0 0 1.927 1.116l1.401-.615a.75.75 0 0 1 .85.174 9.792 9.792 0 0 1 2.204 3.792.75.75 0 0 1-.271.825l-1.242.916a1.381 1.381 0 0 0 0 2.226l1.243.915a.75.75 0 0 1 .272.826 9.797 9.797 0 0 1-2.204 3.792.75.75 0 0 1-.848.175l-1.407-.617a1.38 1.38 0 0 0-1.926 1.114l-.169 1.526a.75.75 0 0 1-.572.647 9.518 9.518 0 0 1-4.406 0 .75.75 0 0 1-.572-.647l-.168-1.524a1.382 1.382 0 0 0-1.926-1.11l-1.406.616a.75.75 0 0 1-.849-.175 9.798 9.798 0 0 1-2.204-3.796.75.75 0 0 1 .272-.826l1.243-.916a1.38 1.38 0 0 0 0-2.226l-1.243-.914a.75.75 0 0 1-.271-.826 9.793 9.793 0 0 1 2.204-3.792.75.75 0 0 1 .85-.174l1.4.615a1.387 1.387 0 0 0 1.93-1.118l.17-1.526a.75.75 0 0 1 .583-.65c.717-.159 1.45-.243 2.201-.252ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z" fill="#222F3D"/></svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- APPLICATION PARAMETRE -->
+                <div id="application-parametre" class="absolute bottom-6 left-40 backdrop-blur-xl p-5 rounded-xl z-30 hover:z-[997]" style="width: 40vh; height: 65vh; box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.50);">
+                    <div id="application-parametre-header" class="relative w-full h-[5vh] mb-[2vh] flex justify-between">
+                        <div class="relative w-[20vh] bg-white h-full rounded-xl flex justify-center items-center text-[#252525] text-xl">
+                            <svg class="mr-3" width="25" height="25" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12.012 2.25c.734.008 1.465.093 2.182.253a.75.75 0 0 1 .582.649l.17 1.527a1.384 1.384 0 0 0 1.927 1.116l1.401-.615a.75.75 0 0 1 .85.174 9.792 9.792 0 0 1 2.204 3.792.75.75 0 0 1-.271.825l-1.242.916a1.381 1.381 0 0 0 0 2.226l1.243.915a.75.75 0 0 1 .272.826 9.797 9.797 0 0 1-2.204 3.792.75.75 0 0 1-.848.175l-1.407-.617a1.38 1.38 0 0 0-1.926 1.114l-.169 1.526a.75.75 0 0 1-.572.647 9.518 9.518 0 0 1-4.406 0 .75.75 0 0 1-.572-.647l-.168-1.524a1.382 1.382 0 0 0-1.926-1.11l-1.406.616a.75.75 0 0 1-.849-.175 9.798 9.798 0 0 1-2.204-3.796.75.75 0 0 1 .272-.826l1.243-.916a1.38 1.38 0 0 0 0-2.226l-1.243-.914a.75.75 0 0 1-.271-.826 9.793 9.793 0 0 1 2.204-3.792.75.75 0 0 1 .85-.174l1.4.615a1.387 1.387 0 0 0 1.93-1.118l.17-1.526a.75.75 0 0 1 .583-.65c.717-.159 1.45-.243 2.201-.252ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z" fill="#222F3D"/></svg>
+                            Paramètres
+                        </div>
+                        <div class="relative w-[5vh] bg-white h-full rounded-xl flex items-center justify-center" onclick="boutonAppParametreClickedOut()">
+                            <svg width="50" height="50" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2Zm3.53 6.47-.084-.073a.75.75 0 0 0-.882-.007l-.094.08L12 10.939l-2.47-2.47-.084-.072a.75.75 0 0 0-.882-.007l-.094.08-.073.084a.75.75 0 0 0-.007.882l.08.094L10.939 12l-2.47 2.47-.072.084a.75.75 0 0 0-.007.882l.08.094.084.073a.75.75 0 0 0 .882.007l.094-.08L12 13.061l2.47 2.47.084.072a.75.75 0 0 0 .882.007l.094-.08.073-.084a.75.75 0 0 0 .007-.882l-.08-.094L13.061 12l2.47-2.47.072-.084a.75.75 0 0 0 .007-.882l-.08-.094-.084-.073.084.073Z" fill="#E84B3C"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative w-full h-[54vh] bg-white rounded-xl pt-8">
+                        <div class="relative w-full h-[15vh] bg-[#252525]">
+                            <div class="relative w-full h-[6.5vh] flex justify-center items-center text-white text-xl">
+                                Menu de rétrocompatibilité
+                            </div>
+                            <div class="relative w-full h-[8.5vh] flex justify-center items-center">
+                                <div class="w-[18vh] h-[4vh] bg-blue-700 rounded-xl flex justify-center items-center text-white" onclick="boutonMenuRetrocompClickedIn()">Ouvrir le menu</div>
+                            </div>
+                        </div>
+                        <div class="relative w-full h-[15vh] bg-[#252525] mt-8">
+                            <div class="relative w-full h-[6.5vh] flex justify-center items-center text-white text-xl">
+                                Changement de thème
+                            </div>
+                            <div class="relative w-full h-[8.5vh] flex justify-center items-center">
+                                <div class="w-[20vh] h-[4vh] bg-blue-700 rounded-xl flex justify-center items-center text-white" onclick="boutonAppChangementthemeClickedIn()">Ouvrir l'application</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- APPLICATION CATALOGUE APPLICATIONS -->
+                <div id="application-catalogue" class="absolute top-8 left-40 backdrop-blur-xl p-5 rounded-xl z-30 hover:z-[997]" style="width: 100vh; height: 65vh; box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.50);">
+                    <div id="application-catalogue-header" class="relative w-full h-[5vh] mb-[2vh] flex justify-between">
+                        <div class="relative w-[40vh] bg-white h-full rounded-xl flex justify-center items-center text-[#252525] text-xl">
+                            <svg class="mr-3" width="25" height="25" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M8.75 13A2.25 2.25 0 0 1 11 15.25v3.5A2.25 2.25 0 0 1 8.75 21h-3.5A2.25 2.25 0 0 1 3 18.75v-3.5A2.25 2.25 0 0 1 5.25 13h3.5Zm10 0A2.25 2.25 0 0 1 21 15.25v3.5A2.25 2.25 0 0 1 18.75 21h-3.5A2.25 2.25 0 0 1 13 18.75v-3.5A2.25 2.25 0 0 1 15.25 13h3.5Zm-10-10A2.25 2.25 0 0 1 11 5.25v3.5A2.25 2.25 0 0 1 8.75 11h-3.5A2.25 2.25 0 0 1 3 8.75v-3.5A2.25 2.25 0 0 1 5.25 3h3.5Zm10 0A2.25 2.25 0 0 1 21 5.25v3.5A2.25 2.25 0 0 1 18.75 11h-3.5A2.25 2.25 0 0 1 13 8.75v-3.5A2.25 2.25 0 0 1 15.25 3h3.5Z" fill="#222F3D"/></svg>
+                            Catalogue d'applications
+                        </div>
+                        <div class="relative w-[5vh] bg-white h-full rounded-xl flex items-center justify-center" onclick="boutonAppCatalogueClickedOut()">
+                            <svg width="50" height="50" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2Zm3.53 6.47-.084-.073a.75.75 0 0 0-.882-.007l-.094.08L12 10.939l-2.47-2.47-.084-.072a.75.75 0 0 0-.882-.007l-.094.08-.073.084a.75.75 0 0 0-.007.882l.08.094L10.939 12l-2.47 2.47-.072.084a.75.75 0 0 0-.007.882l.08.094.084.073a.75.75 0 0 0 .882.007l.094-.08L12 13.061l2.47 2.47.084.072a.75.75 0 0 0 .882.007l.094-.08.073-.084a.75.75 0 0 0 .007-.882l-.08-.094L13.061 12l2.47-2.47.072-.084a.75.75 0 0 0 .007-.882l-.08-.094-.084-.073.084.073Z" fill="#E84B3C"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative w-full h-[54vh] bg-white rounded-xl pt-8" style="overflow-x: hidden;">
+                        <div class="px-5 py-8 bg-[#252525]">
+                            <div class="owl-carousel owl-theme">
+                                <div class="item w-36 h-44 bg-white rounded-xl mr-8 group" style="overflow: hidden;">
+                                    <div class="w-full h-1/2 bg-white flex items-center justify-center">
+                                        <svg class="group-hover:scale-[1.2] transition-all" width="60" height="60" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8V2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V10h-6a2 2 0 0 1-2-2Zm-5 4.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Zm0 3a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Zm0 3a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Zm3-6a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 0 1.5h-5.5a.75.75 0 0 1-.75-.75Zm0 3a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 0 1.5h-5.5a.75.75 0 0 1-.75-.75Zm0 3a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 0 1.5h-5.5a.75.75 0 0 1-.75-.75ZM13.5 8V2.5l6 6H14a.5.5 0 0 1-.5-.5Z" fill="#222F3D"/></svg>
+                                    </div>
+                                    <div class="w-full h-1/2 bg-white text-black flex items-center justify-center">
+                                        Mon CV
+                                    </div>
+                                </div>
+                                <div class="item w-36 h-44 bg-white rounded-xl mr-8 group" style="overflow: hidden;">
+                                    <div class="w-full h-1/2 bg-white flex items-center justify-center">
+                                        <svg class="group-hover:scale-[1.2] transition-all" width="60" height="60" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m17 21.245.002-6A7.966 7.966 0 0 1 12 17a7.966 7.966 0 0 1-5-1.754l.003 6a.75.75 0 0 0 1.181.612l3.817-2.687 3.818 2.687a.75.75 0 0 0 1.182-.613Z" fill="#222F3D"/><path d="M19 9A7 7 0 1 0 5 9a7 7 0 0 0 14 0Zm-6.771-3.358.912 1.853 2.044.295c.21.03.293.288.142.435l-1.479 1.44.35 2.036a.255.255 0 0 1-.37.269L12 11.008l-1.827.962a.255.255 0 0 1-.37-.269l.35-2.035-1.48-1.44a.255.255 0 0 1 .142-.436l2.044-.295.912-1.853a.255.255 0 0 1 .458 0Z" fill="#222F3D"/></svg>
+                                    </div>
+                                    <div class="w-full h-1/2 bg-white text-black flex items-center justify-center">
+                                        Mes certifications
+                                    </div>
+                                </div>
+                                <div class="item w-36 h-44 bg-white rounded-xl mr-8 group" style="overflow: hidden;">
+                                    <div class="w-full h-1/2 bg-white flex items-center justify-center">
+                                        <svg class="group-hover:scale-[1.2] transition-all" width="60" height="60" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10.25 2h3.5a2.25 2.25 0 0 1 2.236 2h1.764A2.25 2.25 0 0 1 20 6.25v5.248A6.5 6.5 0 0 0 12.81 22H6.25A2.25 2.25 0 0 1 4 19.75V6.25A2.25 2.25 0 0 1 6.25 4h1.764a2.25 2.25 0 0 1 2.236-2Zm3.5 1.5h-3.5a.75.75 0 0 0 0 1.5h3.5a.75.75 0 0 0 0-1.5Zm9.25 14a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0Zm-2.146-2.354a.5.5 0 0 0-.708 0L16.5 18.793l-1.646-1.647a.5.5 0 0 0-.708.708l2 2a.5.5 0 0 0 .708 0l4-4a.5.5 0 0 0 0-.708Z" fill="#222F3D"/></svg>
+                                    </div>
+                                    <div class="w-full h-1/2 bg-white text-black flex items-center justify-center">
+                                        Mes compétences
+                                    </div>
+                                </div>
+                                <div class="item w-36 h-44 bg-white rounded-xl mr-8 group" style="overflow: hidden;">
+                                    <div class="w-full h-1/2 bg-white flex items-center justify-center">
+                                        <svg class="group-hover:scale-[1.2] transition-all" width="60" height="60" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5 17.75v-3.766l4.06 2.653a5.375 5.375 0 0 0 5.88 0L19 13.984v3.766a.75.75 0 0 1-.15.45l-.001.001-.001.002-.003.004-.009.01-.012.016-.013.017-.086.101a5.325 5.325 0 0 1-.317.33c-.277.267-.69.614-1.25.958C16.037 20.329 14.339 21 12 21c-2.339 0-4.036-.67-5.159-1.361a7.433 7.433 0 0 1-1.25-.957 5.313 5.313 0 0 1-.427-.464l-.009-.01-.003-.005v-.002A.755.755 0 0 1 5 17.75Z" fill="#222F3D"/><path d="m22.16 10.128-8.04 5.253a3.875 3.875 0 0 1-4.24 0L3 10.886v5.364a.75.75 0 0 1-1.5 0V10c0-.088.015-.172.043-.25a.75.75 0 0 1 .302-.881l8.064-5.17a3.875 3.875 0 0 1 4.182 0l8.064 5.17a.75.75 0 0 1 .005 1.259Z" fill="#222F3D"/></svg>
+                                    </div>
+                                    <div class="w-full h-1/2 bg-white text-black flex items-center justify-center text-center">
+                                        Mon parcours scolaire
+                                    </div>
+                                </div>
+                                <div class="item w-44 h-44 bg-white rounded-xl mr-8 group" style="overflow: hidden;">
+                                    <div class="w-full h-1/2 bg-white flex items-center justify-center">
+                                        <svg class="group-hover:scale-[1.2] transition-all" width="60" height="60" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21.907 5.622c.062.208.093.424.093.641V17.74a2.25 2.25 0 0 1-2.891 2.156l-5.514-1.64a4.002 4.002 0 0 1-7.59-1.556L6 16.5l-.001-.5-2.39-.711A2.25 2.25 0 0 1 2 13.131V10.87a2.25 2.25 0 0 1 1.61-2.156l15.5-4.606a2.25 2.25 0 0 1 2.797 1.515ZM7.499 16.445l.001.054a2.5 2.5 0 0 0 4.624 1.321l-4.625-1.375Z" fill="#222F3D"/></svg>
+                                    </div>
+                                    <div class="w-full h-1/2 bg-white text-black flex items-center justify-center text-center">
+                                        Veille technologique
+                                    </div>
+                                </div>
+                                <div class="item w-44 h-44 bg-white rounded-xl mr-8 group" style="overflow: hidden;">
+                                    <div class="w-full h-1/2 bg-white flex items-center justify-center">
+                                        <svg class="group-hover:scale-[1.2] transition-all" width="60" height="60" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.5 2A2.5 2.5 0 0 0 4 4.5v15A2.5 2.5 0 0 0 6.5 22h13.25a.75.75 0 0 0 0-1.5H6.5a1 1 0 0 1-1-1h14.25a.75.75 0 0 0 .75-.75V4.5A2.5 2.5 0 0 0 18 2H6.5ZM8 5h8a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Z" fill="#222F3D"/></svg>
+                                    </div>
+                                    <div class="w-full h-1/2 bg-white text-black flex items-center justify-center text-center">
+                                        Cahier des charges du portfolio
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-5 py-8 bg-[#252525] mt-8 mb-8">
+                            <div class="owl-carousel owl-theme">
+                                <div class="item w-36 h-44 bg-white rounded-xl mr-8 group" style="overflow: hidden;">
+                                    <div class="w-full h-1/2 bg-white flex items-center justify-center">
+                                        <svg class="group-hover:scale-[1.2] transition-all" width="60" height="60" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8V2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V10h-6a2 2 0 0 1-2-2Zm-5 4.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Zm0 3a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Zm0 3a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0Zm3-6a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 0 1.5h-5.5a.75.75 0 0 1-.75-.75Zm0 3a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 0 1.5h-5.5a.75.75 0 0 1-.75-.75Zm0 3a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 0 1.5h-5.5a.75.75 0 0 1-.75-.75ZM13.5 8V2.5l6 6H14a.5.5 0 0 1-.5-.5Z" fill="#222F3D"/></svg>
+                                    </div>
+                                    <div class="w-full h-1/2 bg-white text-black flex items-center justify-center">
+                                        Mon CV
+                                    </div>
+                                </div>
+                                <div class="item w-36 h-44 bg-white rounded-xl mr-8 group" style="overflow: hidden;">
+                                    <div class="w-full h-1/2 bg-white flex items-center justify-center">
+                                        <svg class="group-hover:scale-[1.2] transition-all" width="60" height="60" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m17 21.245.002-6A7.966 7.966 0 0 1 12 17a7.966 7.966 0 0 1-5-1.754l.003 6a.75.75 0 0 0 1.181.612l3.817-2.687 3.818 2.687a.75.75 0 0 0 1.182-.613Z" fill="#222F3D"/><path d="M19 9A7 7 0 1 0 5 9a7 7 0 0 0 14 0Zm-6.771-3.358.912 1.853 2.044.295c.21.03.293.288.142.435l-1.479 1.44.35 2.036a.255.255 0 0 1-.37.269L12 11.008l-1.827.962a.255.255 0 0 1-.37-.269l.35-2.035-1.48-1.44a.255.255 0 0 1 .142-.436l2.044-.295.912-1.853a.255.255 0 0 1 .458 0Z" fill="#222F3D"/></svg>
+                                    </div>
+                                    <div class="w-full h-1/2 bg-white text-black flex items-center justify-center">
+                                        Mes certifications
+                                    </div>
+                                </div>
+                                <div class="item w-36 h-44 bg-white rounded-xl mr-8 group" style="overflow: hidden;">
+                                    <div class="w-full h-1/2 bg-white flex items-center justify-center">
+                                        <svg class="group-hover:scale-[1.2] transition-all" width="60" height="60" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10.25 2h3.5a2.25 2.25 0 0 1 2.236 2h1.764A2.25 2.25 0 0 1 20 6.25v5.248A6.5 6.5 0 0 0 12.81 22H6.25A2.25 2.25 0 0 1 4 19.75V6.25A2.25 2.25 0 0 1 6.25 4h1.764a2.25 2.25 0 0 1 2.236-2Zm3.5 1.5h-3.5a.75.75 0 0 0 0 1.5h3.5a.75.75 0 0 0 0-1.5Zm9.25 14a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0Zm-2.146-2.354a.5.5 0 0 0-.708 0L16.5 18.793l-1.646-1.647a.5.5 0 0 0-.708.708l2 2a.5.5 0 0 0 .708 0l4-4a.5.5 0 0 0 0-.708Z" fill="#222F3D"/></svg>
+                                    </div>
+                                    <div class="w-full h-1/2 bg-white text-black flex items-center justify-center">
+                                        Mes compétences
+                                    </div>
+                                </div>
+                                <div class="item w-36 h-44 bg-white rounded-xl mr-8 group" style="overflow: hidden;">
+                                    <div class="w-full h-1/2 bg-white flex items-center justify-center">
+                                        <svg class="group-hover:scale-[1.2] transition-all" width="60" height="60" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5 17.75v-3.766l4.06 2.653a5.375 5.375 0 0 0 5.88 0L19 13.984v3.766a.75.75 0 0 1-.15.45l-.001.001-.001.002-.003.004-.009.01-.012.016-.013.017-.086.101a5.325 5.325 0 0 1-.317.33c-.277.267-.69.614-1.25.958C16.037 20.329 14.339 21 12 21c-2.339 0-4.036-.67-5.159-1.361a7.433 7.433 0 0 1-1.25-.957 5.313 5.313 0 0 1-.427-.464l-.009-.01-.003-.005v-.002A.755.755 0 0 1 5 17.75Z" fill="#222F3D"/><path d="m22.16 10.128-8.04 5.253a3.875 3.875 0 0 1-4.24 0L3 10.886v5.364a.75.75 0 0 1-1.5 0V10c0-.088.015-.172.043-.25a.75.75 0 0 1 .302-.881l8.064-5.17a3.875 3.875 0 0 1 4.182 0l8.064 5.17a.75.75 0 0 1 .005 1.259Z" fill="#222F3D"/></svg>
+                                    </div>
+                                    <div class="w-full h-1/2 bg-white text-black flex items-center justify-center text-center">
+                                        Mon parcours scolaire
+                                    </div>
+                                </div>
+                                <div class="item w-44 h-44 bg-white rounded-xl mr-8 group" style="overflow: hidden;">
+                                    <div class="w-full h-1/2 bg-white flex items-center justify-center">
+                                        <svg class="group-hover:scale-[1.2] transition-all" width="60" height="60" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21.907 5.622c.062.208.093.424.093.641V17.74a2.25 2.25 0 0 1-2.891 2.156l-5.514-1.64a4.002 4.002 0 0 1-7.59-1.556L6 16.5l-.001-.5-2.39-.711A2.25 2.25 0 0 1 2 13.131V10.87a2.25 2.25 0 0 1 1.61-2.156l15.5-4.606a2.25 2.25 0 0 1 2.797 1.515ZM7.499 16.445l.001.054a2.5 2.5 0 0 0 4.624 1.321l-4.625-1.375Z" fill="#222F3D"/></svg>
+                                    </div>
+                                    <div class="w-full h-1/2 bg-white text-black flex items-center justify-center text-center">
+                                        Veille technologique
+                                    </div>
+                                </div>
+                                <div class="item w-44 h-44 bg-white rounded-xl mr-8 group" style="overflow: hidden;">
+                                    <div class="w-full h-1/2 bg-white flex items-center justify-center">
+                                        <svg class="group-hover:scale-[1.2] transition-all" width="60" height="60" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.5 2A2.5 2.5 0 0 0 4 4.5v15A2.5 2.5 0 0 0 6.5 22h13.25a.75.75 0 0 0 0-1.5H6.5a1 1 0 0 1-1-1h14.25a.75.75 0 0 0 .75-.75V4.5A2.5 2.5 0 0 0 18 2H6.5ZM8 5h8a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Z" fill="#222F3D"/></svg>
+                                    </div>
+                                    <div class="w-full h-1/2 bg-white text-black flex items-center justify-center text-center">
+                                        Cahier des charges du portfolio
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- APPLICATION CHANGER DE THEME -->
+                <div id="application-changementtheme" class="absolute bottom-6 right-6 backdrop-blur-xl p-5 rounded-xl z-30 hover:z-[997]" style="width: 70vh; height: 30vh; box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.50);">
+                    <div id="application-changementtheme-header" class="relative w-full h-[5vh] mb-[2vh] flex justify-between">
+                        <div class="relative w-[30vh] bg-white h-full rounded-xl flex justify-center items-center text-[#252525] text-xl">
+                            <svg class="mr-3" width="25" height="25" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 12a9 9 0 0 1 13.977-7.5H12v1h6.225a9.05 9.05 0 0 1 1.26 1.5H12v1h8.064c.238.477.434.979.584 1.5H12v1h8.876c.081.488.124.989.124 1.5h-9v1h8.945a8.963 8.963 0 0 1-.297 1.5H12v1h8.294a8.98 8.98 0 0 1-.81 1.5H12v1h6.708A9 9 0 0 1 3 12Z" fill="#222F3D"/></svg>
+                            Changement de thème
+                        </div>
+                        <div class="relative w-[5vh] bg-white h-full rounded-xl flex items-center justify-center" onclick="boutonAppChangementthemeClickedOut()">
+                            <svg width="50" height="50" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2Zm3.53 6.47-.084-.073a.75.75 0 0 0-.882-.007l-.094.08L12 10.939l-2.47-2.47-.084-.072a.75.75 0 0 0-.882-.007l-.094.08-.073.084a.75.75 0 0 0-.007.882l.08.094L10.939 12l-2.47 2.47-.072.084a.75.75 0 0 0-.007.882l.08.094.084.073a.75.75 0 0 0 .882.007l.094-.08L12 13.061l2.47 2.47.084.072a.75.75 0 0 0 .882.007l.094-.08.073-.084a.75.75 0 0 0 .007-.882l-.08-.094L13.061 12l2.47-2.47.072-.084a.75.75 0 0 0 .007-.882l-.08-.094-.084-.073.084.073Z" fill="#E84B3C"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative w-full h-[19vh] bg-white rounded-xl pt-8">
+                        <div class="owl-carousel py-5 px-4 flex gap-2 bg-[#252525]">
+                            <div class="item w-44 h-16 bg-white rounded-xl mr-8 flex justify-center items-center text-slate-800 hover:bg-[url('img/background9.png')] hover:bg-cover hover:text-white hover:text-xl transition-all" style="overflow: hidden;" onclick="boutonChangementThemeTropical()">
+                                Tropical
+                            </div>
+                            <div class="item w-44 h-16 bg-white rounded-xl mr-8 flex justify-center items-center text-slate-800 hover:bg-[url('img/background2.png')] hover:bg-cover hover:text-white hover:text-xl transition-all" style="overflow: hidden;" onclick="boutonChangementThemeRoseetbleu()">
+                                Rose et bleu
+                            </div>
+                            <div class="item w-44 h-16 bg-white rounded-xl mr-8 flex justify-center items-center text-slate-800 hover:bg-[url('img/background14.png')] hover:bg-cover hover:text-white hover:text-xl transition-all" style="overflow: hidden;" onclick="boutonChangementThemeRoseetjaune()">
+                                Rose et jaune
+                            </div>
+                            <div class="item w-44 h-16 bg-white rounded-xl mr-8 flex justify-center items-center text-slate-800 hover:bg-[url('img/licorne.jpg')] hover:bg-cover hover:text-white hover:text-xl transition-all" style="overflow: hidden;" onclick="boutonChangementThemeLicorne()">
+                                Licorne
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- APPLICATION PROJETS -->
+                <div id="application-projets" class="absolute top-8 left-40 backdrop-blur-xl p-5 rounded-xl z-30 hover:z-[997]" style="width: 100vh; height: 65vh; box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.50);">
+                    <div id="application-projets-header" class="relative w-full h-[5vh] mb-[2vh] flex justify-between">
+                        <div class="relative w-[25vh] bg-white h-full rounded-xl flex justify-center items-center text-[#252525] text-xl">
+                            <svg class="mr-3" width="25" height="25" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13.821 6.5h5.929a2.25 2.25 0 0 1 2.229 1.938l.016.158.005.154v9a2.25 2.25 0 0 1-2.096 2.245L19.75 20H4.25a2.25 2.25 0 0 1-2.245-2.096L2 17.75v-7.251l6.207.001.196-.009a2.25 2.25 0 0 0 1.088-.393l.156-.12L13.821 6.5ZM8.207 4c.46 0 .908.141 1.284.402l.156.12 2.103 1.751-3.063 2.553-.085.061a.75.75 0 0 1-.29.106L8.206 9 2 8.999V6.25a2.25 2.25 0 0 1 2.096-2.245L4.25 4h3.957Z" fill="#222F3D"/></svg>
+                            Mes projets
+                        </div>
+                        <div class="relative w-[5vh] bg-white h-full rounded-xl flex items-center justify-center" onclick="boutonAppProjetsClickedOut()">
+                            <svg width="50" height="50" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2Zm3.53 6.47-.084-.073a.75.75 0 0 0-.882-.007l-.094.08L12 10.939l-2.47-2.47-.084-.072a.75.75 0 0 0-.882-.007l-.094.08-.073.084a.75.75 0 0 0-.007.882l.08.094L10.939 12l-2.47 2.47-.072.084a.75.75 0 0 0-.007.882l.08.094.084.073a.75.75 0 0 0 .882.007l.094-.08L12 13.061l2.47 2.47.084.072a.75.75 0 0 0 .882.007l.094-.08.073-.084a.75.75 0 0 0 .007-.882l-.08-.094L13.061 12l2.47-2.47.072-.084a.75.75 0 0 0 .007-.882l-.08-.094-.084-.073.084.073Z" fill="#E84B3C"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative w-full h-[54vh] bg-white rounded-xl pt-8" style="overflow-x: hidden;">
+                        <div class="not-prose relative rounded-xl overflow-hidden">
+                            <div class="absolute inset-0" style="background-position: 10px 10px;"></div>
+                            <div class="relative rounded-xl overflow-auto p-8">
+                            <div class="grid grid-cols-3 gap-4 font-mono text-white text-sm text-center font-bold leading-6">
+                                <div class="p-5 rounded-lg shadow-lg bg-indigo-500 col-span-3">PROJETS EN BTS SIO SLAM</div>
+                                <div class="p-6 rounded-lg bg-indigo-300">PPE1 - VERSIONADO</div>
+                                <div class="p-6 rounded-lg bg-indigo-300">PPE2 - BTS SIO SLAM</div>
+                                <div class="p-6 rounded-lg bg-indigo-300">PPE3 - ATELIER FASILA</div>
+                                <div class="p-5 rounded-lg shadow-lg bg-indigo-500 col-span-3 mt-12">PROJETS PERSONNELS</div>
+                                <div class="p-6 rounded-lg bg-indigo-300">VONDIKTION</div>
+                                <div class="p-6 rounded-lg bg-indigo-300">PORTFOLIO SOKA 2021 - 2022</div>
+                                <div class="p-6 rounded-lg bg-indigo-300">RUMOR.SEARCH</div>
+                                <div class="p-6 rounded-lg bg-indigo-300">BANQUESIO</div>
+                                <div class="p-6 rounded-lg bg-indigo-300">DIABLO LIBRAIRIE</div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- SI FORMAT MOBILE OU MOINS DE 800px-->
+            <div id="bureau-nonafficher" class="p-5 w-full h-screen bg-red-600 text-white text-3xl flex justify-center items-center">
+                Le bureau ne marche pas avec cette résolution d'écran
+            </div>
+
+        </section>
+
+        <script src="owl.carousel.min.js"></script>
+
+        <script>
+            dragElement(document.getElementById("application-catalogue"));
+            dragElement(document.getElementById("application-parametre"));
+            dragElement(document.getElementById("application-changementtheme"));
+            dragElement(document.getElementById("application-projets"));
+
+            function dragElement(elmnt) {
+            var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+            if (document.getElementById(elmnt.id + "-header")) {
+                // if present, the header is where you move the DIV from:
+                document.getElementById(elmnt.id + "-header").onmousedown = dragMouseDown;
+            } else {
+                // otherwise, move the DIV from anywhere inside the DIV:
+                elmnt.onmousedown = dragMouseDown;
+            }
+
+            function dragMouseDown(e) {
+                e = e || window.event;
+                e.preventDefault();
+                // get the mouse cursor position at startup:
+                pos3 = e.clientX;
+                pos4 = e.clientY;
+                document.onmouseup = closeDragElement;
+                // call a function whenever the cursor moves:
+                document.onmousemove = elementDrag;
+            }
+
+            function elementDrag(e) {
+                e = e || window.event;
+                e.preventDefault();
+                // calculate the new cursor position:
+                pos1 = pos3 - e.clientX;
+                pos2 = pos4 - e.clientY;
+                pos3 = e.clientX;
+                pos4 = e.clientY;
+                // set the element's new position:
+                elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+                elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+            }
+
+            function closeDragElement() {
+                // stop moving when mouse button is released:
+                document.onmouseup = null;
+                document.onmousemove = null;
+            }
+            }
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,86 @@
+body{
+    overflow: hidden;
+}
+#bureau{
+    display: block;
+}
+#bureau-nonafficher{
+    display: none;
+}
+
+@media (max-width: 800px) {
+    #bureau{
+        display: none;
+    }
+    #bureau-nonafficher{
+        display: block;
+    }
+}
+
+#application-parametre{
+    display: none;
+}
+#application-catalogue{
+    display: none;
+}
+#menu-retrocomp{
+    display: none;
+}
+#sub-retrocomp{
+    display: none;
+}
+#application-changementtheme{
+    display: none;
+}
+#application-projets{
+    display: none;
+}
+
+
+
+
+
+
+@keyframes applicationIn {
+    from{
+        opacity: 0;
+        transform: scale(0.8) rotate(10deg);
+    }
+    80%{
+        opacity: 0.95;
+        transform: scale(1.03);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1) rotate(0deg);;
+    }
+}
+
+
+@keyframes applicationOut {
+    from{
+        opacity: 1;
+        transform: scale(1);
+    }
+    20%{
+        opacity: 0.95;
+        transform: scale(1.03);
+    }
+    to{
+        opacity: 0;
+        transform: scale(0.8);
+        display: none;
+    }
+}
+
+
+@keyframes menuIn {
+    from{
+        transform: scale(0.8) translateX(500vh);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1) translateX(0vh);
+        opacity: 1;
+    }
+}
