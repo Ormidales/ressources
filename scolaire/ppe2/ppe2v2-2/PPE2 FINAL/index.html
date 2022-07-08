@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- INFORMATIONS DU SITE -->
+	<title>BTS SIO SLAM - Lycée Pardailhan / Auch</title>
+	<meta charset="utf-8">
+	<meta lang="fr">
+	<meta name="author" content="Hugo, Bertrand, Melvin">
+	<meta name="description" content="Un site pour présenter le BTS SIO SLAM du lycée Pardailhan de Auch">
+	<meta name="keywords" content="bts, sio, BTS, SIO, SLAM, slam, hugo, bertrand, melvin, webiste, html, css, php, javascript">
+
+	<!-- LINKS DU SITE -->
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Raleway&family=Ubuntu&display=swap" rel="stylesheet">
+
+	<!-- SCRIPT -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="script/index.js"></script>
+</head>
+<body>
+	<header>
+		<div class="subheader2">
+			<img src="images/autres/pardailhan.png" width="100px">
+			<div class="box-header-menu">
+					<div class="dropdown">
+					  <div class="dropbtn">
+					  	<p>Présentation</p><p class="dropbtn-arrow"><</p>
+					  </div>
+					  <div class="dropdown-content">
+					    <a href="index.html#diaporama">Le BTS SIO SLAM</a>
+					    <a href="lang/fr/code/html/360.html">Images en 360°</a>
+					    <a href="#">Les poursuites d'études possibles</a>
+					  </div>
+					</div>
+					<div class="dropdown">
+					  <div class="dropbtn">
+					  	<p>Établissement</p><p class="dropbtn-arrow"><</p>
+					  </div>
+					  <div class="dropdown-content">
+					    <a href="#">hello world</a>
+					    <a href="#">blablabla</a>
+					    <a href="#">blablabla</a>
+					  </div>
+					</div>
+					<div class="dropdown">
+					  <div class="dropbtn">
+					  	<p>Compétences</p><p class="dropbtn-arrow"><</p>
+					  </div>
+					  <div class="dropdown-content">
+					    <a href="lang/fr/code/html/competences.html">BTS SIO</a>
+					    <a href="lang/fr/code/html/competences.html">Lycée Pardailhan</a>
+					  </div>
+					</div>
+					<div class="dropdown">
+					  <div class="dropbtn">
+					  	<p>Actualités</p><p class="dropbtn-arrow"><</p>
+					  </div>
+					  <div class="dropdown-content">
+					    <a href="#">Présentation des équipements</a>
+					  </div>
+					</div>
+					<div class="dropdown">
+					  <div class="dropbtn">
+					  	<p>Témoignages</p><p class="dropbtn-arrow"><</p>
+					  </div>
+					  <div class="dropdown-content">
+					    <a href="#">Mathématiques pour Informatique</a>
+					    <a href="#">Culture Économique, Juridique et Managériale</a>
+					    <a href="#">Culture Générale et Expression</a>
+					    <a href="#">Développement Web</a>
+					    <a href="#">Développement SQL</a>
+					    <a href="#">Développement Réseau</a>
+					    <a href="#">Anglais</a>
+					  </div>
+					</div>
+					<div class="dropdown">
+					  <div class="dropbtn">
+					  	<p>Contact</p><p class="dropbtn-arrow"><</p>
+					  </div>
+					  <div class="dropdown-content">
+					    <a href="newindex.html#contact-box">Nous contacter</a>
+					  </div>
+					</div>
+			</div>
+		</div>
+		<div class="subheader3">
+			<h2>BTS SIO SLAM</h2>
+		</div>
+		<div class="subheader4">
+			<a href="index.html#diaporama"><img src="images/autres/arrowdown.png"></a>
+		</div>
+	</header>
+	<div class="slideshow-container" id="diaporama">
+		<div class="mySlides fade">
+			<img src="images/diaporama/1.png" style="width:100%">
+		</div>
+		<div class="mySlides fade">
+			<img src="images/diaporama/2.png" style="width:100%">
+		</div>
+		<div class="mySlides fade">
+			<img src="images/diaporama/1.png" style="width:100%">
+		</div>
+	</div>
+	<script>
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+		var i;
+		var slides = document.getElementsByClassName("mySlides");
+		for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+		}
+		slideIndex++;
+		if (slideIndex > slides.length) {slideIndex = 1}
+		slides[slideIndex-1].style.display = "block";
+		setTimeout(showSlides, 6500);
+		}
+	</script>
+	<footer>
+		<div class="subfooter1">
+			<p>BTS SIO SLAM - Lycée Pardailhan - 57 Chemin de Baron, 32008 Auch - Tél : XX.XX.XX.XX.XX - Conception : Hugo Doueil, Bertrand Cassagne, Melvin Duquenne</p>
+		</div>
+		<div class="subfooter2">
+			<a href=""><p>Mentions Légales</p></a>
+			<a href=""><p>Charte des Données Personnelles</p></a>
+			<a href=""><p>Réalisation du Site</p></a>
+			<a href=""><p>Plan du Site</p></a>
+		</div>
+	</footer>
+</body>
+</html>
