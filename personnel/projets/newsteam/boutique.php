@@ -303,7 +303,13 @@
 								
 								<p class="text-white text-[17px]">Control Ultimate Edition</p>
 
-								<p class="mt-1 text-gray-300 text-[15px]"><span class="line-through mr-1">39.99€</span>11.99€<span class="ml-2 text-green-400">[-70%]</span></p>
+								<div class="flex items-center mt-1">
+									
+									<p class="text-gray-300 text-[15px]"><span class="line-through mr-1">19.99€</span>5.99€</p>
+
+									<span class="px-2 py-1 bg-green-400/25 rounded-md text-[13px] text-green-300 ml-2">-70%</span>
+
+								</div>
 
 							</div>
 
@@ -327,7 +333,13 @@
 								
 								<p class="text-white text-[17px]">Age of Empires III Definitive Edition</p>
 
-								<p class="mt-1 text-gray-300 text-[15px]"><span class="line-through mr-1">19.99€</span>5.99€<span class="ml-2 text-green-400">[-70%]</span></p>
+								<div class="flex items-center mt-1">
+									
+									<p class="text-gray-300 text-[15px]"><span class="line-through mr-1">19.99€</span>5.99€</p>
+
+									<span class="px-2 py-1 bg-green-400/25 rounded-md text-[13px] text-green-300 ml-2">-70%</span>
+
+								</div>
 
 							</div>
 
@@ -351,7 +363,13 @@
 								
 								<p class="text-white text-[17px]">Gordian Quest</p>
 
-								<p class="mt-1 text-gray-300 text-[15px]"><span class="line-through mr-1">16.79€</span>12.59€<span class="ml-2 text-green-400">[-25%]</span></p>
+								<div class="flex items-center mt-1">
+									
+									<p class="text-gray-300 text-[15px]"><span class="line-through mr-1">19.99€</span>5.99€</p>
+
+									<span class="px-2 py-1 bg-green-400/25 rounded-md text-[13px] text-green-300 ml-2">-70%</span>
+
+								</div>
 
 							</div>
 
@@ -375,7 +393,13 @@
 								
 								<p class="text-white text-[17px]">Mafia Definitive Edition</p>
 
-								<p class="mt-1 text-gray-300 text-[15px]"><span class="line-through mr-1">39.99€</span>13.99€<span class="ml-2 text-green-400">[-65%]</span></p>
+								<div class="flex items-center mt-1">
+									
+									<p class="text-gray-300 text-[15px]"><span class="line-through mr-1">19.99€</span>5.99€</p>
+
+									<span class="px-2 py-1 bg-green-400/25 rounded-md text-[13px] text-green-300 ml-2">-70%</span>
+
+								</div>
 
 							</div>
 

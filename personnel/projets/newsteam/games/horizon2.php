@@ -333,9 +333,9 @@
 
 						</div>
 
-						<div class="w-full flex items-center gap-x-6 mt-4">
+						<div class="w-full grid grid-cols-2 gap-4 mt-4">
 							
-							<div class="w-1/2 overflow-hidden rounded-md">
+							<div class="w-full overflow-hidden rounded-md">
 								
 								<div class="w-full bg-[#2B2627] py-4 px-6 flex items-center justify-between">
 									
@@ -377,7 +377,91 @@
 
 							</div>
 
-							<div class="w-1/2 overflow-hidden rounded-md">
+							<div class="w-full overflow-hidden rounded-md">
+								
+								<div class="w-full bg-[#31323F] py-4 px-6 flex items-center justify-between">
+									
+									<div class="flex items-center">
+										
+										<div class="w-[5vh] h-[5vh] bg-white rounded-full"></div>
+
+										<div class="ml-3">
+											
+											<p class="text-white text-[16px]" style="line-height: 16px;">Delta</p>
+
+											<p class="text-gray-400 text-[12px] mt-1">14 avis au total</p>
+
+										</div>
+
+									</div>
+
+									<div class="flex items-center">
+										
+										<div class="w-[5vh] h-[5vh] bg-white/10 rounded-full flex items-center justify-center">
+											
+											<svg xmlns="http://www.w3.org/2000/svg" class="h-[3vh] w-[3vh] text-white" viewBox="0 0 20 20" fill="currentColor">
+											  	<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
+											</svg>
+
+										</div>
+
+									</div>
+
+								</div>
+
+								<div class="w-full bg-[#1C1B1F] w-full px-6 py-4">
+									
+									<p class="text-white text-[16px]">Un jeu ennuyeux...</p>
+
+									<p class="text-gray-400 text-[13px] mt-1">Rebum gubergren exerci at sit iriure diam cum sea et at erat et kasd accusam et et. Ut aliquyam elitr. Eos clita ut eirmod exerci ad ea sanctus praesent. Doming aliquip duo no stet. Elitr lorem consetetur voluptua amet nam praesent dolore dolor feugiat dolor ad quod iusto sit doming consetetur in. Sit nonumy hendrerit et diam molestie minim et dolores ut eirmod eum minim. Magna et no invidunt dolores duis ut amet dolore tempor aliquyam amet et blandit gubergren kasd sit vero.</p>
+
+								</div>
+
+							</div>
+
+							<div class="w-full overflow-hidden rounded-md">
+								
+								<div class="w-full bg-[#2B2627] py-4 px-6 flex items-center justify-between">
+									
+									<div class="flex items-center">
+										
+										<div class="w-[5vh] h-[5vh] bg-white rounded-full"></div>
+
+										<div class="ml-3">
+											
+											<p class="text-white text-[16px]" style="line-height: 16px;">Delta</p>
+
+											<p class="text-gray-400 text-[12px] mt-1">14 avis au total</p>
+
+										</div>
+
+									</div>
+
+									<div class="flex items-center">
+										
+										<div class="w-[5vh] h-[5vh] bg-white/10 rounded-full flex items-center justify-center">
+											
+											<svg xmlns="http://www.w3.org/2000/svg" class="h-[3vh] w-[3vh] text-white" viewBox="0 0 20 20" fill="currentColor">
+											  	<path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
+											</svg>
+
+										</div>
+
+									</div>
+
+								</div>
+
+								<div class="w-full bg-[#1C1B1F] w-full px-6 py-4">
+									
+									<p class="text-white text-[16px]">Des combats épiques !</p>
+
+									<p class="text-gray-400 text-[13px] mt-1">Rebum gubergren exerci at sit iriure diam cum sea et at erat et kasd accusam et et. Ut aliquyam elitr. Eos clita ut eirmod exerci ad ea sanctus praesent. Doming aliquip duo no stet. Elitr lorem consetetur voluptua amet nam praesent dolore dolor feugiat dolor ad quod iusto sit doming consetetur in. Sit nonumy hendrerit et diam molestie minim et dolores ut eirmod eum minim. Magna et no invidunt dolores duis ut amet dolore tempor aliquyam amet et blandit gubergren kasd sit vero.</p>
+
+								</div>
+
+							</div>
+
+							<div class="w-full overflow-hidden rounded-md">
 								
 								<div class="w-full bg-[#31323F] py-4 px-6 flex items-center justify-between">
 									
@@ -423,7 +507,7 @@
 
 						<div class="flex items-center justify-between mt-14 w-full">
 							
-							<p class="text-white text-[25px]">Gameplay</p>
+							<p class="text-white text-[25px]">L'avis des joueurs</p>
 
 							<span class="px-4 py-2 bg-[#1C1B1F] rounded-md text-[18px] text-white">En voir plus</span>
 
@@ -431,7 +515,7 @@
 
 						<div class="mt-4 w-full bg-[#1C1B1F] overflow-hidden rounded-md flex items-start">
 							
-							<div class="w-1/2 p-6">
+							<div class="w-full p-6">
 								
 								<p class="text-white text-[22px]">Monde ouvert</p>
 
@@ -439,7 +523,7 @@
 
 								<div class="mt-4 mb-4 w-full border-t border-white/[15%]"></div>
 
-								<div class="w-full">
+								<div class="w-full grid grid-cols-4 gap-x-4">
 									
 									<div class="flex items-center">
 										 
@@ -533,13 +617,11 @@
 
 							</div>
 
-							<div class="w-1/2 h-[80vh] bg-[url('https://images2.alphacoders.com/108/1088928.jpg')] bg-cover bg-center"></div>
-
 						</div>
 
 					</div>
 
-					<div class="w-[25%] sticky top-[-8px]">
+					<div class="w-[25%]">
 						
 						<div class="w-full bg-[#1C1B1F] rounded-md p-4 mt-8">
 							
@@ -645,51 +727,65 @@
 
 						</div>
 
-						<!--<div class="p-4 bg-[#1C1B1F] rounded-md mt-3">
+						<div class="w-full bg-[#1C1B1F] rounded-md p-4 mt-3">
+							
+							<p class="text-gray-400 text-[13px]">Compatibilité avec Steam Deck :</p>
 
-							<p class="text-[13px] text-white text-start">Vos succés (20 débloqués sur 60)</p>
-
-							<div class="mt-2 flex items-center justify-start">
+							<div class="flex items-center mt-1">
 								
-								<div class="w-[3.5vh] h-[3.5vh] bg-white/10 rounded-md flex items-center justify-center hover:scale-[110%] transition-all">
+								<svg class="text-white w-[17px]" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M14.1931 15.6064C13.0246 16.4816 11.5733 17 10.001 17C6.13498 17 3.00098 13.866 3.00098 10C3.00098 8.42766 3.51938 6.97641 4.39459 5.80783L14.1931 15.6064ZM15.6074 14.1922C16.4826 13.0236 17.001 11.5723 17.001 10C17.001 6.13401 13.867 3 10.001 3C8.42864 3 6.97739 3.5184 5.80881 4.39362L15.6074 14.1922ZM19.001 10C19.001 14.9706 14.9715 19 10.001 19C5.03041 19 1.00098 14.9706 1.00098 10C1.00098 5.02944 5.03041 1 10.001 1C14.9715 1 19.001 5.02944 19.001 10Z" fill="currentColor"></path></svg>
+
+								<p class="text-white text-[13px] ml-2">Non prise en charge</p>
+
+							</div>
+
+							<div class="mt-4 w-full px-2 py-1 rounded-md bg-[#46229C] hover:bg-[#46229C]/80 transition-all text-white text-[13px] flex items-center justify-center">En savoir plus</div>
+
+						</div>
+
+						<div class="p-4 bg-[#1C1B1F] rounded-md mt-3">
+
+							<p class="text-[13px] text-white text-start">Inclut 29 succès Steam</p>
+
+							<div class="mt-2 grid grid-cols-4 gap-x-4">
 								
-									<img src="https://i.psnprofiles.com/games/934632/trophies/1S15aec7.png" class="w-[2.5vh] h-[2.5vh]">
+								<div class="w-full h-[7vh] bg-[url('https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4000/d6b5b7ac882b0865415218642cb21bfb5a5fca77.jpg')] bg-cover bg-center rounded-md"></div>
 
-								</div>
+								<div class="w-full h-[7vh] bg-[url('https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4000/14f07b40867ab5ceb305fa99fc1b112fc96abb14.jpg')] bg-cover bg-center rounded-md"></div>
 
-								<div class="ml-2 w-[3.5vh] h-[3.5vh] bg-white/10 rounded-md flex items-center justify-center">
+								<div class="w-full h-[7vh] bg-[url('https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4000/f4bc0f96a846eeaa63a9ea92d11757b342376374.jpg')] bg-cover bg-center rounded-md"></div>
+
+								<div class="w-full h-[7vh] bg-white/10 bg-cover bg-center rounded-md flex items-center justify-center p-2 text-center">
 									
-									<img src="https://i.psnprofiles.com/games/934632/trophies/2S8b998e.png" class="w-[2.5vh] h-[2.5vh]">
-
-								</div>
-
-								<div class="ml-2 w-[3.5vh] h-[3.5vh] bg-white/10 rounded-md flex items-center justify-center">
-									
-									<img src="https://i.psnprofiles.com/games/934632/trophies/3Se6cde8.png" class="w-[2.5vh] h-[2.5vh]">
-
-								</div>
-
-								<div class="ml-2 w-[3.5vh] h-[3.5vh] bg-white/10 rounded-md flex items-center justify-center">
-									
-									<img src="https://i.psnprofiles.com/games/934632/trophies/4S84f8d1.png" class="w-[2.5vh] h-[2.5vh]">
-
-								</div>
-
-								<div class="ml-2 w-[3.5vh] h-[3.5vh] bg-white/10 rounded-md flex items-center justify-center">
-									
-									<img src="https://i.psnprofiles.com/games/934632/trophies/5S90a251.png" class="w-[2.5vh] h-[2.5vh]">
-
-								</div>
-
-								<div class="ml-2 w-[3.5vh] h-[3.5vh] bg-white/10 rounded-md flex items-center justify-center">
-									
-									<p class="text-[13px] text-white">+15</p>
+									<p class="text-[12px] text-white">Voir tout (29)</p>
 
 								</div>
 
 							</div>
 
-						</div>-->
+						</div>
+
+						<div class="p-4 bg-[#1C1B1F] rounded-md mt-3">
+
+							<p class="text-[13px] text-white text-start">Items disponibles dans la boutique des points</p>
+
+							<div class="mt-2 grid grid-cols-4 gap-x-4">
+								
+								<div class="w-full h-[7vh] bg-[url('https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/4000/251d5c761b8435a39dfdc11a47df7f61e8ae61f0.png')] bg-cover bg-center rounded-md"></div>
+
+								<div class="w-full h-[7vh] bg-[url('https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/4000/68b256cdce39f86404df0fb99c241b31028d8bb9.png')] bg-cover bg-center rounded-md"></div>
+
+								<div class="w-full h-[7vh] bg-[url('https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/4000/7d8bda74dc5c860baccbf6be5b5e48fd811467cc.png')] bg-cover bg-center rounded-md"></div>
+
+								<div class="w-full h-[7vh] bg-white/10 bg-cover bg-center rounded-md flex items-center justify-center p-2 text-center">
+									
+									<p class="text-[12px] text-white">Tout afficher (12)</p>
+
+								</div>
+
+							</div>
+
+						</div>
 
 					</div>
 
