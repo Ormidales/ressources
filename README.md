@@ -21,8 +21,8 @@ le dossier Github "ressources" concentre l'entièreté de mes projets réalisés
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://hugodoueil.fr)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hugodoueil)
 
-<h1 align="center">Hey 👋, je suis Hugo</h1>
-<h3 align="center">Un développeur Web français</h3>
+<h1>Hey 👋, je suis Hugo</h1>
+<h3>Un développeur Web français</h3>
 
 - 🔭 Je suis actuellement en train de travailler sur [https://hugodoueil.fr](https://hugodoueil.fr)
 
