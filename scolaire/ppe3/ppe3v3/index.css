@@ -1,0 +1,253 @@
+@font-face{font-family:Sandor;src:url('SandorTrial.ttf')}
+			body{
+				margin: 0;
+				padding: 0;
+				transition: all 0.2s ease;
+				color: black;
+				overflow-x: hidden;
+			}
+			a{
+				text-decoration: none;
+				color: black;
+			}
+			#cursor{
+				padding: 1.5rem;
+				border-radius: 50%;
+				position: absolute;
+				transform: translate(-50%, -50%);
+				pointer-events: none;
+				z-index: 500;
+				background-position: center;
+	            background-repeat: no-repeat;
+	            background-size: cover;
+				transition: all 0.1s ease;
+			}
+			.img-eye{
+				position: absolute;
+				z-index: -5;
+				opacity: 0;
+				animation-duration: 0.5s;
+                animation-name: eye-animation;
+                animation-iteration-count: infinite;
+				transition: all 0.2s ease;
+			}
+			.img-monograme{
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				opacity: 0;
+				z-index: -5;
+				animation-duration: 10s;
+                animation-name: monograme-animation;
+                animation-iteration-count: infinite;
+				transition: all 0.2s ease;
+			}
+			.header{
+				margin-right: 25vh;
+				margin-left: 25vh;
+				padding: 1.5vh;
+				background-color: transparent;
+				display: flex;
+				justify-content: space-between;
+			}
+			.header h1{
+				position: relative;
+				font-size: 50px;
+				letter-spacing: 2.5px;
+				font-family: Sandor, sans-serif;
+			}
+			.menu{
+				display: flex;
+				transform: translateY(35px);
+			}
+			.menu p{
+				font-size: 20px;
+				border-top: solid;
+				border-top-color: white;
+				border-top-width: 0px;
+				transition: all 0.2s ease;
+				font-family: Sandor, sans-serif;
+			}
+			.menu p:hover{
+				border-top: solid;
+				border-top-color: #198754;
+				border-top-width: 5px;
+				transition: all 0.2s ease;
+			}
+			.menu-tel{
+				display: none;
+				padding: 0.5vh;
+			}
+			.menu-tel p{
+				font-size: 25px;
+				transition: all 0.2s ease;
+				font-family: Sandor, sans-serif;
+			}
+			.menu-tel p:hover{
+				transform: translateX(15px);
+				transition: all 0.2s ease;
+			}
+			.separation{
+				margin-right: 25vh;
+				margin-left: 25vh;
+				padding: 0.5vh;
+				background-color: #198754;
+			}
+			.main{
+				margin-top: 2.5vh;
+				margin-right: 35vh;
+				margin-left: 35vh;
+				background: transparent;
+				padding: 2vh;
+				display: block;
+			}
+			.main-p1{
+				font-size: 80px;
+				font-family: Poppins, sans-serif;
+				font-weight: 900;
+			}
+			.main-p2{
+				font-size: 30px;
+				font-family: Poppins, sans-serif;
+			}
+			.main-p3{
+				font-size: 30px;
+				font-family: Poppins, sans-serif;
+			}
+			table{
+				font-family: Poppins, sans-serif;
+				border-collapse: collapse;
+				width: 100%;
+			}
+			td, th {
+			  	border: 1px solid black;
+			  	text-align: left;
+			  	padding: 8px;
+			  	transition: all 0.2s ease;
+			}
+			td:hover{
+				background: #198754;
+				font-weight: 900;
+				color: white;
+				letter-spacing: 1px;
+				transition: all 0.2s ease;
+			}
+
+
+
+			@media(max-width: 1500px){
+				.img-eye{
+					display: none;
+				}
+				.img-monograme{
+					display: none;
+				}
+				.header{
+					margin-right: 10vh;
+					margin-left: 10vh;
+					padding: 3vh;
+					background-color: transparent;
+				}
+				.menu-tel{
+					display: none;
+					padding: 0.5vh;
+				}
+				.separation{
+					margin-right: 10vh;
+					margin-left: 10vh;
+					padding: 0.5vh;
+					background-color: #198754;
+				}
+				.main{
+					margin-top: 2.5vh;
+					margin-right: 15vh;
+					margin-left: 15vh;
+					background: transparent;
+					padding: 2vh;
+					display: block;
+				}
+				.main-p1{
+					font-size: 50px;
+					font-family: Poppins, sans-serif;
+					font-weight: 900;
+				}
+				.main-p2{
+					font-size: 20px;
+					font-family: Poppins, sans-serif;
+				}
+				.main-p3{
+					font-size: 20px;
+					font-family: Poppins, sans-serif;
+				}
+			}
+			@media(max-width: 1000px){
+				.img-eye{
+					display: none;
+				}
+				.img-monograme{
+					display: none;
+				}
+				.header{
+					margin-right: 0vh;
+					margin-left: 0vh;
+					padding: 3vh;
+					background-color: transparent;
+					display: block;
+				}
+				.menu{
+					display: none;
+				}
+				.menu-tel{
+					display: block;
+					padding: 0.5vh;
+				}
+				.separation{
+					margin-right: 0vh;
+					margin-left: 0vh;
+					padding: 0.5vh;
+					background-color: #198754;
+				}
+				.main{
+					margin-top: 2.5vh;
+					margin-right: 0vh;
+					margin-left: 0vh;
+					background: transparent;
+					padding: 2vh;
+					display: block;
+				}
+				.main-p1{
+					font-size: 30px;
+					font-family: Poppins, sans-serif;
+					font-weight: 900;
+				}
+				.main-p2{
+					font-size: 20px;
+					font-family: Poppins, sans-serif;
+				}
+				.main-p3{
+					font-size: 20px;
+					font-family: Poppins, sans-serif;
+				}
+			}
+			@keyframes eye-animation{
+                from{
+                    transform: scale(0.9) rotate(-10deg);
+                }
+                50%{
+                    transform: scale(1) rotate(-10deg);
+                }
+                to{
+                    transform: scale(0.9) rotate(-10deg);
+                }
+            }
+            @keyframes monograme-animation{
+                from{
+                    transform: rotate(0deg);
+                }
+                50%{
+                    transform: rotate(360deg);
+                }
+                to{
+                    transform: rotate(0deg);
+                }
+            }
