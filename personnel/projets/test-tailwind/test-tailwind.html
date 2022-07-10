@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  		<script src="https://cdn.tailwindcss.com"></script>
+		<title>TEST TAILWIND</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	</head>
+	<body class="bg-slate-900" style="background-size: cover; font-family: Poppins, sans-serif;">
+		<div class="sticky top-0 z-40 px-10 w-full backdrop-blur flex-none transition-colors duration-500 lg:z-50 lg:border-b lg:border-slate-900/10 dark:border-slate-50/[0.06] bg-white/95 supports-backdrop-blur:bg-white/60 dark:bg-transparent" style="border-bottom: 1px solid rgb(248 250 252/.06);">
+			<div class="max-w-8xl mx-auto">
+				<div class="py-4 border-b border-slate-900/10 lg:px-8 lg:border-0 dark:border-slate-300/10 mx-4 lg:mx-0">
+					<div class="relative flex items-center">
+						<a class="mr-3 flex-none overflow-hidden md:w-auto" href="#">
+							<h1 class="text-slate-900 dark:text-white w-auto">Hugo Doueil</h1>
+						</a>
+						<div class="relative">
+							<button class="text-xs text-white leading-5 bg-slate-400/10 rounded-full py-1 px-3 flex items-center space-x-2 hover:bg-slate-400/20 dark:highlight-white/5" id="headlessui-menu-button-6" type="button" aria-haspopup="true" aria-expanded="false">
+								version 11.0
+								<svg width="6" height="3" class="ml-2 overflow-visible" aria-hidden="true">
+									<path d="M0 0L3 3L6 0" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+								</svg>
+							</button>
+						</div>
+						<a class="ml-3 text-xs leading-5 font-medium text-sky-600 dark:text-sky-400 bg-sky-400/10 rounded-full py-1 px-3 hidden xl:flex items-center hover:bg-sky-400/20" href="/blog/tailwindcss-v3">
+							<strong class="font-semibold">banqueSIO v4</strong>
+							<svg width="2" height="2" fill="currentColor" aria-hidden="true" class="ml-2 text-sky-600 dark:text-sky-400/70">
+								<circle cx="1" cy="1" r="1"></circle>
+							</svg>
+							<span class="ml-2">Nouveaux headers, displays, boutons, et bien d'autres !</span>
+							<svg width="3" height="6" class="ml-3 overflow-visible text-sky-300 dark:text-sky-400" aria-hidden="true">
+								<path d="M0 0L3 3L0 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+							</svg>
+						</a>
+						<div class="relative hidden lg:flex items-center ml-auto">
+							<nav class="text-sm leading-6 font-semibold text-slate-700 dark:text-slate-200">
+								<ul class="flex space-x-8">
+									<li>
+										<a class="hover:text-sky-500 dark:hover:text-sky-400" href="/docs/installation">A propos</a>
+									</li>
+									<li>
+										<a href="https://tailwindui.com" class="hover:text-sky-500 dark:hover:text-sky-400">Mes projets</a>
+									</li>
+									<li>
+										<a class="hover:text-sky-500 dark:hover:text-sky-400" href="/blog">Mes stages</a>
+									</li>
+									<li>
+										<a class="hover:text-sky-500 dark:hover:text-sky-400" href="/blog">Contact</a>
+									</li>
+								</ul>
+							</nav>
+							<div class="flex items-center border-l border-slate-200 ml-6 pl-6 dark:border-slate-800">
+								<label class="sr-only" id="headlessui-listbox-label-8">Theme</label>
+								<button type="button" id="headlessui-listbox-button-9" aria-haspopup="true" aria-expanded="false" aria-labelledby="headlessui-listbox-label-8 headlessui-listbox-button-9">
+									<span class="dark:hidden">
+										<svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+											<path d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" class="fill-sky-400/20 stroke-sky-500"></path>
+											<path d="M12 4v1M17.66 6.344l-.828.828M20.005 12.004h-1M17.66 17.664l-.828-.828M12 20.01V19M6.34 17.664l.835-.836M3.995 12.004h1.01M6 6l.835.836" class="stroke-sky-500"></path>
+										</svg>
+									</span>
+								</button>
+								<a href="https://github.com/tailwindlabs/tailwindcss" class="ml-6 block text-slate-400 hover:text-slate-500 dark:hover:text-slate-300"><span class="sr-only">Tailwind CSS on GitHub</span><svg viewBox="0 0 16 16" class="w-5 h-5" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg></a>
+							</div>
+						</div>
+						<button type="button" class="ml-auto text-slate-500 w-8 h-8 -my-1 flex items-center justify-center hover:text-slate-600 lg:hidden dark:text-slate-400 dark:hover:text-slate-300">
+							<span class="sr-only">Search</span>
+							<svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+								<path d="m19 19-3.5-3.5"></path>
+								<circle cx="11" cy="11" r="6"></circle>
+							</svg>
+						</button>
+						<div class="ml-2 -my-1 lg:hidden"><button type="button" class="text-slate-500 w-8 h-8 flex items-center justify-center hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300"><span class="sr-only">Navigation</span><svg width="24" height="24" fill="none" aria-hidden="true"><path d="M12 6v.01M12 12v.01M12 18v.01M12 7a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm0 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm0 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></button></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="px-20 pb-10" style="padding-top: 6vh;">
+			<li class="-mx-4 p-4 pb-10 bg-slate-50 flex flex-col-reverse items-start sm:mx-0 sm:p-10 rounded-2xl xl:flex-row dark:bg-slate-800/50">
+				<div class="flex-auto">
+					<h3 class="mb-4 text-sm leading-6 font-semibold text-blue-500">BTS SIO SLAM - 2EME ANNÉE</h3>
+					<p class="mb-2 text-xl font-semibold tracking-tight text-slate-900 dark:text-slate-200">PPE1 - VERSIONADO</p>
+					<div class="mb-6 text-sm leading-6 text-slate-600 space-y-4 dark:text-slate-400">
+						<p>Refactoring UI is a design-for-developers book + video series put together by Adam Wathan and Steve Schoger. It covers literally everything we know about making things look awesome.</p>
+						<p>Almost 10,000 people have picked it up so far and have all sorts of awesome things to say about how it helped them improve their work.</p>
+					</div>
+					<a class="group inline-flex items-center h-9 rounded-full mt-5 md:mb-0 mb-5 text-sm font-semibold whitespace-nowrap px-3 focus:outline-none focus:ring-2 bg-slate-700 text-white hover:bg-slate-800 focus:ring-offset-2 focus:ring-offset-slate-50 focus:ring-slate-400 dark:focus:ring-offset-0 dark:bg-slate-700 dark:text-slate-100 dark:hover:bg-slate-600 dark:hover:text-white dark:focus:ring-slate-500" href="https://refactoringui.com">Voir le projet Github
+						<span class="sr-only">, Refactoring UI</span>
+						<svg class="overflow-visible ml-3 text-slate-300 group-hover:text-slate-200 dark:text-slate-500 dark:group-hover:text-slate-400" width="3" height="6" viewBox="0 0 3 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M0 0L3 3L0 6"></path></svg>
+					</a>
+					<a class="group inline-flex items-center h-9 md:ml-5 sm:mt-0 rounded-full text-sm font-semibold whitespace-nowrap px-3 focus:outline-none focus:ring-2 bg-slate-700 text-white hover:bg-slate-800 focus:ring-offset-2 focus:ring-offset-slate-50 focus:ring-slate-400 dark:focus:ring-offset-0 dark:bg-slate-700 dark:text-slate-100 dark:hover:bg-slate-600 dark:hover:text-white dark:focus:ring-slate-500" href="https://refactoringui.com">Voir le site web
+						<span class="sr-only">, Refactoring UI</span>
+						<svg class="overflow-visible ml-3 text-slate-300 group-hover:text-slate-200 dark:text-slate-500 dark:group-hover:text-slate-400" width="3" height="6" viewBox="0 0 3 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M0 0L3 3L0 6"></path></svg>
+					</a>
+				</div>
+				<div class="w-full flex-none mb-10 xl:mb-0 xl:ml-8 xl:w-[29rem]">
+					<div class="aspect-w-[1216] aspect-h-[606] sm:aspect-w-[1376] sm:aspect-h-[664] shadow-lg rounded-lg bg-slate-100 overflow-hidden dark:bg-slate-800">
+						<picture>
+							<source type="image/jpeg" srcset="background14.png" media="(min-width: 640px)"><img src="background14.png" alt="">
+						</picture>
+					</div>
+				</div>
+			</li>
+		</div>
+
+		<div class="px-20 pb-10" style="padding-top: 6vh;">
+			<li class="-mx-4 p-4 pb-10 bg-slate-50 flex flex-col-reverse items-start sm:mx-0 sm:p-10 rounded-2xl xl:flex-row dark:bg-slate-800/50">
+				<div class="flex-auto">
+					<h3 class="mb-4 text-sm leading-6 font-semibold text-blue-500">BTS SIO SLAM - 2EME ANNÉE</h3>
+					<p class="mb-2 text-xl font-semibold tracking-tight text-slate-900 dark:text-slate-200">PPE1 - VERSIONADO</p>
+					<div class="mb-6 text-sm leading-6 text-slate-600 space-y-4 dark:text-slate-400">
+						<p>Refactoring UI is a design-for-developers book + video series put together by Adam Wathan and Steve Schoger. It covers literally everything we know about making things look awesome.</p>
+						<p>Almost 10,000 people have picked it up so far and have all sorts of awesome things to say about how it helped them improve their work.</p>
+					</div>
+					<a class="group inline-flex items-center h-9 rounded-full mt-5 md:mb-0 mb-5 text-sm font-semibold whitespace-nowrap px-3 focus:outline-none focus:ring-2 bg-slate-700 text-white hover:bg-slate-800 focus:ring-offset-2 focus:ring-offset-slate-50 focus:ring-slate-400 dark:focus:ring-offset-0 dark:bg-slate-700 dark:text-slate-100 dark:hover:bg-slate-600 dark:hover:text-white dark:focus:ring-slate-500" href="https://refactoringui.com">Voir le projet Github
+						<span class="sr-only">, Refactoring UI</span>
+						<svg class="overflow-visible ml-3 text-slate-300 group-hover:text-slate-200 dark:text-slate-500 dark:group-hover:text-slate-400" width="3" height="6" viewBox="0 0 3 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M0 0L3 3L0 6"></path></svg>
+					</a>
+					<a class="group inline-flex items-center h-9 md:ml-5 sm:mt-0 rounded-full text-sm font-semibold whitespace-nowrap px-3 focus:outline-none focus:ring-2 bg-slate-700 text-white hover:bg-slate-800 focus:ring-offset-2 focus:ring-offset-slate-50 focus:ring-slate-400 dark:focus:ring-offset-0 dark:bg-slate-700 dark:text-slate-100 dark:hover:bg-slate-600 dark:hover:text-white dark:focus:ring-slate-500" href="https://refactoringui.com">Voir le projet Github
+						<span class="sr-only">, Refactoring UI</span>
+						<svg class="overflow-visible ml-3 text-slate-300 group-hover:text-slate-200 dark:text-slate-500 dark:group-hover:text-slate-400" width="3" height="6" viewBox="0 0 3 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M0 0L3 3L0 6"></path></svg>
+					</a>
+				</div>
+				<div class="w-full flex-none mb-10 xl:mb-0 xl:ml-8 xl:w-[29rem]">
+					<div class="aspect-w-[1216] aspect-h-[606] sm:aspect-w-[1376] sm:aspect-h-[664] shadow-lg rounded-lg bg-slate-100 overflow-hidden dark:bg-slate-800">
+						<picture>
+							<source type="image/jpeg" srcset="background14.png" media="(min-width: 640px)"><img src="background14.png" alt="">
+						</picture>
+					</div>
+				</div>
+			</li>
+		</div>
+
+		<div class="px-20 pb-10" style="padding-top: 6vh;">
+			<li class="-mx-4 p-4 pb-10 bg-slate-50 flex flex-col-reverse items-start sm:mx-0 sm:p-10 rounded-2xl xl:flex-row dark:bg-red-700/50">
+				<div class="flex-auto">
+					<h3 class="mb-4 text-sm leading-6 font-semibold text-yellow-300">A Memory From IronHeart Valley | Update 5</h3>
+					<p class="mb-2 text-xl font-semibold tracking-tight text-slate-900 dark:text-slate-200">Autority and Order Update</p>
+					<div class="mb-6 text-sm leading-6 text-white space-y-4 dark:text-white">
+						<p>Refactoring UI is a design-for-developers book + video series put together by Adam Wathan and Steve Schoger. It covers literally everything we know about making things look awesome.</p>
+					</div>
+					<a class="group inline-flex items-center h-9 rounded-full mt-5 md:mb-0 mb-5 text-sm font-semibold whitespace-nowrap px-3 focus:outline-none focus:ring-2 bg-yellow-200 text-white hover:bg-slate-800 focus:ring-offset-2 focus:ring-offset-slate-50 focus:ring-slate-400 dark:focus:ring-offset-0 dark:bg-yellow-300 dark:text-black dark:hover:bg-yellow-500 dark:hover:text-black dark:focus:ring-slate-500" href="https://refactoringui.com">Voir le projet Github
+						<span class="sr-only">, Refactoring UI</span>
+						<svg class="overflow-visible ml-3 text-black group-hover:text-black dark:text-black dark:group-hover:text-black" width="3" height="6" viewBox="0 0 3 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M0 0L3 3L0 6"></path></svg>
+					</a>
+					<a class="group inline-flex items-center h-9 rounded-full md:ml-5 sm:mt-0 text-sm font-semibold whitespace-nowrap px-3 focus:outline-none focus:ring-2 bg-yellow-200 text-white hover:bg-slate-800 focus:ring-offset-2 focus:ring-offset-slate-50 focus:ring-slate-400 dark:focus:ring-offset-0 dark:bg-yellow-300 dark:text-black dark:hover:bg-yellow-500 dark:hover:text-black dark:focus:ring-slate-500" href="https://refactoringui.com">Voir le projet Github
+						<span class="sr-only">, Refactoring UI</span>
+						<svg class="overflow-visible ml-3 text-black group-hover:text-black dark:text-black dark:group-hover:text-black" width="3" height="6" viewBox="0 0 3 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M0 0L3 3L0 6"></path></svg>
+					</a>
+				</div>
+				<div class="w-full flex-none mb-10 xl:mb-0 xl:ml-8 xl:w-[29rem]">
+					<div class="aspect-w-[1216] aspect-h-[606] sm:aspect-w-[1376] sm:aspect-h-[664] shadow-lg rounded-lg bg-slate-100 overflow-hidden dark:bg-slate-800">
+						<picture>
+							<source type="image/jpeg" srcset="background14.png" media="(min-width: 640px)"><img src="background14.png" alt="">
+						</picture>
+					</div>
+				</div>
+			</li>
+		</div>
+
+		<div class="px-20 pb-10 pt-10">
+			<ul class="px-5 mt-10 grid grid-cols-1 gap-x-16 gap-y-8 xl:grid-cols-2 xl:gap-y-10">
+				<li class="relative flex items-start">
+					<div class="w-16 h-16 p-[0.1875rem] rounded-full ring-1 ring-slate-900/10 shadow overflow-hidden flex-none dark:bg-indigo-500 dark:highlight-white/20">
+						<div class="aspect-w-1 aspect-h-1 bg-[length:100%] dark:hidden" style="background-image: url(&quot;/_next/static/media/utility-first.e881b21fb6e06478ddff96759b2bb88d.png&quot;);"></div>
+						<div class="hidden aspect-w-1 aspect-h-1 bg-[length:100%] dark:block" style="background-image: url(&quot;/_next/static/media/utility-first.026b60de29ca82d161ad911ac5f526af.png&quot;);"></div>
+					</div>
+					<div class="peer group flex-auto ml-6">
+						<h3 class="mb-2 font-semibold text-slate-900 dark:text-slate-200">
+							<a class="before:absolute before:-inset-3 before:rounded-2xl sm:before:-inset-4" href="/docs/utility-first">Utility-First Fundamentals
+								<svg viewBox="0 0 3 6" class="ml-3 w-auto h-1.5 overflow-visible inline -mt-px text-slate-400 opacity-0 group-hover:opacity-100 group-focus-within:opacity-100">
+									<path d="M0 0L3 3L0 6" fill="none" stroke-width="2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+								</svg>
+							</a>
+						</h3>
+						<div class="prose prose-slate prose-sm text-slate-600 dark:prose-dark">
+							<p>Using a utility-first workflow to build complex components from a constrained set of primitive utilities.</p>
+						</div>
+					</div>
+					<div class="absolute -z-10 -inset-3 rounded-2xl bg-slate-50 dark:bg-slate-800/50 opacity-0 peer-hover:opacity-100 sm:-inset-4"></div>
+				</li>
+				<li class="relative flex items-start">
+					<div class="w-16 h-16 p-[0.1875rem] rounded-full ring-1 ring-slate-900/10 shadow overflow-hidden flex-none dark:bg-indigo-500 dark:highlight-white/20">
+						<div class="aspect-w-1 aspect-h-1 bg-[length:100%] dark:hidden" style="background-image: url(&quot;/_next/static/media/utility-first.e881b21fb6e06478ddff96759b2bb88d.png&quot;);"></div>
+						<div class="hidden aspect-w-1 aspect-h-1 bg-[length:100%] dark:block" style="background-image: url(&quot;/_next/static/media/utility-first.026b60de29ca82d161ad911ac5f526af.png&quot;);"></div>
+					</div>
+					<div class="peer group flex-auto ml-6">
+						<h3 class="mb-2 font-semibold text-slate-900 dark:text-slate-200">
+							<a class="before:absolute before:-inset-3 before:rounded-2xl sm:before:-inset-4" href="/docs/utility-first">Utility-First Fundamentals
+								<svg viewBox="0 0 3 6" class="ml-3 w-auto h-1.5 overflow-visible inline -mt-px text-slate-400 opacity-0 group-hover:opacity-100 group-focus-within:opacity-100">
+									<path d="M0 0L3 3L0 6" fill="none" stroke-width="2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+								</svg>
+							</a>
+						</h3>
+						<div class="prose prose-slate prose-sm text-slate-600 dark:prose-dark">
+							<p>Using a utility-first workflow to build complex components from a constrained set of primitive utilities.</p>
+						</div>
+					</div>
+					<div class="absolute -z-10 -inset-3 rounded-2xl bg-slate-50 dark:bg-slate-800/50 opacity-0 peer-hover:opacity-100 sm:-inset-4"></div>
+				</li>
+				<li class="relative flex items-start">
+					<div class="w-16 h-16 p-[0.1875rem] rounded-full ring-1 ring-slate-900/10 shadow overflow-hidden flex-none dark:bg-indigo-500 dark:highlight-white/20">
+						<div class="aspect-w-1 aspect-h-1 bg-[length:100%] dark:hidden" style="background-image: url(&quot;/_next/static/media/utility-first.e881b21fb6e06478ddff96759b2bb88d.png&quot;);"></div>
+						<div class="hidden aspect-w-1 aspect-h-1 bg-[length:100%] dark:block" style="background-image: url(&quot;/_next/static/media/utility-first.026b60de29ca82d161ad911ac5f526af.png&quot;);"></div>
+					</div>
+					<div class="peer group flex-auto ml-6">
+						<h3 class="mb-2 font-semibold text-slate-900 dark:text-slate-200">
+							<a class="before:absolute before:-inset-3 before:rounded-2xl sm:before:-inset-4" href="/docs/utility-first">Utility-First Fundamentals
+								<svg viewBox="0 0 3 6" class="ml-3 w-auto h-1.5 overflow-visible inline -mt-px text-slate-400 opacity-0 group-hover:opacity-100 group-focus-within:opacity-100">
+									<path d="M0 0L3 3L0 6" fill="none" stroke-width="2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+								</svg>
+							</a>
+						</h3>
+						<div class="prose prose-slate prose-sm text-slate-600 dark:prose-dark">
+							<p>Using a utility-first workflow to build complex components from a constrained set of primitive utilities.</p>
+						</div>
+					</div>
+					<div class="absolute -z-10 -inset-3 rounded-2xl bg-slate-50 dark:bg-slate-800/50 opacity-0 peer-hover:opacity-100 sm:-inset-4"></div>
+				</li>
+				<li class="relative flex items-start">
+					<div class="w-16 h-16 p-[0.1875rem] rounded-full ring-1 ring-slate-900/10 shadow overflow-hidden flex-none dark:bg-indigo-500 dark:highlight-white/20">
+						<div class="aspect-w-1 aspect-h-1 bg-[length:100%] dark:hidden" style="background-image: url(&quot;/_next/static/media/utility-first.e881b21fb6e06478ddff96759b2bb88d.png&quot;);"></div>
+						<div class="hidden aspect-w-1 aspect-h-1 bg-[length:100%] dark:block" style="background-image: url(&quot;/_next/static/media/utility-first.026b60de29ca82d161ad911ac5f526af.png&quot;);"></div>
+					</div>
+					<div class="peer group flex-auto ml-6">
+						<h3 class="mb-2 font-semibold text-slate-900 dark:text-slate-200">
+							<a class="before:absolute before:-inset-3 before:rounded-2xl sm:before:-inset-4" href="/docs/utility-first">Utility-First Fundamentals
+								<svg viewBox="0 0 3 6" class="ml-3 w-auto h-1.5 overflow-visible inline -mt-px text-slate-400 opacity-0 group-hover:opacity-100 group-focus-within:opacity-100">
+									<path d="M0 0L3 3L0 6" fill="none" stroke-width="2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+								</svg>
+							</a>
+						</h3>
+						<div class="prose prose-slate prose-sm text-slate-600 dark:prose-dark">
+							<p>Using a utility-first workflow to build complex components from a constrained set of primitive utilities.</p>
+						</div>
+					</div>
+					<div class="absolute -z-10 -inset-3 rounded-2xl bg-slate-50 dark:bg-slate-800/50 opacity-0 peer-hover:opacity-100 sm:-inset-4"></div>
+				</li>
+				<li class="relative flex items-start">
+					<div class="w-16 h-16 p-[0.1875rem] rounded-full ring-1 ring-slate-900/10 shadow overflow-hidden flex-none dark:bg-indigo-500 dark:highlight-white/20">
+						<div class="aspect-w-1 aspect-h-1 bg-[length:100%] dark:hidden" style="background-image: url(&quot;/_next/static/media/utility-first.e881b21fb6e06478ddff96759b2bb88d.png&quot;);"></div>
+						<div class="hidden aspect-w-1 aspect-h-1 bg-[length:100%] dark:block" style="background-image: url(&quot;/_next/static/media/utility-first.026b60de29ca82d161ad911ac5f526af.png&quot;);"></div>
+					</div>
+					<div class="peer group flex-auto ml-6">
+						<h3 class="mb-2 font-semibold text-slate-900 dark:text-slate-200">
+							<a class="before:absolute before:-inset-3 before:rounded-2xl sm:before:-inset-4" href="/docs/utility-first">Utility-First Fundamentals
+								<svg viewBox="0 0 3 6" class="ml-3 w-auto h-1.5 overflow-visible inline -mt-px text-slate-400 opacity-0 group-hover:opacity-100 group-focus-within:opacity-100">
+									<path d="M0 0L3 3L0 6" fill="none" stroke-width="2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+								</svg>
+							</a>
+						</h3>
+						<div class="prose prose-slate prose-sm text-slate-600 dark:prose-dark">
+							<p>Using a utility-first workflow to build complex components from a constrained set of primitive utilities.</p>
+						</div>
+					</div>
+					<div class="absolute -z-10 -inset-3 rounded-2xl bg-slate-50 dark:bg-slate-800/50 opacity-0 peer-hover:opacity-100 sm:-inset-4"></div>
+				</li>
+				<li class="relative flex items-start">
+					<div class="w-16 h-16 p-[0.1875rem] rounded-full ring-1 ring-slate-900/10 shadow overflow-hidden flex-none dark:bg-indigo-500 dark:highlight-white/20">
+						<div class="aspect-w-1 aspect-h-1 bg-[length:100%] dark:hidden" style="background-image: url(&quot;/_next/static/media/utility-first.e881b21fb6e06478ddff96759b2bb88d.png&quot;);"></div>
+						<div class="hidden aspect-w-1 aspect-h-1 bg-[length:100%] dark:block" style="background-image: url(&quot;/_next/static/media/utility-first.026b60de29ca82d161ad911ac5f526af.png&quot;);"></div>
+					</div>
+					<div class="peer group flex-auto ml-6">
+						<h3 class="mb-2 font-semibold text-slate-900 dark:text-slate-200">
+							<a class="before:absolute before:-inset-3 before:rounded-2xl sm:before:-inset-4" href="/docs/utility-first">Utility-First Fundamentals
+								<svg viewBox="0 0 3 6" class="ml-3 w-auto h-1.5 overflow-visible inline -mt-px text-slate-400 opacity-0 group-hover:opacity-100 group-focus-within:opacity-100">
+									<path d="M0 0L3 3L0 6" fill="none" stroke-width="2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+								</svg>
+							</a>
+						</h3>
+						<div class="prose prose-slate prose-sm text-slate-600 dark:prose-dark">
+							<p>Using a utility-first workflow to build complex components from a constrained set of primitive utilities.</p>
+						</div>
+					</div>
+					<div class="absolute -z-10 -inset-3 rounded-2xl bg-slate-50 dark:bg-slate-800/50 opacity-0 peer-hover:opacity-100 sm:-inset-4"></div>
+				</li>
+			</ul>
+		</div>
+		
+	</body>
+</html>
