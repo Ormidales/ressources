@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TEST TEST TEST</title>
+		<meta charset="utf-8">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	</head>
+	<body id="body">
+		<div class="cursor" id="cursor"></div>
+		<img src="eye.png" class="img-eye" id="img-eye">
+		<img src="monograme.png" class="img-monograme" id="img-monograme">
+		<div class="header">
+			<a href="testtesttest.html" id="a7"><h1>L'ATELIER - FASILA</h1></a>
+			<div class="menu">
+				<a id="a1" href="" onmouseover="mouseOverAnchor()" onmouseout="mouseOverBody()"><p style="margin-right: 2vh;">Inscription Adultes</p></a>
+				<a id="a2" href="" onmouseover="mouseOverAnchor()" onmouseout="mouseOverBody()"><p style="margin-right: 2vh;">Inscription Enfants</p></a>
+				<a id="a3" href="tarifications.html" onmouseover="mouseOverAnchor()" onmouseout="mouseOverBody()"><p>Tarifications</p></a>
+			</div>
+			<div class="menu-tel">
+				<a id="a4" href="" onmouseover="mouseOverAnchor()" onmouseout="mouseOverBody()"><a href=""><p style="margin-bottom: 2vh;">Inscription Adultes</p></a>
+				<a id="a5" href="" onmouseover="mouseOverAnchor()" onmouseout="mouseOverBody()"><p style="margin-bottom: 2vh;">Inscription Enfants</p></a>
+				<a id="a6" href="tarifications.html" onmouseover="mouseOverAnchor()" onmouseout="mouseOverBody()"><p>Tarifications</p></a>
+			</div>
+		</div>
+		<div class="separation"></div>
+		<div class="main">
+			<p class="main-p1">L'atelier Fasila,<br> Pôle d’enseignement artistique intercommunal.</p>
+			<p class="main-p2">L'atelier Fasila,<br> Pôle d’enseignement artistique intercommunal.</p>
+			<p class="main-p3">L'atelier Fasila,<br> Pôle d’enseignement artistique intercommunal.</p>
+		</div>
+		<div class="separation" style="margin-top: 8vh; margin-bottom: 2vh;"></div>
+		<div class="main">
+			<a href="" style="text-align: right;" id="a8"><p class="main-p6">Connexion administrateur</p></a>
+		</div>
+		<div class="separation" style="margin-top: 2vh; margin-bottom: 2vh;"></div>
+
+
+		<script type="text/javascript">
+			let mouseCursor = document.querySelector(".cursor")
+
+	        window.addEventListener("mousemove", cursor)
+
+	        function cursor(e) {
+	            mouseCursor.style.top = e.pageY + "px";
+	            mouseCursor.style.left = e.pageX + "px";
+	        }
+			function mouseOverAnchor() {
+				document.getElementById("cursor").style.padding = "3rem";
+	            document.getElementById("cursor").style.background = "transparent";
+	            document.getElementById("cursor").style.border = "2px solid #198754";
+	            document.getElementById("body").style.background = "#202020";
+	            document.getElementById("body").style.color = "white";
+	            document.getElementById("a1").style.color = "white";
+	            document.getElementById("a2").style.color = "white";
+	            document.getElementById("a3").style.color = "white";
+	            document.getElementById("a4").style.color = "white";
+	            document.getElementById("a5").style.color = "white";
+	            document.getElementById("a6").style.color = "white";
+	            document.getElementById("a7").style.color = "white";
+	            document.getElementById("a8").style.color = "white";
+	            document.getElementById("img-eye").style.opacity = "100%";
+	            document.getElementById("img-monograme").style.opacity = "100%";
+	        }
+	        function mouseOverBody() {
+	        	document.getElementById("cursor").style.padding = "1rem";
+	            document.getElementById("cursor").style.background = "transparent";
+	            document.getElementById("cursor").style.border = "2px solid #202020";
+	            document.getElementById("body").style.background = "white";
+	            document.getElementById("body").style.color = "#202020";
+	            document.getElementById("a1").style.color = "#202020";
+	            document.getElementById("a2").style.color = "#202020";
+	            document.getElementById("a3").style.color = "#202020";
+	            document.getElementById("a4").style.color = "#202020";
+	            document.getElementById("a5").style.color = "#202020";
+	            document.getElementById("a6").style.color = "#202020";
+	            document.getElementById("a7").style.color = "#202020";
+	            document.getElementById("a8").style.color = "#202020";
+	            document.getElementById("img-eye").style.opacity = "0%";
+	            document.getElementById("img-monograme").style.opacity = "0%";
+	        }
+		</script>
+	</body>
+</html>
