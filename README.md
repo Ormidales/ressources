@@ -15,7 +15,7 @@ le dossier Github "ressources" concentre l'entièreté de mes projets réalisés
 
 ## Auteur
 
-- [Hugo Doueil](https://github.com/Ormidales)
+- Hugo Doueil ([Github](https://github.com/Ormidales) / [Site Web](https://hugodoueil.fr))
 
 ## 🔗 Liens utiles
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://hugodoueil.fr)
