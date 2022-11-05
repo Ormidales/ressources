@@ -1,0 +1,26 @@
+dist/
+vendor/
+.gh_token
+*.min.*
+.idea
+.settings
+.buildpath
+.project
+/.gtm/
+lib/
+
+# Ignore content of data except for the index
+data/*
+!data/index.php
+
+# Ignore content of data except for the index
+css_compiled/*
+!css_compiled/remove.txt
+
+# Ignore tests logs
+tests/logs/
+
+# Ignore code coverage
+development/
+
+node_modules/
