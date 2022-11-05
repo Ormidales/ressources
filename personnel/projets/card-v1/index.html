@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			INTERCARDS | Home
+		</title>
+		<meta charset="utf-8" lang="fr">
+		<style type="text/css">
+			body{
+				background-color: #2F2F2F;
+				margin: 8px;
+			}
+			.navigation{
+				text-align: center;
+			}
+			.nav{
+				display: inline-flex;
+				overflow: hidden;
+				max-width: 100%;
+				background-color: #fff;
+				padding: 0 20px;
+				border-radius: 40px;
+				-webkit-box-shadow: 0px 0px 26px 2px rgba(0,0,0,0.77);
+				-moz-box-shadow: 0px 0px 26px 2px rgba(0,0,0,0.77);
+				box-shadow: 0px 0px 26px 2px rgba(0,0,0,0.77);
+				text-align: center;
+			}
+			.nav-item {
+  				color: #83818c;
+  				padding: 20px;
+  				text-decoration: none;
+  				transition: .3s;
+  				margin: 0 6px;
+  				z-index: 1;
+  				font-family: 'DM Sans', sans-serif;
+  				font-weight: 500;
+  				text-align: center;
+			}
+			.nav-item-active {
+  				color: #D55F5F;
+  				padding: 20px;
+  				text-decoration: none;
+  				transition: .3s;
+  				margin: 0 6px;
+  				z-index: 1;
+  				font-family: 'DM Sans', sans-serif;
+  				font-weight: 500;
+  				text-align: center;
+			}
+			.nav-item:hover{
+				background-color: #303030;
+				color: #fff;
+			}
+			.nav-item-active:hover{
+				background-color: #DA5454;
+				color: #fff;
+			}
+			.box1{
+				width: 450px;
+				height: 400px;
+				background-color: #fff;
+				margin: 35px;
+				padding: 25px;
+				text-align: center;
+				border-radius: 15px;
+				transition: 0.3s;
+				position: absolute;
+			}
+			.box1:hover{
+				-webkit-box-shadow: 0px 0px 26px 2px rgba(0,0,0,0.77);
+				-moz-box-shadow: 0px 0px 26px 2px rgba(0,0,0,0.77);
+				box-shadow: 0px 0px 26px 2px rgba(0,0,0,0.77);
+				transition: 0.3s;
+			}
+			.box2{
+				width: 660px;
+				height: 100px;
+				background-color: #fff;
+				margin: 35px;
+				padding: 25px;
+				border-radius: 15px;
+				margin-left: 580px;
+				position: absolute;
+				transition: 0.3s;
+			}
+			.box2:hover{
+				-webkit-box-shadow: 0px 0px 26px 2px rgba(0,0,0,0.77);
+				-moz-box-shadow: 0px 0px 26px 2px rgba(0,0,0,0.77);
+				box-shadow: 0px 0px 26px 2px rgba(0,0,0,0.77);
+				transition: 0.3s;
+			}
+			.box3{
+				width: 660px;
+				height: 195px;
+				background-color: #fff;
+				margin: 35px;
+				padding: 25px;
+				border-radius: 15px;
+				margin-left: 580px;
+				margin-top: 240px;
+				position: absolute;
+				transition: 0.3s;
+			}
+			.box3:hover{
+				-webkit-box-shadow: 0px 0px 26px 2px rgba(0,0,0,0.77);
+				-moz-box-shadow: 0px 0px 26px 2px rgba(0,0,0,0.77);
+				box-shadow: 0px 0px 26px 2px rgba(0,0,0,0.77);
+				background-color:#d6ce65;
+				color: white;
+				transition: 0.3s;
+			}
+			.text1{
+				font-family: 'DM Sans', sans-serif;
+				text-decoration: underline;
+				margin: 0;
+			}
+			.paragraph1{
+				font-family: 'DM Sans', sans-serif;
+				text-decoration: underline;
+				margin: 1px;
+			}
+			.paragraph2{
+				font-family: 'DM Sans', sans-serif;
+				border: 1px solid black;
+				border-radius: 15px;
+				padding: 10px;
+				transition: 0.3s;
+			}
+			.paragraph2:hover{
+				background-color: #78d656;
+				color: white;
+				border-color: #78d656;
+				-webkit-box-shadow: 0px 0px 26px 2px #78d656;
+				-moz-box-shadow: 0px 0px 26px 2px #78d656;
+				box-shadow: 0px 0px 26px 2px #78d656;
+				transition: 0.3s;
+			}
+			.advertissment{
+				font-family: 'DM Sans', sans-serif;
+				color: #db4b4b;
+				border: 1px solid #db4b4b;
+				border-radius: 15px;
+				padding: 10px;
+				transition: 0.3s;
+			}
+			.advertissment:hover{
+				background-color: #db4b4b;
+				color: white;
+				-webkit-box-shadow: 0px 0px 26px 2px #db4b4b;
+				-moz-box-shadow: 0px 0px 26px 2px #db4b4b;
+				box-shadow: 0px 0px 26px 2px #db4b4b;
+				transition: 0.3s;
+			}
+			.entreprise{
+				font-family: 'DM Sans', sans-serif;
+			}
+			.player{
+				font-family: 'DM Sans', sans-serif;
+				text-align: left;
+				margin: 0px;
+				text-decoration: underline;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="navigation">
+			<nav class="nav">
+				<a href="#" class="nav-item">News</a>
+				<a href="tavern.html" class="nav-item">Tavern</a>
+				<a href="index.html" class="nav-item-active">Home</a>
+				<a href="cards.html" class="nav-item">Cards</a>
+				<a href="#" class="nav-item">Contacts</a>
+			</nav>
+		</div>
+		<div class="box1">
+			<h1 class="text1">WELCOME TO INTERCARDS</h1>
+			<br>
+			<p class="paragraph1">RULES :</p>
+			<p class="paragraph2">Do not cheat<br>Do not use duplications<br>Do not ruin the others experiences<br>Collected cards and trade them<br>Open chests to collected cards<br>Please enjoy</p>
+			<p class="advertissment">If you do not follow one of these rules,<br> you may find yourself in serious trouble with your account.</p>
+			<br>
+			<br>
+			<h2 class="entreprise">Created by FOKIO Inc</h2>
+		</div>
+		<div class="box2">
+			<h3 class="player">PLAYER :</h3>
+		</div>
+		<div class="box3"></div>
+	</body>
+</html>
