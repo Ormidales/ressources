@@ -1,0 +1,136 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	background: url(back2.jpg);
+	background-size: cover;
+}
+.beta
+{
+	top: 0%;
+	left: 0%;
+	transform: translate(0%,0%);
+	width: 170px;
+	height: 35px;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+}
+.beta h1
+{
+	margin: 0;
+	padding: 0 0 20px;
+	color: #FBFBFB;
+	text-align: left;
+	font-weight: bold;
+	font-size: 12px;
+}
+.beta h1:hover
+{
+	color: #efed40;
+}
+.beta:nth-child(2)
+{
+	cursor: url("cheese.png"),auto;
+}
+.login
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 340px;
+	height: 415px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.7);
+}
+.login:nth-child(3)
+{
+	cursor: url("cheese.png"),auto;
+}
+.ava2
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: calc(-100px/2);
+	left: calc(50% - 50px);
+}
+.login h2
+{
+	margin: 0;
+	padding: 0 0 20px;
+	color: #efed40;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.login p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+.login input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.login input[type="text"],
+.login input[type="Password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	color: #fff;
+	font-size: 16px;
+	height: 40px;
+}
+.login input[type="submit"]
+{
+	border: none;
+	outline: none;
+	color: #000000;
+	background: #FFFF00;
+	cursor: pointer;
+	border-radius: 20px;
+	height: 40px;
+	font-size: 16px;
+}
+.login input[type="submit"]:hover
+{
+	background: #FCFC50;
+	color: #000000;
+}
+.login a
+{
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.login a:hover
+{
+	color: #efed40;
+}
+.container
+{
+	width: 1360px;
+	height: 664px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.container:nth-child(1)
+{
+	cursor: url("cheese.png"),auto;
+}
