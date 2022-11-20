@@ -5,6 +5,7 @@ le dossier Github "ressources" concentre l'entièreté de mes projets réalisés
 ## Liens vers les pages du Github
 
  - [HugoOS](https://github.com/Ormidales/ressources/tree/main/personnel/hugoos)
+    - [HugoOS](https://github.com/Ormidales/ressources/tree/main/personnel/hugoos-v1)
  - [Portfolios](https://github.com/Ormidales/ressources/tree/main/personnel/portfolio)
  - [Projets Personnels](https://github.com/Ormidales/ressources/tree/main/personnel/projets)
  - [PPE1](https://github.com/Ormidales/ressources/tree/main/scolaire/ppe1)
