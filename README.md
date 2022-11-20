@@ -4,7 +4,7 @@ le dossier Github "ressources" concentre l'entièreté de mes projets réalisés
 
 ## Liens vers les pages du Github
 
- - [HugoOS](https://github.com/Ormidales/ressources/tree/main/personnel/hugoos)
+- [HugoOS](https://github.com/Ormidales/ressources/tree/main/personnel/hugoos)
     - [HugoOS v1](https://github.com/Ormidales/ressources/tree/main/personnel/hugoos/hugoos-v1)
     - [HugoOS v2](https://github.com/Ormidales/ressources/tree/main/personnel/hugoos/hugoos-v2)
     - [HugoOS v3](https://github.com/Ormidales/ressources/tree/main/personnel/hugoos/hugoos-v3)
@@ -19,21 +19,22 @@ le dossier Github "ressources" concentre l'entièreté de mes projets réalisés
         - [HugoOS v5.5](https://github.com/Ormidales/ressources/tree/main/personnel/hugoos/hugoos-v5.5)
     - [HugoOS v6](https://github.com/Ormidales/ressources/tree/main/personnel/hugoos/hugoos-v6)
 
- - [Portfolios](https://github.com/Ormidales/ressources/tree/main/personnel/portfolio)
+- [Portfolios](https://github.com/Ormidales/ressources/tree/main/personnel/portfolio)
+    - [Portfolio Maquette](https://github.com/Ormidales/ressources/tree/main/personnel/portfolio/portfolio-maquette)
 
- - [Projets Personnels](https://github.com/Ormidales/ressources/tree/main/personnel/projets)
+- [Projets Personnels](https://github.com/Ormidales/ressources/tree/main/personnel/projets)
 
- - [PPE1](https://github.com/Ormidales/ressources/tree/main/scolaire/ppe1)
+- [PPE1](https://github.com/Ormidales/ressources/tree/main/scolaire/ppe1)
 
- - [PPE2](https://github.com/Ormidales/ressources/tree/main/scolaire/ppe2)
+- [PPE2](https://github.com/Ormidales/ressources/tree/main/scolaire/ppe2)
 
- - [PPE3](https://github.com/Ormidales/ressources/tree/main/scolaire/ppe3)
+- [PPE3](https://github.com/Ormidales/ressources/tree/main/scolaire/ppe3)
 
- - [Situations](https://github.com/Ormidales/ressources/tree/main/scolaire/situations)
+- [Situations](https://github.com/Ormidales/ressources/tree/main/scolaire/situations)
 
- - [Stage BTS SIO 2021](https://github.com/Ormidales/ressources/tree/main/scolaire/stage-1) 
+- [Stage BTS SIO 2021](https://github.com/Ormidales/ressources/tree/main/scolaire/stage-1) 
 
- - [Stage BTS SIO 2022](https://github.com/Ormidales/ressources/tree/main/scolaire/stage-2)
+- [Stage BTS SIO 2022](https://github.com/Ormidales/ressources/tree/main/scolaire/stage-2)
 
 ## Auteur
 
