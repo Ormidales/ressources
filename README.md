@@ -18,13 +18,21 @@ le dossier Github "ressources" concentre l'entièreté de mes projets réalisés
         - [HugoOS v5.4](https://github.com/Ormidales/ressources/tree/main/personnel/hugoos/hugoos-v5.4)
         - [HugoOS v5.5](https://github.com/Ormidales/ressources/tree/main/personnel/hugoos/hugoos-v5.5)
     - [HugoOS v6](https://github.com/Ormidales/ressources/tree/main/personnel/hugoos/hugoos-v6)
+
  - [Portfolios](https://github.com/Ormidales/ressources/tree/main/personnel/portfolio)
+
  - [Projets Personnels](https://github.com/Ormidales/ressources/tree/main/personnel/projets)
+
  - [PPE1](https://github.com/Ormidales/ressources/tree/main/scolaire/ppe1)
+
  - [PPE2](https://github.com/Ormidales/ressources/tree/main/scolaire/ppe2)
+
  - [PPE3](https://github.com/Ormidales/ressources/tree/main/scolaire/ppe3)
+
  - [Situations](https://github.com/Ormidales/ressources/tree/main/scolaire/situations)
+
  - [Stage BTS SIO 2021](https://github.com/Ormidales/ressources/tree/main/scolaire/stage-1) 
+
  - [Stage BTS SIO 2022](https://github.com/Ormidales/ressources/tree/main/scolaire/stage-2)
 
 ## Auteur
