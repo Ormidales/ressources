@@ -1,9 +1,16 @@
 # HUGO DOUEIL - RESSOURCES
 
-le dossier Github "ressources" concentre l'entièreté de mes projets réalisés lors de mes cours en BTS SIO SLAM ou mes projets personnels 
+le dossier Github "ressources" concentre l'entièreté de mes projets réalisés lors de mes cours en BTS SIO SLAM ou mes projets personnels.
 
-## Liens vers les pages du Github
+## Mises en place :
 
+1. Téléchargez ou clonez ce dépôt ou aller sur `https://hugodoueil-ressources.netlify.app`.
+2. Ouvrez le fichier `index.html` dans votre navigateur pour afficher le site.
+3. Modifiez les fichiers HTML et CSS pour personnaliser le site selon vos préférences.
+
+## Liens vers les pages du Github :
+
+---
 - [HugoOS](https://github.com/Ormidales/ressources/tree/main/personnel/hugoos)
     - [HugoOS v1](https://github.com/Ormidales/ressources/tree/main/personnel/hugoos/hugoos-v1)
     - [HugoOS v2](https://github.com/Ormidales/ressources/tree/main/personnel/hugoos/hugoos-v2)
@@ -18,28 +25,26 @@ le dossier Github "ressources" concentre l'entièreté de mes projets réalisés
         - [HugoOS v5.4](https://github.com/Ormidales/ressources/tree/main/personnel/hugoos/hugoos-v5.4)
         - [HugoOS v5.5](https://github.com/Ormidales/ressources/tree/main/personnel/hugoos/hugoos-v5.5)
     - [HugoOS v6](https://github.com/Ormidales/ressources/tree/main/personnel/hugoos/hugoos-v6)
-
+---
 - [Portfolios](https://github.com/Ormidales/ressources/tree/main/personnel/portfolio)
     - [Portfolio Maquette](https://github.com/Ormidales/ressources/tree/main/personnel/portfolio/portfolio-maquette)
-
+---
 - [Projets Personnels](https://github.com/Ormidales/ressources/tree/main/personnel/projets)
-
+---
 - [PPE1](https://github.com/Ormidales/ressources/tree/main/scolaire/ppe1)
-
 - [PPE2](https://github.com/Ormidales/ressources/tree/main/scolaire/ppe2)
-
 - [PPE3](https://github.com/Ormidales/ressources/tree/main/scolaire/ppe3)
-
+---
 - [Situations](https://github.com/Ormidales/ressources/tree/main/scolaire/situations)
-
+---
 - [Stage BTS SIO 2021](https://github.com/Ormidales/ressources/tree/main/scolaire/stage-1) 
-
 - [Stage BTS SIO 2022](https://github.com/Ormidales/ressources/tree/main/scolaire/stage-2)
+---
 
-## Auteur
+## Auteur :
 
 - Hugo Doueil ([Github](https://github.com/Ormidales) / [Site Web](https://hugodoueil.fr))
 
-## 🔗 Liens utiles
+## 🔗 Liens utiles :
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://hugodoueil.fr)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hugodoueil)
