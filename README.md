@@ -25,6 +25,10 @@ le dossier Github "ressources" concentre l'entièreté de mes projets réalisés
         - [HugoOS v5.4](https://github.com/Ormidales/ressources/tree/main/personnel/hugoos/hugoos-v5.4)
         - [HugoOS v5.5](https://github.com/Ormidales/ressources/tree/main/personnel/hugoos/hugoos-v5.5)
     - [HugoOS v6](https://github.com/Ormidales/ressources/tree/main/personnel/hugoos/hugoos-v6)
+        - [HugoOS v6-new](https://github.com/Ormidales/ressources/tree/main/personnel/hugoos/hugoos-v6/new)
+        - [HugoOS v6-noimg](https://github.com/Ormidales/ressources/tree/main/personnel/hugoos/hugoos-v6/no-img)
+        - [HugoOS v6-normal](https://github.com/Ormidales/ressources/tree/main/personnel/hugoos/hugoos-v6/normal)
+        - [HugoOS v6-transparent](https://github.com/Ormidales/ressources/tree/main/personnel/hugoos/hugoos-v6/transparent)
 ---
 - [Portfolios](https://github.com/Ormidales/ressources/tree/main/personnel/portfolio)
     - [Portfolio Maquette](https://github.com/Ormidales/ressources/tree/main/personnel/portfolio/portfolio-maquette)
