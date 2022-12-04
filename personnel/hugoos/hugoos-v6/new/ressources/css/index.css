@@ -1,0 +1,152 @@
+@font-face{font-family:Maghfirea;src:url('../fonts/Maghfirea.otf')}
+@font-face{font-family:Casanova;src:url('../fonts/Casanova.ttf')}
+
+
+
+
+
+
+
+/* CLIQUE DROIT */
+.context-menu {
+  visibility: hidden;
+  position: absolute;
+}
+
+
+
+
+
+
+
+#fenetreBienvenue{
+  visibility: visible;
+  opacity: 1;
+}
+#fenetreBienvenue2{
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+#app-stages{
+  visibility: hidden;
+  opacity: 0;
+}
+#app-magasin{
+  visibility: hidden;
+  opacity: 0;
+}
+#app-menu{
+  visibility: hidden;
+  opacity: 0;
+}
+#app-welcome{
+  visibility: hidden;
+  opacity: 0;
+}
+#app-projets{
+  visibility: hidden;
+  opacity: 0;
+}
+#app-background{
+  visibility: hidden;
+  opacity: 0;
+}
+#app-options{
+  visibility: hidden;
+  opacity: 0;
+}
+#app-cv{
+  visibility: hidden;
+  opacity: 0;
+}
+#app-certifications{
+  visibility: hidden;
+  opacity: 0;
+}
+#app-veilletechno{
+  visibility: hidden;
+  opacity: 0;
+}
+#app-images{
+  visibility: hidden;
+  opacity: 0;
+}
+#app-mentionslegales{
+  visibility: hidden;
+  opacity: 0;
+}
+#app-parametreconfidentialite{
+  visibility: hidden;
+  opacity: 0;
+}
+#app-plandusite{
+  visibility: hidden;
+  opacity: 0;
+}
+#app-retrocomp{
+  visibility: hidden;
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*[data-tooltip] {
+    position: relative;
+}
+
+*[data-tooltip]::after {
+    content: attr(data-tooltip);
+
+    position: absolute;
+    top: -40px;
+    width: 200px;
+
+    pointer-events: none;
+    opacity: 0;
+    -webkit-transition: opacity .15s ease-in-out;
+    -moz-transition: opacity .15s ease-in-out;
+    -ms-transition: opacity .15s ease-in-out;
+    -o-transition: opacity .15s ease-in-out;
+    transition: opacity .15s ease-in-out;
+
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    background: #151515;
+    padding: 2px 2px;
+    border: 1px solid #555555;
+    color: white;
+    border-radius: 0.5vh;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+*[data-tooltip]:hover::after {
+    opacity: 1;
+}
