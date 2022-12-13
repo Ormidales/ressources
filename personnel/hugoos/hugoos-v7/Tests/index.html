@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>TESTS</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+		<!-- GSAP -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/Draggable.min.js"></script>
+	</head>
+	<body class="p-10 w-full h-[100vh] overflow-hidden bg-[url(https://hugodoueil.fr/img/bg.webp)] bg-cover bg-center" style="font-family: Poppins, sans-serif;" id="bureau">
+
+		<div id="menu" class="absolute top-0 left-0 w-full bg-[#1E1E1E] flex items-center z-[9999]">
+			
+			<div class="px-3 py-1 flex items-center justify-center">
+				
+				<p class="text-[13px] text-white">[MENU]</p>
+
+			</div>
+
+		</div>
+
+		<div id="app-test" class="absolute top-10 left-10 p-2 bg-[#1E1E1E] rounded-xl border border-white/5 shadow-lg shadow-[#1E1E1E]/10">
+			
+			<div id="app-test-header" class="w-[75vh] px-3 py-1 rounded-md bg-[#3D405B] border border-white/5 flex items-center justify-between">
+
+				<div class="flex items-center">
+					
+					<p class="text-[15px] text-white">Virtual Demo</p>
+
+				</div>
+
+				<div class="flex items-center text-white">
+
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-[22px] h-[22px] mr-3">
+					  	<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15" />
+					</svg>
+					
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-[22px] h-[22px] mr-3">
+					  	<path stroke-linecap="round" stroke-linejoin="round" d="M16.5 8.25V6a2.25 2.25 0 00-2.25-2.25H6A2.25 2.25 0 003.75 6v8.25A2.25 2.25 0 006 16.5h2.25m8.25-8.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-7.5A2.25 2.25 0 018.25 18v-1.5m8.25-8.25h-6a2.25 2.25 0 00-2.25 2.25v6" />
+					</svg>
+
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-[22px] h-[22px]">
+					  	<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+					</svg>
+
+				</div>
+
+			</div>
+
+			<div class="mt-2 w-[75vh] h-[50vh] px-3 py-1 rounded-md bg-[#27292B] border border-white/5">
+				
+				
+
+			</div>
+
+		</div>
+
+		<!-- SCRIPT DRAG GSAP -->
+        <script>
+
+            var dragAppMenu = Draggable.create("#app-test" , {
+                bounds: document.getElementById("bureau"),
+                inertia: {top: {min: 0, max: 1000, end: [0,200,400,600]}},
+                dragClickables: true,
+                trigger: "#app-test-header",
+                zIndexBoost: false,
+                edgeResistance:0.5,
+            });
+
+        </script>
+
+	</body>
+</html>
